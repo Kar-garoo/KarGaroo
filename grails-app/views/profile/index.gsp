@@ -20,7 +20,7 @@
                 <!--caracteriscas del usuario-->
                 <h3>Comparto Carro</h3>
                 <!--descripción del usuario-->
-                <span>Estudiante de ingeniería de sistemas y computaciión de la UNAL. Me gustaría tener una trayectoria a la universidad agradable, acompañado y brindando un buen apoyo a vecinos y personas que a fin, requieran o gusten de mi servicio."</span>
+                <span>Estudiante de ingeniería de sistemas y computaciión de la UNAL. Me gustaría tener una trayectoria a la universidad agradable, acompañado y brindando un buen apoyo a vecinos y personas que a fin, requieran o gusten de mi servicio</span>
                 <ul>
                     <li><h4>José Daniel Salazar Mora</h4></li>
                     <li><h4>D.I: 1022385505</h4></li>
