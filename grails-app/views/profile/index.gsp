@@ -42,10 +42,5 @@
         </div>
     </div>
 </div>
-
-<!--<div id="button">
-        <p>Mandame un <span class="bold">correo electrónico</span>!</p>
-    </div>
--->
 </body>
 </html>
