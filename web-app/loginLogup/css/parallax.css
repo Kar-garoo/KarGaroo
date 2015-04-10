@@ -31,12 +31,12 @@
         box-sizing: border-box;
     }
     .vertical-offset-100 {
-        padding-top: 100px;
+        padding-top: 8%;
     }
     .img-responsive {
     display: block;
-    max-width: 100%;
-    height: 150px;
+    max-width: 50%;
+    height: auto;
     margin: auto;
     }
     .panel {
@@ -49,12 +49,16 @@
     }
 .form-control { margin-bottom: 10px; }
 .heading {
-    
+    padding-top: 20px;
+    color: #fff;
+    margin: auto;
 
 
 }
 .btn-success {
     background-color: #F7A14B;
+    border-color: #F7A14B;
+
 }
 .btn-success.active,.btn-success.focus,.btn-success:active,.btn-success:focus,.btn-success:hover,.open>.dropdown-toggle.btn-success{
 	color:#fff;

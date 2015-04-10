@@ -10,7 +10,6 @@
     <script src="${request.contextPath}/loginLogup/js/jquery-1.10.2.min.js"></script>
     <script src="${request.contextPath}/loginLogup/js/parallax.js"></script>
     <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
-    <link media="all" type="text/css" rel="stylesheet" href="http://bootsnipp.com/css/fullscreen.css">
 
 </head>
 
@@ -19,10 +18,12 @@
     <div class="row vertical-offset-100">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
-
+                <div  class="heading">
                     <div class="row-fluid user-row">
                         <img src="${request.contextPath}/loginLogup/images/Kar-garoo.svg" class="img-responsive" alt="Conxole Admin"/>
                     </div>
+                    <br>
+                </div>
 
                 <div class="panel-body">
 
