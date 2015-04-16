@@ -1,6 +1,10 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <!--Esta linea permite agregar el layout MENU -->
+    <meta name="layout" content="menu"/>
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="${request.contextPath}/profile/css/bootstrap.min.css" rel="stylesheet">
     <link href="${request.contextPath}/profile/css/profilecss.css" rel="stylesheet">
