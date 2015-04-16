@@ -1,0 +1,16 @@
+#menu_boton{
+	position: fixed;
+	background-color: #f2dfc4;
+}
+
+#menu_boton:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #c94d1f;
+}
+
+.svg {
+
+	width: 20%;
+	height: auto;
+}
