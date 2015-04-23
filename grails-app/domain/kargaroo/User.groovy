@@ -7,7 +7,7 @@ class User {
     String password
     String firstName
     String lastName
-    Date birthDay
+    Integer age
     Integer DNI
     Integer phone
     String mail
@@ -20,7 +20,7 @@ class User {
         password(blank:false, minSize: 5)
         firstName(blank: false)
         lastName(blank: false)
-        birthDay(nullable: false)
+        age(nullable: false,min:18)
         DNI(nullable: true,unique: true)
         phone(nullable: true)
         mail(email: true)

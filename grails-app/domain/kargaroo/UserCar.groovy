@@ -7,6 +7,7 @@ class UserCar extends User{
 
 
     static constraints = {
+        //car(nullable:false)
         points(min: 0)
     }
 }

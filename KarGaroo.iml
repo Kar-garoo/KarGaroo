@@ -94,6 +94,7 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/7.0.55/tomcat-embed-el-7.0.55.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.55/tomcat-embed-jasper-7.0.55.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-catalina-ant/7.0.55/tomcat-catalina-ant-7.0.55.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -101,5 +102,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="KarGaroo-grailsPlugins" />
+    <orderEntry type="library" name="grails-2.4.4" level="application" />
+    <orderEntry type="library" name="grails-2.4.4" level="application" />
   </component>
 </module>
