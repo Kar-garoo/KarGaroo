@@ -31,7 +31,7 @@
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-6">
-                                <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name" tabindex="1">
+                                <input type="text" name="first_name" id="first_name" class="form-control" placeholder="${userTest.userName}" tabindex="1">
 
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6">

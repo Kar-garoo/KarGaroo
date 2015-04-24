@@ -79,7 +79,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="../logup/index.gsp">
                         <i class="fa fa-user"></i>
                         Ingresa
                     </a>
