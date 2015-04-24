@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b388e4-b083-4c15-8cba-bf4f384caf78" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KarGaroo-grailsPlugins.iml" afterPath="$PROJECT_DIR$/KarGaroo-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KarGaroo.iws" />
@@ -42,11 +43,21 @@
       <file leaf-file-name="UserSpec.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/kargaroo/UserSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6835443" vertical-offset="0" max-vertical-offset="435">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.6280788" vertical-offset="0" max-vertical-offset="435">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="e#18#57#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1275">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,13 +141,13 @@
         <option value="$PROJECT_DIR$/grails-app/domain/kargaroo/UserCar.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/LoginController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/mainPage/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/logup/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/LogupController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy" />
-        <option value="$PROJECT_DIR$/test/unit/kargaroo/UserSpec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/kargaroo/UserCarSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/kargaroo/UserSpec.groovy" />
       </list>
     </option>
   </component>
@@ -173,6 +184,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,6 +200,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kargaroo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,13 +267,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kargaroo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -267,7 +304,119 @@
       <recent name="C:\Users\Daniel\IdeaProjects\KarGaroo\web-app" />
     </key>
   </component>
-  <component name="RunManager" selected="Grails.Grails:KarGaroo">
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/grails-app/domain/kargaroo/Car.groovy</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
+  </component>
+  <component name="RunManager" selected="JUnit.UserSpec">
     <configuration default="false" name="UserSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -584,8 +733,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserCarSpec and 1 more" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserSpec" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserSpec" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserCarSpec and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -607,6 +756,7 @@
       <workItem from="1429801635396" duration="1834000" />
       <workItem from="1429813811468" duration="1377000" />
       <workItem from="1429888441449" duration="510000" />
+      <workItem from="1429890311182" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="User y UserCar Domain class version comentada relaciones">
       <created>1429199436815</created>
@@ -620,11 +770,17 @@
       <option name="project" value="LOCAL" />
       <updated>1429815044698</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'remotes/origin/Sergio'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;KarGaroo.iml&#10;&#9;target/stacktrace.log&#10;&#9;target/work/plugin-classes/AssetPipelineBootStrap.class&#10;&#9;target/work/plugin-classes/AssetPipelineGrailsPlugin.class&#10;&#9;target/work/plugin-classes/AssetUrlMappings.class&#10;&#9;target/work/plugin-classes/CacheGrailsPlugin.class&#10;&#9;target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class&#10;&#9;target/work/plugin-classes/DbdocUrlMappings.class&#10;&#9;target/work/plugin-classes/DefaultCacheConfig.class&#10;&#9;target/work/plugin-classes/DefaultWebXmlConfig.class&#10;&#9;target/work/plugin-classes/Hibernate4GrailsPlugin.class&#10;&#9;target/work/plugin-classes/JQueryConfig.class&#10;&#9;target/work/plugin-classes/JQueryPluginResources.class&#10;&#9;target/work/plugin-classes/JQueryResourceTagLib.class&#10;&#9;target/work/plugin-classes/JQueryService.class&#10;&#9;target/work/plugin-classes/JQueryTagLib.class&#10;&#9;target/work/plugin-classes/JqueryGrailsPlugin.class&#10;&#9;target/work/plugin-classes/ScaffoldingGrailsPlugin.class&#10;&#9;target/work/plugin-classes/WebxmlGrailsPlugin.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AbstractProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetCompiler.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetHelper.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetProcessorService.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetsController.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetsTagLib.class&#10;&#9;target/work/plugin-classes/asset/pipeline/CacheManager.class&#10;&#9;target/work/plugin-classes/asset/pipeline/CssAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/JsAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/webxml/FilterManager.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class&#10;">
+      <created>1429890466122</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1429890466122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11251000" />
+    <option name="totallyTimeSpent" value="12026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -641,19 +797,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35085228" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878837" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34699854" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34654918" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -665,7 +822,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -686,7 +842,8 @@
     </option>
     <MESSAGE value="User y UserCar Domain class version comentada relaciones" />
     <MESSAGE value="User y UserCar test de insercion usando Built-test-data plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="User y UserCar test de insercion usando Built-test-data plugin" />
+    <MESSAGE value="Merge remote-tracking branch 'remotes/origin/Sergio'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;KarGaroo.iml&#10;&#9;target/stacktrace.log&#10;&#9;target/work/plugin-classes/AssetPipelineBootStrap.class&#10;&#9;target/work/plugin-classes/AssetPipelineGrailsPlugin.class&#10;&#9;target/work/plugin-classes/AssetUrlMappings.class&#10;&#9;target/work/plugin-classes/CacheGrailsPlugin.class&#10;&#9;target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class&#10;&#9;target/work/plugin-classes/DbdocUrlMappings.class&#10;&#9;target/work/plugin-classes/DefaultCacheConfig.class&#10;&#9;target/work/plugin-classes/DefaultWebXmlConfig.class&#10;&#9;target/work/plugin-classes/Hibernate4GrailsPlugin.class&#10;&#9;target/work/plugin-classes/JQueryConfig.class&#10;&#9;target/work/plugin-classes/JQueryPluginResources.class&#10;&#9;target/work/plugin-classes/JQueryResourceTagLib.class&#10;&#9;target/work/plugin-classes/JQueryService.class&#10;&#9;target/work/plugin-classes/JQueryTagLib.class&#10;&#9;target/work/plugin-classes/JqueryGrailsPlugin.class&#10;&#9;target/work/plugin-classes/ScaffoldingGrailsPlugin.class&#10;&#9;target/work/plugin-classes/WebxmlGrailsPlugin.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AbstractProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetCompiler.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetHelper.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetProcessorService.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetsController.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetsTagLib.class&#10;&#9;target/work/plugin-classes/asset/pipeline/CacheManager.class&#10;&#9;target/work/plugin-classes/asset/pipeline/CssAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/JsAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/webxml/FilterManager.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'remotes/origin/Sergio'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;KarGaroo.iml&#10;&#9;target/stacktrace.log&#10;&#9;target/work/plugin-classes/AssetPipelineBootStrap.class&#10;&#9;target/work/plugin-classes/AssetPipelineGrailsPlugin.class&#10;&#9;target/work/plugin-classes/AssetUrlMappings.class&#10;&#9;target/work/plugin-classes/CacheGrailsPlugin.class&#10;&#9;target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class&#10;&#9;target/work/plugin-classes/DbdocUrlMappings.class&#10;&#9;target/work/plugin-classes/DefaultCacheConfig.class&#10;&#9;target/work/plugin-classes/DefaultWebXmlConfig.class&#10;&#9;target/work/plugin-classes/Hibernate4GrailsPlugin.class&#10;&#9;target/work/plugin-classes/JQueryConfig.class&#10;&#9;target/work/plugin-classes/JQueryPluginResources.class&#10;&#9;target/work/plugin-classes/JQueryResourceTagLib.class&#10;&#9;target/work/plugin-classes/JQueryService.class&#10;&#9;target/work/plugin-classes/JQueryTagLib.class&#10;&#9;target/work/plugin-classes/JqueryGrailsPlugin.class&#10;&#9;target/work/plugin-classes/ScaffoldingGrailsPlugin.class&#10;&#9;target/work/plugin-classes/WebxmlGrailsPlugin.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AbstractProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetCompiler.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetHelper.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetProcessorService.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetsController.class&#10;&#9;target/work/plugin-classes/asset/pipeline/AssetsTagLib.class&#10;&#9;target/work/plugin-classes/asset/pipeline/CacheManager.class&#10;&#9;target/work/plugin-classes/asset/pipeline/CssAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/JsAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class&#10;&#9;target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class&#10;&#9;target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class&#10;&#9;target/work/plugin-classes/grails/plugin/webxml/FilterManager.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class&#10;&#9;target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -699,6 +856,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/logup/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1170">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/mainPage/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="8430">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="525">
@@ -1024,13 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/build-test-data-2.4.0/src/groovy/grails/buildtestdata/DomainInstanceBuilder.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33173078" vertical-offset="3162" max-vertical-offset="4935">
-          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="525">
@@ -1062,16 +1228,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8444976" vertical-offset="772" max-vertical-offset="1275">
-          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1275">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/kargaroo/UserSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6835443" vertical-offset="0" max-vertical-offset="435">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.6280788" vertical-offset="0" max-vertical-offset="435">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#18#57#0" expanded="true" />
           </folding>
