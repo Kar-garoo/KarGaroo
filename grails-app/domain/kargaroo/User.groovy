@@ -5,6 +5,7 @@ import sun.security.util.Password
 class User {
     String userName
     String password
+    String confirm
     String firstName
     String lastName
     Integer age
@@ -18,6 +19,7 @@ class User {
     static constraints = {
         userName(blank: false,unique: true,minSize: 5,maxSize: 20)
         password(blank:false, minSize: 5)
+        confirm(blank:false, minSize: 5)
         firstName(blank: false)
         lastName(blank: false)
         age(nullable: false,min:18)
@@ -26,4 +28,5 @@ class User {
         mail(email: true)
 
     }
+
 }

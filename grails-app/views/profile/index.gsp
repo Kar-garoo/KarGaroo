@@ -9,8 +9,9 @@
     <link href="${request.contextPath}/profile/css/bootstrap.min.css" rel="stylesheet">
     <link href="${request.contextPath}/profile/css/profilecss.css" rel="stylesheet">
 </head>
+
 <body  style = "background-color: #BDBDBD">
-<div class="container" style="margin-top: 20px; margin-bottom: 20px;">
+
     <div class="row">
         <div class="col-md-4 bg_blur " style="background-image:url('${request.contextPath}/profile/imagenes/lanbor.jpg')"></div>
         <div class="col-md-8  col-xs-12">
@@ -26,7 +27,7 @@
                 <!--descripción del usuario-->
                 <span>Estudiante de ingeniería de sistemas y computaciión de la UNAL. Me gustaría tener una trayectoria a la universidad agradable, acompañado y brindando un buen apoyo a vecinos y personas que a fin, requieran o gusten de mi servicio</span>
                 <ul>
-                    <li><h4>José Daniel Salazar Mora</h4></li>
+                    <li><h4>${user}</h4></li>
                     <li><h4>D.I: 1022385505</h4></li>
                     <li><h4>teléfono: 3043902022</h4></li>
                     <li><h4>correo: jodsalazarmo@unal.edu.co</h4></li>
@@ -40,11 +41,10 @@
     <div class="row nav">
         <div class="col-md-4"></div>
         <div class="col-md-8 col-xs-12" style="margin: 0px;padding: 0px;">
-            <div class="col-md-4 col-xs-4 well"><i class="fa fa-weixin fa-lg"></i> Lamborghini </div>
+            <div class="col-md-4 col-xs-4 well"><i class="fa fa-car fa-lg"></i> Lamborghini </div>
             <div class="col-md-4 col-xs-4 well"><i class="fa fa-heart-o fa-lg"></i> Placa: XMZ-521 </div>
             <div class="col-md-4 col-xs-4 well"><i class="fa fa-thumbs-o-up fa-lg"></i> Cupo: 3 personas</div>
         </div>
     </div>
-</div>
 </body>
 </html>

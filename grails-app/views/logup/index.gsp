@@ -27,42 +27,43 @@
 
                 <div class="panel-body">
 
-                    <form accept-charset="UTF-8" role="form" class="form-signup">
+                    <g:form controller="user" action="register" accept-charset="UTF-8" role="form" class="form-signup">
 
                         <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-6">
-                                <input type="text" name="first_name" id="first_name" class="form-control" placeholder="${userTest.userName}" tabindex="1">
+                            <div class="col-xs-12 col-sm-5 col-md-5">
+                                <g:textField id="firs-name" class="form-control" name="firstName"  placeholder="Nombre"></g:textField>
 
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-6">
-                                <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name" tabindex="2">
+                            <div class="col-xs-12 col-sm-5 col-md-5">
+                                <g:textField id="last-name" class="form-control" name="lastName"  placeholder="Apellido"></g:textField>
+                            </div>
+                            <div class="col-xs-12 col-md-2 col-md-2">
+                                <g:textField id="age" class="form-control" name="age"  placeholder="Edad"></g:textField>
 
                             </div>
+
                         </div>
 
-                        <input type="text" name="display_name" id="display_name" class="form-control" placeholder="Display Name" tabindex="3">
+                        <g:textField id="user-name" class="form-control" name="userName"  placeholder="Usuario"></g:textField>
+                        <g:textField id="email" class="form-control" name="mail"  placeholder="Email"></g:textField>
 
-
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" tabindex="4">
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-6">
+                                <g:textField type="password" id="password" class="form-control" name="password"  placeholder="Password"></g:textField>
 
-                                <input type="password" name="password" id="password" class="form-control" placeholder="Password" tabindex="5">
                             </div>
 
                             <div class="col-xs-12 col-sm-6 col-md-6">
-
-                                <input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Confirm Password" >
-
+                                <g:textField type="password" id="password_confirmation" class="form-control" name="confirm"  placeholder="Confirm Password"></g:textField>
                             </div>
                         </div>
                         <br>
+                        <g:submitButton name="summit" type="submit" value="Register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
 
-                        <input type="submit" value="Register" class="btn btn-lg btn-success btn-block" tabindex="7">
 
 
-                    </form>
+                    </g:form>
 
                 </div>
             </div>
