@@ -21,17 +21,17 @@
 
             <div class="header">
                 <!--Nombre del usuario (para este caso usaremos mi perfil)-->
-                <h1 class = "profileName">DannySalazarM07</h1>
+                <h1 class = "profileName">${user.userName}</h1>
                 <!--caracteriscas del usuario-->
                 <h3>Comparto Carro</h3>
                 <!--descripción del usuario-->
                 <span>Estudiante de ingeniería de sistemas y computaciión de la UNAL. Me gustaría tener una trayectoria a la universidad agradable, acompañado y brindando un buen apoyo a vecinos y personas que a fin, requieran o gusten de mi servicio</span>
                 <ul>
-                    <li><h4>${user}</h4></li>
-                    <li><h4>D.I: 1022385505</h4></li>
-                    <li><h4>teléfono: 3043902022</h4></li>
-                    <li><h4>correo: jodsalazarmo@unal.edu.co</h4></li>
-                    <li><h4>dirección: Carrera 33 No. 23-51</h4></li>
+                    <li><h4>Nombre: ${user.firstName} ${user.lastName}</h4></li>
+                    <li><h4>D.I: ${user.DNI}</h4></li>
+                    <li><h4>teléfono: ${user.phone}</h4></li>
+                    <li><h4>correo: ${user.mail}</h4></li>
+                    <li><h4>dirección: ${user.age}</h4></li>
                 </ul>
 
             </div>

@@ -3,6 +3,9 @@ package kargaroo
 class UserController {
 
     def register(){
+
+        def user = User.findByMail(params.mail)
+
         def parameters = [userName : params.userName ,
                           password : params.password
                           ,confirm: params.confirm
@@ -15,6 +18,9 @@ class UserController {
 
         def newUser = new User(parameters)
         newUser.save()
+
+        session["userSession"]=user.userName
+
         redirect(controller:'profile', action:'index', params: [user:newUser])
 
     }
