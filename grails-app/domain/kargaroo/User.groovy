@@ -12,6 +12,7 @@ class User {
     Integer DNI
     Integer phone
     String mail
+    String description
 
     //static  hasOne = [addres : Address]
 
@@ -26,6 +27,7 @@ class User {
         DNI(nullable: true,unique: true)
         phone(nullable: true)
         mail(email: true)
+        description(nullable: true)
 
     }
 

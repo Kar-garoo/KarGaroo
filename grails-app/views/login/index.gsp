@@ -24,18 +24,19 @@
                     </div>
                 </div>
                 <div class="panel-body">
-                    <form accept-charset="UTF-8" role="form" class="form-signin">
+                        <g:form controller="user" action="logIn" accept-charset="UTF-8" role="form" class="form-signin">
                         <fieldset>
                             <label class="panel-login">
                                 <div class="login_result"></div>
                             </label>
-                            <input class="form-control" placeholder="Username" id="username" type="text">
-                            <input class="form-control" placeholder="Password" id="password" type="password">
+
+                            <g:textField id="user-name" class="form-control" name="userName"  placeholder="Usuario"></g:textField>
+                            <g:textField type="password" id="password" class="form-control" name="password"  placeholder="Password"></g:textField>
 
                             <br>
-                            <input class="btn btn-lg btn-success btn-block" type="submit" id="login" value="Login »">
+                            <g:submitButton name="summit" type="submit" value="logIn" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
                         </fieldset>
-                    </form>
+                    </g:form>
                 </div>
             </div>
         </div>
