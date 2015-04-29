@@ -12,7 +12,7 @@ class UserController {
     @Transactional
     def register(){
 
-        user = User.findByEmail(params.mail)
+        user = User.findByMail(params.mail)
         user1 = User.findByUserName(params.userName)
         if(user){ //El usuario ya existe
             flash.message = "User already exists with the email '${params.mail}'"
@@ -36,6 +36,7 @@ class UserController {
                               , phone      : null
                               , mail       : params.mail
                               , description: null]
+
 
 
             def newUser = new User(parameters)

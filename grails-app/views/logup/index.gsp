@@ -30,6 +30,7 @@
                     <g:form controller="user" action="register" accept-charset="UTF-8" role="form" class="form-signup">
 
                         <div class="row">
+
                             <div class="col-xs-12 col-sm-5 col-md-5">
                                 <g:textField id="firs-name" class="form-control" name="firstName"  placeholder="Nombre"></g:textField>
 
@@ -59,6 +60,7 @@
                             </div>
                         </div>
                         <br>
+
                         <g:submitButton name="summit" type="submit" value="Register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
 
 
@@ -70,5 +72,8 @@
         </div>
     </div>
 </div>
+
+
+
 </body>
 </html>
