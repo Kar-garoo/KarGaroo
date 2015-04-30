@@ -14,9 +14,6 @@ class User {
     String mail
     String description
 
-    //byte[] avatar
-    //String avatarType
-
     //static  hasOne = [addres : Address]
 
 
@@ -31,8 +28,6 @@ class User {
         phone(nullable: true)
         mail(email: true)
         description(nullable: true)
-        //avatar(nullable:true, maxSize: 16384 /* 16K */)
-        //avatarType(nullable:true)
     }
 
 }

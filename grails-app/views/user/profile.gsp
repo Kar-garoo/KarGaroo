@@ -6,8 +6,8 @@
     <meta name="layout" content="menu"/>
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href="${request.contextPath}/profile/css/bootstrap.min.css" rel="stylesheet">
-    <link href="${request.contextPath}/profile/css/profilecss.css" rel="stylesheet">
+    <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
+    <link href="${resource(dir: 'css',file: 'profilecss.css')}" rel="stylesheet">
 </head>
 
 <body  style = "background-color: #BDBDBD">
@@ -74,7 +74,7 @@
             <div class="bs-callout bs-callout-danger">
                 <h4>Sobre mi</h4>
                 <p>
-                    ${user.des}
+                    ${user.description}
                 </p>
 
             </div>

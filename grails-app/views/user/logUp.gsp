@@ -20,7 +20,7 @@
             <div class="panel panel-default">
                 <div  class="heading">
                     <div class="row-fluid user-row">
-                        <img src="${request.contextPath}/loginLogup/images/Kar-garoo.svg" class="img-responsive" alt="Conxole Admin"/>
+                        <img src="${resource(dir: 'images',file: 'Kargaroo.svg')}" class="img-responsive" alt="Conxole Admin"/>
                     </div>
                     <br>
                 </div>
@@ -61,8 +61,7 @@
                         </div>
                         <br>
 
-                        <g:submitButton name="summit" type="submit" value="Register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
-
+                        <g:submitButton name="summit" type="submit" value="register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
 
 
                     </g:form>

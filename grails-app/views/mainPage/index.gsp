@@ -12,13 +12,13 @@
     <title>Kar-garoo</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="${request.contextPath}/mainPageTheme/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="${request.contextPath}/mainPageTheme/css/freelancer.css" rel="stylesheet">
+    <link href="${resource(dir: 'css',file: 'freelancer.css')}" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="${request.contextPath}/mainPageTheme/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="${resource(dir: 'font-awesome-4.3.0/css',file: 'font-awesome.min.css')}" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -46,7 +46,7 @@
             </button>
             <a class="navbar-brand" href="#page-top">
                 <object>
-                    <embed src="${request.contextPath}/mainPageTheme/img/Kar-garoo.svg" id="svgIcon">
+                    <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" id="svgIcon">
                 </object>
                 KAR-GAROO
             </a>
@@ -79,7 +79,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="../logup/index.gsp">
+                    <a href="${createLink(controller: 'user', action: 'logUp')}">
                         <i class="fa fa-user"></i>
                         Ingresa
                     </a>
@@ -97,7 +97,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <object>
-                    <embed src="${request.contextPath}/mainPageTheme/img/Kar-garoo.svg" id="svg">
+                    <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" id="svg">
                 </object>
                 <div class="intro-text">
                     <span class="name">Comparte tu transporte</span>
@@ -126,7 +126,7 @@
                             <i class="fa fa-search-plus fa-3x">Taxi</i>
                         </div>
                     </div>
-                    <img src="${request.contextPath}/mainPageTheme/img/portfolio/Taxi.svg" class="img-responsive" alt="Taxi">
+                    <img src="${resource(dir: 'images/menuPrin',file: 'Taxi.svg')}" class="img-responsive" alt="Taxi">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -136,7 +136,7 @@
                             <i class="fa fa-search-plus fa-3x">Auto</i>
                         </div>
                     </div>
-                    <img src="${request.contextPath}/mainPageTheme/img/portfolio/Car.svg" class="img-responsive" alt="Car">
+                    <img src="${resource(dir: 'images/menuPrin',file: 'Car.svg')}" class="img-responsive" alt="Car">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -146,7 +146,7 @@
                             <i class="fa fa-search-plus fa-3x">Moto</i>
                         </div>
                     </div>
-                    <img src="${request.contextPath}/mainPageTheme/img/portfolio/moto.svg" class="img-responsive" alt="moto">
+                    <img src="${resource(dir: 'images/menuPrin',file: 'moto.svg')}" class="img-responsive" alt="moto">
                 </a>
             </div>
             <!--
@@ -223,17 +223,17 @@
             <div class="col-sm-4">
                 <h3 class="text-center">Registra</h3>
                 <p class="text-justify">Unete a nuestra comunidad y empieza a utilizar otra alternativa de transporte.</p>
-                <img src="${request.contextPath}/mainPageTheme/img/registration.svg" class="img-responsive img-centered" style="padding-top: 10%" alt="Registrarce">
+                <img src="${resource(dir: 'images/menuPrin',file: 'registration.svg')}" class="img-responsive img-centered" style="padding-top: 10%" alt="Registrarce">
             </div>
             <div class="col-sm-4">
                 <h3 class="text-center">Busca</h3>
                 <p class="text-justify">Busca una ruta que te sirva y contacta a el usuario que la ofrece.</p>
-                <img src="${request.contextPath}/mainPageTheme/img/mapa.svg" class="img-responsive img-centered"  alt="Mapa">
+                <img src="${resource(dir: 'images/menuPrin',file: 'mapa.svg')}" class="img-responsive img-centered"  alt="Mapa">
             </div>
             <div class="col-sm-4">
                 <h3 class="text-center">Comparte</h3>
                 <p class="text-justify">Comparte el auto con alguien mas, ahorras y no te estresas.</p>
-                <img src="${request.contextPath}/mainPageTheme/img/share.svg" class="img-responsive img-centered" style="padding-top: 10%"  alt="Comparte">
+                <img src="${resource(dir: 'images/menuPrin',file: 'share.svg')}" class="img-responsive img-centered" style="padding-top: 10%"  alt="Comparte">
 
             </div>
         </div>
@@ -534,22 +534,22 @@
 </div>
 
 <!-- jQuery -->
-<script src="${request.contextPath}/mainPageTheme/js/jquery.js"></script>
+<script src="${resource(dir: 'js',file: 'jquery.js')}"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="${request.contextPath}/mainPageTheme/js/bootstrap.min.js"></script>
+<script src="${resource(dir: 'js',file: 'bootstrap.min.js')}"></script>
 
 <!-- Plugin JavaScript -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="${request.contextPath}/mainPageTheme/js/classie.js"></script>
-<script src="${request.contextPath}/mainPageTheme/js/cbpAnimatedHeader.js"></script>
+<script src="${resource(dir: 'js',file: 'classie.js')}"></script>
+<script src="${resource(dir: 'js',file: 'cbpAnimatedHeader.min.js')}"></script>
 
 <!-- Contact Form JavaScript -->
-<script src="${request.contextPath}/mainPageTheme/js/jqBootstrapValidation.js"></script>
-<script src="${request.contextPath}/mainPageTheme/js/contact_me.js"></script>
+<script src="${resource(dir: 'js',file: 'jqBootstrapValidation.js')}"></script>
+
 
 <!-- Custom Theme JavaScript -->
-<script src="${request.contextPath}/mainPageTheme/js/freelancer.js"></script>
+<script src="${resource(dir: 'js',file: 'freelancer.js')}"></script>
 
 </body>
 
