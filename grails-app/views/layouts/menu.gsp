@@ -72,12 +72,11 @@
                     <i class="fa fa-bell"> Notificaciones</i>
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-question"></i>
-
-                </a>
-            </li>
+                <li>
+                    <a href="${createLink(controller: 'user', action: 'logOut')}">
+                        <i class="fa fa-sign-out"> logOut</i>
+                    </a>
+                </li>
             <li>
                 <a href="#">
                     <i class="fa fa-question"></i>

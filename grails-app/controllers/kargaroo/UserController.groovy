@@ -12,7 +12,9 @@ class UserController {
     def user1
 
     def index(){
-
+        if(session.userSession){
+            redirect(controller: 'user',action: 'profile')
+        }
     }
 
     private static final okcontents = ['image/png', 'image/jpeg', 'image/gif']
@@ -20,7 +22,7 @@ class UserController {
 
         user = User.findByMail(params.mail)
         user1 = User.findByUserName(params.userName)
-        /*
+
         if(user){ //El usuario ya existe
             flash.message = "User already exists with the email '${params.mail}'"
             //Arreglar este render
@@ -64,7 +66,7 @@ class UserController {
 
 
             redirect(controller: 'user', action: 'profile')
-       // }
+        }
     }
 
     def logIn(){
@@ -77,6 +79,11 @@ class UserController {
     }
 
     def logUp(){
+    }
+
+    def logOut(){
+        session["userSession"] = null
+        redirect(controller: 'user',action: 'index')
     }
 
     def profile(){

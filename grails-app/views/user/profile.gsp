@@ -19,15 +19,19 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="col-xs-12 col-sm-4">
+                            <div class="row">
                                 <figure>
                                     <g:if test="${user.avatar}">
-                                        <img class="avatar" src="${createLink(controller:'user', action:'avatar_image', id:user.ident())}" />
+                                        <img class="img-rounded img-responsive img-centered center-block" src="${createLink(controller:'user', action:'avatar_image', id:user.ident())}" />
                                     </g:if>
                                     <g:else>
-                                        <img class="img-circle img-responsive img-centered" alt="" src="http://placehold.it/300x300">
+                                        <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
                                     </g:else>
                                 </figure>
-
+                            </div>
+                            <div>
+                                <hr>
+                            </div>
                             <div class="row">
                                 <div class="col-xs-12 social-btns">
 
