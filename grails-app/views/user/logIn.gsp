@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title>Kar-Garoo Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="${request.contextPath}/loginLogup/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="${request.contextPath}/loginLogup/css/parallax.css">
-    <script src="${request.contextPath}/loginLogup/js/jquery-1.10.2.min.js"></script>
-    <script src="${request.contextPath}/loginLogup/js/parallax.js"></script>
+    <link rel="stylesheet" type="text/css" href="${resource(dir: 'css',file: 'bootstrap.min.css')}">
+    <link rel="stylesheet" type="text/css" href="${resource(dir: 'css',file: 'parallax.css')}">
+    <script src="${resource(dir: 'js',file: 'jquery-1.10.2.min.js')}"></script>
+    <script src="${resource(dir: 'js',file: 'parallax.js')}"></script>
     <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
 
 </head>
@@ -20,11 +20,11 @@
             <div class="panel panel-default">
                 <div class="heading">
                     <div class="row-fluid user-row">
-                        <img src="${request.contextPath}/loginLogup/images/Kar-garoo.svg" class="img-responsive" alt="Conxole Admin"/>
+                        <img src="${resource(dir: 'images', file: 'Kargaroo.svg')}" class="img-responsive" alt="Conxole Admin"/>
                     </div>
                 </div>
                 <div class="panel-body">
-                        <g:form controller="user" action="logIn" accept-charset="UTF-8" role="form" class="form-signin">
+                        <g:form controller="user" action="logInLogic" accept-charset="UTF-8" role="form" class="form-signin">
                         <fieldset>
                             <label class="panel-login">
                                 <div class="login_result"></div>

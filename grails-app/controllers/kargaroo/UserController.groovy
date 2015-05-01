@@ -1,6 +1,9 @@
 package kargaroo
 
 import org.springframework.transaction.annotation.Transactional
+import org.springframework.web.multipart.commons.CommonsMultipartFile
+
+import javax.servlet.http.HttpServletRequest
 
 
 class UserController {
@@ -9,10 +12,10 @@ class UserController {
     def user1
 
     def index(){
-        redirect(controller: 'mainPage',action: 'index')
+
     }
 
-    @Transactional
+    private static final okcontents = ['image/png', 'image/jpeg', 'image/gif']
     def register(){
 
         user = User.findByMail(params.mail)
@@ -30,8 +33,16 @@ class UserController {
         }
         else {//Nuevo Usario*/
 
-            def parameters = [userName     : params.userName,
-                              password     : params.password
+
+            def avatarFile = request.getFile('avatar')
+
+            if (!okcontents.contains(avatarFile.getContentType())) {
+                flash.message = "Avatar must be one of: ${okcontents}"
+                render(view:'logUp', model:[user:user])
+                return
+            }
+            def parameters = [userName     : params.userName
+                              ,password     : params.password
                               , confirm    : params.confirm
                               , firstName  : params.firstName
                               , lastName   : params.lastName
@@ -39,36 +50,51 @@ class UserController {
                               , DNI        : null
                               , phone      : null
                               , mail       : params.mail
-                              , description: null]
+                              , description: null
+                              , avatar : avatarFile.bytes
+                              , avatarType : avatarFile.contentType]
 
 
 
             def newUser = new User(parameters)
 
             newUser.save(flush: true)
-
-
             user = User.findByMail(params.mail)
+            session["userSession"]=user.userName
 
-            session["userSession"] = user.userName
 
             redirect(controller: 'user', action: 'profile')
        // }
     }
 
     def logIn(){
+    }
+
+    def logInLogic(){
         user = User.findByUserName(params.userName)
         session["userSession"] = user.userName
         redirect(controller: 'user', action: 'profile')
-
     }
 
     def logUp(){
-
     }
 
     def profile(){
+
         render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
+    }
+
+    def avatar_image() {
+        def avatarUser = User.findByUserName(session.userSession)
+        if (!avatarUser || !avatarUser.avatar || !avatarUser.avatarType) {
+            response.sendError(404)
+            return
+        }
+        response.contentType = avatarUser.avatarType
+        response.contentLength = avatarUser.avatar.size()
+        OutputStream out = response.outputStream
+        out.write(avatarUser.avatar)
+        out.close()
     }
 
 }

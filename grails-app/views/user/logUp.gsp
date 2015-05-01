@@ -5,16 +5,16 @@
     <meta charset="utf-8">
     <title>Kar-Garoo logup</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="${request.contextPath}/loginLogup/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="${request.contextPath}/loginLogup/css/parallax.css">
-    <script src="${request.contextPath}/loginLogup/js/jquery-1.10.2.min.js"></script>
-    <script src="${request.contextPath}/loginLogup/js/parallax.js"></script>
+    <link rel="stylesheet" type="text/css" href="${resource(dir: 'css',file: 'bootstrap.min.css')}">
+    <link rel="stylesheet" type="text/css" href="${resource(dir: 'css',file: 'parallax.css')}">
+    <script src="${resource(dir: 'js',file: 'jquery-1.10.2.min.js')}"></script>
+    <script src="${resource(dir: 'js',file: 'parallax.js')}"></script>
     <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
 
 </head>
 
 <body>
-<div class="container">
+<div class="container ">
     <div class="row vertical-offset-100">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
@@ -27,7 +27,7 @@
 
                 <div class="panel-body">
 
-                    <g:form controller="user" action="register" accept-charset="UTF-8" role="form" class="form-signup">
+                    <g:uploadForm controller="user" action="register" accept-charset="UTF-8" role="form" class="form-signup">
 
                         <div class="row">
 
@@ -61,10 +61,20 @@
                         </div>
                         <br>
 
+                        <div style="color: #000000; background-color: #ffffff">
+                            <legend>Avatar Upload</legend>
+                                <label for="avatar">Avatar (16K)</label>
+                                <input type="file" name="avatar" id="avatar" />
+                                <div style="font-size:0.8em; margin: 1.0em;">
+                                    For best results, your avatar should have a width-to-height ratio of 4:5.
+                                    For example, if your image is 80 pixels wide, it should be 100 pixels high.
+                                </div>
+                        </div>
                         <g:submitButton name="summit" type="submit" value="register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
 
 
-                    </g:form>
+                    </g:uploadForm>
+
 
                 </div>
             </div>
