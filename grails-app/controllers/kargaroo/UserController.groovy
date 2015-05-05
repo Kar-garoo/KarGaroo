@@ -20,17 +20,19 @@ class UserController {
     private static final okcontents = ['image/png', 'image/jpeg', 'image/gif']
     def register(){
 
+        if(session.userSession){
+            redirect(controller: 'user',action: 'profile')
+        }
+
         user = User.findByMail(params.mail)
         user1 = User.findByUserName(params.userName)
 
         if(user){ //El usuario ya existe
             flash.message = "User already exists with the email '${params.mail}'"
-            //Arreglar este render
             redirect(controller:'user',action:'logUp')
         }
         else if(user1){ //El usuario ya existe
             flash.message = "User already exists with the username '${params.userName}'"
-            //Arreglar este render
             redirect(controller:'user',action:'logUp')
         }
         else {//Nuevo Usario*/
@@ -59,6 +61,12 @@ class UserController {
 
 
             def newUser = new User(parameters)
+
+            if(!newUser.validate()){
+                newUser.errors.each{
+                    render("lol")
+                }
+            }
 
             newUser.save(flush: true)
             user = User.findByMail(params.mail)

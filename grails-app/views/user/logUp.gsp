@@ -56,7 +56,7 @@
                             </div>
 
                             <div class="col-xs-12 col-sm-6 col-md-6">
-                                <g:textField type="password" id="password_confirmation" class="form-control" name="confirm"  placeholder="Confirm Password"></g:textField>
+                                <g:passwordField type="password" id="password_confirmation" class="form-control" name="confirm"  placeholder="Confirm Password"></g:passwordField>
                             </div>
                         </div>
                         <br>
@@ -70,12 +70,10 @@
                                     For example, if your image is 80 pixels wide, it should be 100 pixels high.
                                 </div>
                         </div>
-                        <g:submitButton name="summit" type="submit" value="register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
+                        <g:submitButton name="summit" type="submit" value="Register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
 
 
                     </g:uploadForm>
-
-
                 </div>
             </div>
         </div>
