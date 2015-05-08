@@ -99,17 +99,31 @@ class UserController {
         render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
     }
 
-    def avatar_image() {
-        def avatarUser = User.findByUserName(session.userSession)
-        if (!avatarUser || !avatarUser.avatar || !avatarUser.avatarType) {
-            response.sendError(404)
-            return
+    def avatar_image(user) {
+        if (!user){
+            def avatarUser = User.findByUserName(session.userSession)
+            if (!avatarUser || !avatarUser.avatar || !avatarUser.avatarType) {
+                response.sendError(404)
+                return
+            }
+            response.contentType = avatarUser.avatarType
+            response.contentLength = avatarUser.avatar.size()
+            OutputStream out = response.outputStream
+            out.write(avatarUser.avatar)
+            out.close()
+        }else{
+            def avatarUser = User.findByUserName(user)
+            if (!avatarUser || !avatarUser.avatar || !avatarUser.avatarType) {
+                response.sendError(404)
+                return
+            }
+            response.contentType = avatarUser.avatarType
+            response.contentLength = avatarUser.avatar.size()
+            OutputStream out = response.outputStream
+            out.write(avatarUser.avatar)
+            out.close()
         }
-        response.contentType = avatarUser.avatarType
-        response.contentLength = avatarUser.avatar.size()
-        OutputStream out = response.outputStream
-        out.write(avatarUser.avatar)
-        out.close()
     }
+
 
 }

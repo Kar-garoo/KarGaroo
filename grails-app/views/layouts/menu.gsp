@@ -30,7 +30,7 @@
 </head>
 
 <body>
-<div class="container" id="paddingMenu" >
+<div class="container">
 
 
 <div id="wrapper">
@@ -96,15 +96,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12" >
-
                     <a class= "btn btn-lg btn-outline" href="#menu-toggle"  id="menu-toggle" >
                         <i class="fa fa-bars"> MENU</i>
                     </a>
                 </div>
+            </div>
+            <div class="row">
 
                 <g:layoutBody/>
-
-
             </div>
         </div>
     </div>
