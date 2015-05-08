@@ -90,6 +90,7 @@
             <div class="bs-callout bs-callout-danger">
                 <h4>Auto</h4>
                 <p>
+                    <!-- Ejemplo de prueba -->
                     Software Engineering, Machine Learning, Image Processing,
                     Computer Vision, Artificial Neural Networks, Data Science,
                     Evolutionary Algorithms.
