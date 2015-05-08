@@ -13,11 +13,12 @@
 
 
     <!-- Bootstrap Core CSS -->
-    <link href="${request.contextPath}/Menu/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="${request.contextPath}/Menu/css/simple-sidebar.css" rel="stylesheet">
-    <link href="${request.contextPath}/Menu/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="${request.contextPath}/Menu/css/css_own.css" rel="stylesheet">
+    <link href="${resource(dir: 'css',file: 'simple-sidebar.css')}" rel="stylesheet">
+    <link href="${resource(dir: 'css',file: 'css_own.css')}" rel="stylesheet">
+    <link href="${resource(dir: 'font-awesome-4.3.0/css',file: 'font-awesome.min.css')}" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,6 +30,7 @@
 </head>
 
 <body>
+<div class="container" id="paddingMenu" >
 
 
 <div id="wrapper">
@@ -41,7 +43,7 @@
 
                 <a class="navbar-brand"  href="#">
                     <object>
-                        <embed src="${request.contextPath}/Menu/img/Kargaroo.svg" class ="img-responsive svg">
+                        <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" class ="img-responsive svg">
                         </embed>
                     </object>Menu
                 </a>
@@ -70,12 +72,11 @@
                     <i class="fa fa-bell"> Notificaciones</i>
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-question"></i>
-
-                </a>
-            </li>
+                <li>
+                    <a href="${createLink(controller: 'user', action: 'logOut')}">
+                        <i class="fa fa-sign-out"> logOut</i>
+                    </a>
+                </li>
             <li>
                 <a href="#">
                     <i class="fa fa-question"></i>
@@ -111,13 +112,14 @@
 <!-- /#page-content-wrapper -->
 
 </div>
+
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="${request.contextPath}/Menu/js/jquery.js"></script>
+<script src="${resource(dir: 'js',file: 'jquery.js')}"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="${request.contextPath}/Menu/js/bootstrap.min.js"></script>
+<script src="${resource(dir: 'js',file: 'bootstrap.min.js')}"></script>
 
 <!-- Menu Toggle Script -->
 <script>
