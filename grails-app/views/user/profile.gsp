@@ -60,14 +60,14 @@
                                 <li class="list-group-item">${user.userName}</li>
                                 <li class="list-group-item">${user.firstName} ${user.lastName}</li>
                                 <!-- Condicion si el DNI es null muestra no Disponible-->
-                                <g:if test="${user.DNI} == null">
+                                <g:if test="${user.DNI == null}">
                                     <li class="list-group-item">D.I: No Disponible</li>
                                 </g:if>
                                 <g:else>
                                     <li class="list-group-item">D.I: ${user.DNI}</li>
                                 </g:else>
                                 <!-- Condicion si el telefono es nll lo de ja en 000000 -->
-                                <g:if test="${user.phone} == null">
+                                <g:if test="${user.phone == null}">
                                     <li class="list-group-item"><i class="fa fa-phone"></i>  No Disponible</li>
                                 </g:if>
                                 <g:else>
