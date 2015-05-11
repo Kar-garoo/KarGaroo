@@ -71,7 +71,11 @@
                                 </div>
                         </div>
                         <g:submitButton name="summit" type="submit" value="Register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
-
+                        <div class="col-xs-12 col-md-4 btn-block">
+                            <a href="${createLink(controller: 'user', action: 'update')}" class="btn btn-block btn-default">
+                                <i class="fa fa-cog"> EDITAR </i>
+                            </a>
+                        </div>
 
                     </g:uploadForm>
                 </div>

@@ -95,8 +95,15 @@ class UserController {
     }
 
     def profile(){
-
         render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
+    }
+
+    def update(){
+        render(view: 'update',model:[user:User.findByUserName(session.userSession)])
+    }
+
+    def updateUser(){
+        render(params)
     }
 
     def avatar_image() {

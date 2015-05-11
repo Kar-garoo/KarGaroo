@@ -51,9 +51,27 @@
                                     </div>
 
                                 </div>
+
+                            </div>
+
+                            <div>
+                                <hr>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4 btn-block">
+                                    <a href="${createLink(controller: 'user', action: 'update')}" class="btn btn-block btn-default">
+                                        <i class="fa fa-cog"> EDITAR </i>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div>
+                                <hr>
                             </div>
 
                         </div>
+
 
                         <div class="col-xs-12 col-sm-8">
                             <ul class="list-group">
@@ -81,14 +99,24 @@
                 </div>
             </div>
             <div class="bs-callout bs-callout-danger">
-                <h4>Sobre mi</h4>
+                <div class="row">
+                    <div class="col-lg-11 col-xs-10">
+                        <h4>Sobre mi</h4>
+                    </div>
+                </div>
                 <p>
                     ${user.description}
                 </p>
-
             </div>
             <div class="bs-callout bs-callout-danger">
-                <h4>Auto</h4>
+                <div class="row">
+                    <div class="col-lg-11 col-xs-10"><h4>Auto</h4></div>
+                    <div class="col-lg-1 col-xs-2">
+                        <a href="profile.gsp">
+                            <i class="fa fa-cog"></i>
+                        </a>
+                    </div>
+                </div>
                 <p>
                     Software Engineering, Machine Learning, Image Processing,
                     Computer Vision, Artificial Neural Networks, Data Science,
@@ -112,12 +140,11 @@
                 <ul class="list-group">
                     <a class="list-group-item inactive-link" href="#">
 
-
                         <div class="progress">
-                            <div data-placement="top" style="width: 100%;"
+                            <div data-placement="top" style="width: 20%;"
                                  aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
                                 <span class="sr-only">100%</span>
-                                <span class="progress-type">Java/ JavaEE/ Spring Framework </span>
+                                <span class="progress-type">Reputacion</span>
                             </div>
                         </div>
 
