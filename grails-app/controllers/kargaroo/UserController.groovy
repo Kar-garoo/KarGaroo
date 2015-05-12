@@ -19,28 +19,23 @@ class UserController {
 
     private static final okcontents = ['image/png', 'image/jpeg', 'image/gif']
     def register(){
-
-        if(session.userSession){
-            redirect(controller: 'user',action: 'profile')
-        }
-
         user = User.findByMail(params.mail)
         user1 = User.findByUserName(params.userName)
 
-        if(user){ //El usuario ya existe
-            flash.message = "User already exists with the email '${params.mail}'"
+        if(user){
+            //El usuario ya existe
+            flash.message = "userExist'"
             redirect(controller:'user',action:'logUp')
         }
-        else if(user1){ //El usuario ya existe
-            flash.message = "User already exists with the username '${params.userName}'"
+        else if(user1){
+            //El usuario ya existe
+            flash.message = "mailExist"
             redirect(controller:'user',action:'logUp')
         }
-        else {//Nuevo Usario*/
-
-
+        else {
+            //Nuevo Usario*/
             def avatarFile = request.getFile('avatar')
-
-            if (!okcontents.contains(avatarFile.getContentType())) {
+            if (!okcontents.contains(avatarFile.getContentType()) && avatarFile.bytes != []) {
                 flash.message = "Avatar must be one of: ${okcontents}"
                 render(view:'logUp', model:[user:user])
                 return
@@ -51,8 +46,8 @@ class UserController {
                               , firstName  : params.firstName
                               , lastName   : params.lastName
                               , age        : params.age
-                              , DNI        : null
-                              , phone      : null
+                              , DNI        : params.DNI
+                              , phone      : params.phone
                               , mail       : params.mail
                               , description: null
                               , avatar : avatarFile.bytes
@@ -61,18 +56,12 @@ class UserController {
 
 
             def newUser = new User(parameters)
-
-            if(!newUser.validate()){
-                newUser.errors.each{
-                    render("lol")
-                }
+            if(!newUser.save(flush: true)){
+                render(view: 'logUp',model: [newUser:newUser])
+                return
             }
-
-            newUser.save(flush: true)
             user = User.findByMail(params.mail)
             session["userSession"]=user.userName
-
-
             redirect(controller: 'user', action: 'profile')
         }
     }
@@ -103,7 +92,27 @@ class UserController {
     }
 
     def updateUser(){
-        render(params)
+
+        def avatarFile = request.getFile('avatar')
+        if (!okcontents.contains(avatarFile.getContentType()) && avatarFile.bytes != []) {
+            flash.message = "Avatar must be one of: ${okcontents}"
+            render(view:'profile', model:[user:User.findByUserName(session.userSession)])
+            return
+        }
+
+        def userUpdate = User.findByUserName(session.userSession)
+        userUpdate.DNI = Integer.parseInt(params.DNI)
+        userUpdate.phone = Integer.parseInt(params.phone)
+        userUpdate.description = params.description
+        userUpdate.avatar = avatarFile.bytes
+        userUpdate.avatarType = avatarFile.contentType
+
+        if(!userUpdate.save(flush: true)){
+            render(view: 'update',model: [newUser:userUpdate])
+            return
+        }
+        redirect(controller: 'user', action: 'profile')
+
     }
 
     def avatar_image() {

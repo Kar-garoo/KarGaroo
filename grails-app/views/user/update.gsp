@@ -11,8 +11,9 @@
 </head>
 
 <body  style = "background-color: #BDBDBD">
-<g:uploadForm controller="user" action="updateUser" accept-charset="UTF-8" role="form">
+
 <div class="row">
+<g:uploadForm controller="user" action="updateUser" accept-charset="UTF-8" role="form" class="form">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
         <div class="panel panel-default">
             <div class="panel-heading resume-heading">
@@ -31,10 +32,22 @@
                                 <div class="row text-center">
                                     <div class="fileUpload btn btn-primary">
                                         <span>Upload 3M</span>
-                                        <input id="uploadBtn" type="file" class="upload" />
+                                        <input type="file" name="avatar" id="avatar" class="upload" id="avatar" />
                                     </div>
                                     <input id="uploadFile" placeholder="Selecciona imagen" disabled="disabled" />
                                 </div>
+                                <!--
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-2  list-group-item img-rounded">
+                                        <legend>Imagen de usuario</legend>
+                                        <label for="avatar">Avatar (3M)</label>
+                                        <input type="file" name="avatar" id="avatar" />
+                                        <div style="font-size:0.8em; margin: 1.0em;">
+                                            <p>Tu imagen de usuario es opcional, pero es bueno que te identifiques de alguna manera.
+                                            Lo mejor seria una foto de tu cara.</p>
+                                        </div>
+                                    </div>
+                                </div>-->
                             </div>
                             <div>
                                 <hr>
@@ -70,7 +83,7 @@
                                 <li class="list-group-item">${user.userName}</li>
                                 <li class="list-group-item">${user.firstName} ${user.lastName}</li>
                                 <li class="list-group-item">
-                                    D.N.I<g:textField id="DNI" class="form-control" name="DNI"  value="${user.phone}"></g:textField>
+                                    D.N.I<g:textField id="DNI" class="form-control" name="DNI"  value="${user.DNI}"></g:textField>
                                 </li>
                                 <li class="list-group-item">
                                     <i class="fa fa-phone"></i><g:textField id="phone" class="form-control" name="phone"  value="${user.phone}"></g:textField>
@@ -98,7 +111,7 @@
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-5 btn-block">
-                <g:submitButton name="summit" type="submit" value="Guardar" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
+                <g:submitButton name="summit" type="submit" value="Guardar" class="btn btn-lg btn-success btn-block" ></g:submitButton>
             </div>
             <div class="col-xs-12 col-md-5 btn-block">
                 <a href="${createLink(controller: 'user', action: 'profile')}" class="btn btn-block btn-danger">
@@ -107,12 +120,12 @@
             </div>
         </div>
     </div>
-
-</div>
 </g:uploadForm>
+</div>
+
 
 <script >
-    document.getElementById("uploadBtn").onchange = function () {
+    document.getElementById("avatar").onchange = function () {
         document.getElementById("uploadFile").value = this.value;
     };
 </script>
