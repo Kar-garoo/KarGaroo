@@ -47,6 +47,19 @@ class ForumController {
         }
         redirect(action:'thread', params:[threadId:threadId, offset:offset])
     }
+    def newPost(long topicId, String subject) {
+        def offset = params.offset
+        if (subject != null && subject.trim().length() > 0) {
+            Topic topic = Topic.get(topicId)
+            def opener = User.findByUserName(session["userSession"])
+            new DiscussionThread(topic:topic, subject:subject, opener:opener).save()
+
+            // go to  page so user can view his Thread
+            def numberOfPosts = DiscussionThread.countByTopic(topic)
+            offset = 0
+        }
+        redirect(action:'topic', params:[topicId:topicId, offset:offset])
+    }
 
     def avatar_image(user) {
         print(user)

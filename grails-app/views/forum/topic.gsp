@@ -1,6 +1,6 @@
 <%@ page import="kargaroo.forum.DiscussionThread" %>
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta name="layout" content="menu"/>
     <title>Kar-garoo Foro</title>
@@ -9,11 +9,16 @@
     <link href="${resource(dir: 'css',file: 'forum.css')}" rel="stylesheet">
 </head>
 <body>
-<div class="pagination">
-    <g:paginate total="${numberOfThreads}" params="${[topicId:topic.id]}"/>
+
+<div style="margin-bottom:-55px" align="right">
+    <g:link class="btn btn-default" controller="forum" action="index" >
+        <i class="fa fa-arrow-left"></i>
+    </g:link>
 </div>
-<div class="row list-group-item">
+<div class="bs-callout bs-callout-default">
+
     <div class="sectionTitle">
+
         <div>
             <h3>${topic.title}</h3>
         </div>
@@ -36,9 +41,23 @@
             </div>
         </div>
     </g:each>
+
+
+
+    <div class="topic">
+        <h2>¿Tienes alguna duda?</h2>
+        <g:form>
+            <g:textField class="form-control" name="subject"></g:textField>
+            <g:hiddenField name="topicId" value="${topic.id}"/>
+            <fieldset>
+                <g:actionSubmit class="btn-success" value="Abrir discusion" action="newPost"/>
+            </fieldset>
+        </g:form>
+    </div>
 </div>
 <div class="pagination">
     <g:paginate total="${numberOfThreads}" params="${[topicId:topic.id]}"/>
 </div>
+
 </body>
 </html>

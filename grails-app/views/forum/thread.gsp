@@ -9,33 +9,34 @@
     <link href="${resource(dir: 'css',file: 'forum.css')}" rel="stylesheet">
 </head>
 <body>
-<div class="pagination">
-    <g:paginate total="${numberOfComments}" params="${[threadId:thread.id]}"/>
+<div style="margin-bottom:-55px" align="right">
+    <g:link class="btn btn-default" controller="forum" action="topic" params="${[topicId:thread.topic.id]}">
+        <i class="fa fa-arrow-left"></i>
+    </g:link>
 </div>
-<div class="list-group-item">
+<div class="bs-callout bs-callout-default">
     <div class="sectionTitle">
         ${thread.subject}
     </div>
     <g:each in="${comments}" var="comment">
+
         <div class="list-group-item">
-            <div>
                 <b>${comment.commentBy.userName}</b>
                 <span class="topicDesc">
-                    <g:formatDate date="${comment.createDate}" format="dd MMM yyyy hh:mma"/>
+                    <span class="tagForo"><g:formatDate date="${comment.createDate}" format="dd MMM yyyy hh:mma"/></span>
                 </span>
-            </div>
-            <img class="img-rounded img-responsive img-centered center-block" src="${createLink(controller:'user', action:'avatar_image',params: [user:comment.commentBy.userName],id:comment.commentBy.ident())}" />
-            ${comment.body}
+                ${comment.body}
         </div>
+
     </g:each>
 
         <div class="comment">
-            <h2>Reply</h2>
+            <h2>Escribe algo</h2>
             <g:form>
-                <g:textArea name="body"></g:textArea>
+                <g:textArea class="form-control" name="body"></g:textArea>
                 <g:hiddenField name="threadId" value="${thread.id}"/>
-                <fieldset class="buttons">
-                    <g:actionSubmit value="Post Comment" action="postReply"/>
+                <fieldset>
+                    <g:actionSubmit class="btn-success" value="Comentar" action="postReply"/>
                 </fieldset>
             </g:form>
         </div>
