@@ -94,9 +94,12 @@ class UserController {
     def updateUser(){
 
         def avatarFile = request.getFile('avatar')
+
+        print(avatarFile.bytes)
+
         if (!okcontents.contains(avatarFile.getContentType()) && avatarFile.bytes != []) {
-            flash.message = "Avatar must be one of: ${okcontents}"
-            render(view:'profile', model:[user:User.findByUserName(session.userSession)])
+            flash.message = "Avatar"
+            render(view:'update', model:[user:User.findByUserName(session.userSession)])
             return
         }
 
