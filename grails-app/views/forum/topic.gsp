@@ -7,57 +7,69 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
     <link href="${resource(dir: 'css',file: 'forum.css')}" rel="stylesheet">
+    <script src="${resource(dir: 'js',file: 'jquery-1.10.2.min.js')}"></script>
+    <script src="${resource(dir: 'js',file: 'parallax.js')}"></script>
+    <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
 </head>
 <body>
 
-<div style="margin-bottom:-55px" align="right">
+<div style="margin-bottom:-54px" align="right">
     <g:link class="btn btn-default" controller="forum" action="index" >
         <i class="fa fa-arrow-left"></i>
     </g:link>
 </div>
 <div class="bs-callout bs-callout-default">
 
-    <div class="sectionTitle">
+    <div class="header">
 
         <div>
-            <h3>${topic.title}</h3>
+            <h2>${topic.title}</h2>
         </div>
         <div>
-            <span class="topicDesc">${topic.description}</span>
+            <h5>${topic.description}</h5>
         </div>
-        <br>
+
     </div>
     <g:each in="${threads}" var="thread">
-        <div class="list-group-item">
+
             <g:link controller="forum" action="thread" params="[threadId:thread.id]" >
-                ${thread.subject}
+                <div class="list-group-item">
+                    <div class="item-title">
+                <h4>${thread.subject}</h4>
+                </div>
+                    <div class="item-body">
+                    <div>
+                        Creado por: ${thread.opener.userName}
+                        el: <g:formatDate date="${thread.createDate}" format="dd MMM yyyy"/>
+                    </div>
+                    <div >
+                        <span class="tagForo"><b>Comentarios</b>: ${thread.numberOfReplies} </span>
+                    </div>
+                        </div>
+                </div>
             </g:link>
-            <div>
-                Creado por: ${thread.opener.userName}
-                el: <g:formatDate date="${thread.createDate}" format="dd MMM yyyy"/>
-            </div>
-            <div >
-                <span class="tagForo"><b>Comentarios</b>: ${thread.numberOfReplies} </span>
-            </div>
-        </div>
+
     </g:each>
 
-
-
-    <div class="topic">
-        <h2>¿Tienes alguna duda?</h2>
-        <g:form>
-            <g:textField class="form-control" name="subject"></g:textField>
-            <g:hiddenField name="topicId" value="${topic.id}"/>
-            <fieldset>
-                <g:actionSubmit class="btn-success" value="Abrir discusion" action="newPost"/>
-            </fieldset>
-        </g:form>
+    <div class="pagination">
+        <g:paginate total="${numberOfThreads}" params="${[topicId:topic.id]}"/>
     </div>
 </div>
-<div class="pagination">
-    <g:paginate total="${numberOfThreads}" params="${[topicId:topic.id]}"/>
+
+<div class="bs-callout bs-callout-default">
+    <div class="header">
+    <h2>¿Tienes alguna duda?</h2>
+    </div>
+    <g:form>
+        <g:textField class="form-control" name="subject"></g:textField>
+        <g:hiddenField name="topicId" value="${topic.id}"/>
+        <fieldset>
+            <g:actionSubmit class="btn-success" value="Abrir discusion" action="newPost"/>
+        </fieldset>
+    </g:form>
 </div>
+
+
 
 </body>
 </html>

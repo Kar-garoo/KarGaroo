@@ -50,7 +50,7 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="${createLink(controller: 'user',action: 'profile')}">
                         <i class="fa fa-user" > Perfil</i>
                     </a>
                 </li>
@@ -67,6 +67,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="${createLink(controller: 'forum')}">
+                        <i class="fa fa-users"> Foro</i>
+                    </a>
+                </li>
+                <li>
                     <a href="#">
 
                         <i class="fa fa-bell"> Notificaciones</i>
@@ -77,11 +82,7 @@
                         <i class="fa fa-sign-out"> logOut</i>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-question"></i>
-                    </a>
-                </li>
+
                 <li>
                     <a href="#">
                         <i class="fa fa-question"></i>

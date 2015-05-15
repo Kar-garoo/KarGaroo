@@ -11,7 +11,7 @@ class BootStrap {
                           , confirm    : 'secret'
                           , firstName  : 'roberto'
                           , lastName   : 'gomez'
-                          , age        : 123
+                          , age        : 50
                           , DNI        : null
                           , phone      : null
                           , mail       : 'juca-666@hotmail.com'

@@ -1,6 +1,68 @@
+.item-title{
 
+     background: rgba(52, 52, 52, 0.81);
+     margin-left: -15px;
+     padding-left: 15px;
+     margin-right: -15px;
+     padding-right: 15px;
+     margin-top: -10px;
+     padding-top: 8px;
+     padding-bottom: 3px;
+
+
+ }
+.item-body{
+    background-color: rgba(86, 86, 86, 0);
+    margin-left: -15px;
+    padding-left: 15px;
+    margin-right: -15px;
+    padding-right: 15px;
+    margin-bottom: -10px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+
+
+}
+
+
+A {color: #ffffff;}
+
+A:hover , A:focus {color: #000000;
+text-decoration: none;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.79);
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+
+    padding: 20px;
+    color: #777;
+}
+.list-group-item:hover{
+
+    background-color: rgba(155, 155, 155, 0.70);
+    color:#000000;
+
+}
+.list-group-item{
+
+    background-color: rgb(86, 86, 86);
+    margin-top: 8px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+}
+body {
+background: url("http://www.welovesolo.com/wp-content/uploads/2014/12/p16of4lqkpovl1o2l1ecbbh814s9-details1.jpg");
+color: #ffffff;
+    word-wrap: break-word;
+
+}
 .tagForo{
-    background: rgba(46, 45, 6, 0.17);
+
+
     border-radius: 3px;
 }
 
@@ -27,11 +89,22 @@
     margin-top: -5px;
 }
 .bs-callout-default {
-    border-left-color: #777;
+    border-left-color: #F5F5F5;
+    background-color: rgba(255, 255, 255, 0.48);
 }
 .bs-callout-default h4 {
-    color: #777;
+    color: #EA8201;
 }
+.bs-callout-default h3 {
+    color: #cecece;
+}
+.bs-callout-default h2 {
+    color: #ffffff;
+}
+.bs-callout-default h5 {
+    color: #cecece;
+}
+
 .bs-callout-primary {
     border-left-color: #428bca;
 }
@@ -63,8 +136,8 @@
     color: #5bc0de;
 }
 .btn-success {
-    background-color: #F7A14B;
-    border-color: #F7A14B;
+    background-color: #EA8201;
+    border-color: #EA8201;
 
 }
 .btn-success.active,.btn-success.focus,.btn-success:active,.btn-success:focus,.btn-success:hover,.open>.dropdown-toggle.btn-success{
@@ -77,17 +150,18 @@
 
 .pagination {
     border-top: 0;
-    margin: 0;
+
     padding: 0.3em 0.2em;
     text-align: center;
 
-    background-color: #EFEFEF;
+
+
     border-radius: 0.0em;
 }
 
 .pagination a,
 .pagination .currentStep {
-    color: #666666;
+    color: #2c2c2c;
     display: inline-block;
     margin: 0 0.1em;
     padding: 0.25em 0.7em;
@@ -99,7 +173,7 @@
 
 .pagination a:hover, .pagination a:focus,
 .pagination .currentStep {
-    background-color: #999999;
+    background-color: rgba(56, 56, 56, 0.76);
     color: #ffffff;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
