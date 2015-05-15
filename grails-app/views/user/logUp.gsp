@@ -46,7 +46,7 @@
                             </g:if>
                             <g:else>
                                 <div class="col-xs-12 col-sm-4 col-md-4 has-error">
-                                    <g:textField id="last-name" class="form-control "  name="lastname"  placeholder="Apellido"></g:textField>
+                                    <g:textField id="last-name" class="form-control"  name="lastName"  placeholder="Apellido"></g:textField>
                                     <label class="control-label list-group-item-danger img-rounded">Apellido entre 3-20 caracteres</label>
                                 </div>
                             </g:else>
@@ -73,8 +73,8 @@
                             </g:if>
                             <g:else>
                                 <div class="col-xs-12 col-sm-6 col-md-6 has-error">
-                                <g:textField id="DNI" class="form-control" name="DNI"  placeholder="Documento"></g:textField>
-                                <label class="control-label list-group-item-danger img-rounded">Documento ya registrado</label>
+                                    <g:textField id="DNI" class="form-control" name="DNI"  placeholder="Documento"></g:textField>
+                                    <label class="control-label list-group-item-danger img-rounded">Documento ya registrado</label>
                                 </div>
                             </g:else>
                             <g:if test="${!hasErrors(field: 'phone','error')}">
@@ -171,7 +171,7 @@
                     </g:uploadForm>
                 </div>
             </div>
-            </div>
+        </div>
     </div>
 </div>
 </body>

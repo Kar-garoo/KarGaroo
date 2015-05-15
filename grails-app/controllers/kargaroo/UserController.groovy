@@ -19,22 +19,21 @@ class UserController {
 
     private static final okcontents = ['image/png', 'image/jpeg', 'image/gif']
     def register(){
-
         user = User.findByMail(params.mail)
         user1 = User.findByUserName(params.userName)
 
         if(user){
-        //El usuario ya existe
+            //El usuario ya existe
             flash.message = "userExist'"
             redirect(controller:'user',action:'logUp')
         }
         else if(user1){
-        //El usuario ya existe
+            //El usuario ya existe
             flash.message = "mailExist"
             redirect(controller:'user',action:'logUp')
         }
         else {
-        //Nuevo Usario*/
+            //Nuevo Usario*/
             def avatarFile = request.getFile('avatar')
             if (!okcontents.contains(avatarFile.getContentType()) && avatarFile.bytes != []) {
                 flash.message = "Avatar must be one of: ${okcontents}"
@@ -65,13 +64,9 @@ class UserController {
             session["userSession"]=user.userName
             redirect(controller: 'user', action: 'profile')
         }
-
     }
 
     def logIn(){
-        if(session.userSession){
-            redirect(controller: 'user',action: 'profile')
-        }
     }
 
     def logInLogic(){
@@ -81,9 +76,6 @@ class UserController {
     }
 
     def logUp(){
-        if(session.userSession){
-            redirect(controller: 'user',action: 'profile')
-        }
     }
 
     def logOut(){
@@ -93,6 +85,38 @@ class UserController {
 
     def profile(){
         render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
+    }
+
+    def update(){
+        render(view: 'update',model:[user:User.findByUserName(session.userSession)])
+    }
+
+    def updateUser(){
+
+        def avatarFile = request.getFile('avatar')
+
+        if (!okcontents.contains(avatarFile.getContentType()) && avatarFile.bytes != []) {
+            flash.message = "Avatar"
+            render(view:'update', model:[user:User.findByUserName(session.userSession)])
+            return
+        }
+
+        def userUpdate = User.findByUserName(session.userSession)
+        userUpdate.DNI = Integer.parseInt(params.DNI)
+        userUpdate.phone = Integer.parseInt(params.phone)
+        userUpdate.description = params.description
+        if(avatarFile.bytes){
+            userUpdate.avatar = avatarFile.bytes
+            userUpdate.avatarType = avatarFile.contentType
+        }
+
+
+        if(!userUpdate.save(flush: true)){
+            render(view: 'update',model: [newUser:userUpdate])
+            return
+        }
+        redirect(controller: 'user', action: 'profile')
+
     }
 
     def avatar_image() {
