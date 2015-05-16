@@ -58,13 +58,13 @@
 
 <div class="bs-callout bs-callout-default">
     <div class="header">
-    <h2>¿Tienes alguna duda?</h2>
+    <h2>¿Quieres saber algo?</h2>
     </div>
     <g:form>
-        <g:textField class="form-control" name="subject"></g:textField>
+        <g:textField class="form-control" name="subject" placeholder="Realiza una pregunta..."></g:textField>
         <g:hiddenField name="topicId" value="${topic.id}"/>
         <fieldset>
-            <g:actionSubmit class="btn-success" value="Abrir discusion" action="newPost"/>
+            <g:actionSubmit class="btn-success btn" value="Discutir" action="newPost"/>
         </fieldset>
     </g:form>
 </div>

@@ -14,7 +14,7 @@
 <body>
 
 <div style="margin-bottom:-54px" align="right">
-    <g:link class="btn btn-default" controller="forum" action="index" >
+    <g:link class="btn btn-default" controller="forum" action="topic" params="${[topicId:thread.topic.id]}">
         <i class="fa fa-arrow-left"></i>
     </g:link>
 </div>
@@ -29,10 +29,9 @@
 
         <div class="list-group-item">
             <div class="item-title">
-                <h4><b>${comment.commentBy.userName}</b></h4>
-                <span class="topicDesc">
-                    <span class="tagForo"><g:formatDate date="${comment.createDate}" format="dd MMM yyyy hh:mma"/></span>
-                </span>
+                <h4>${comment.commentBy.userName}</h4>
+                <h5><g:formatDate date="${comment.createDate}" format="dd MMM yyyy hh:mma"/></h5>
+
         </div>
             <div class="item-body">
                 ${comment.body}
@@ -49,13 +48,13 @@
 
 <div class="bs-callout bs-callout-default">
     <div class="header">
-    <h2>Escribe algo</h2>
+    <h2>¿Que opinas?</h2>
         </div>
     <g:form>
-        <g:textArea class="form-control" name="body"></g:textArea>
+        <g:textArea class="form-control" name="body" placeholder="Escribe un comentario..."></g:textArea>
         <g:hiddenField name="threadId" value="${thread.id}"/>
         <fieldset>
-            <g:actionSubmit class="btn-success" value="Comentar" action="postReply"/>
+            <g:actionSubmit class="btn-success btn" value="Comentar" action="postReply"/>
         </fieldset>
     </g:form>
 </div>

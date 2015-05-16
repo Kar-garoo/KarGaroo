@@ -1,3 +1,4 @@
+
 .item-title{
 
      background: rgba(52, 52, 52, 0.81);
@@ -8,6 +9,7 @@
      margin-top: -10px;
      padding-top: 8px;
      padding-bottom: 3px;
+
 
 
  }
@@ -22,13 +24,20 @@
     padding-bottom: 5px;
 
 
+
 }
 
 
-A {color: #ffffff;}
 
-A:hover , A:focus {color: #000000;
+
+A:hover , A:focus {color: #ffa2a0;
 text-decoration: none;
+}
+A {color: #EA8201;}
+a:hover
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #ffffff;
 }
 
 .header {
@@ -44,7 +53,7 @@ text-decoration: none;
 .list-group-item:hover{
 
     background-color: rgba(155, 155, 155, 0.70);
-    color:#000000;
+    color: #000000;
 
 }
 .list-group-item{
@@ -53,11 +62,15 @@ text-decoration: none;
     margin-top: 8px;
     border: 2px solid #ffffff;
     border-radius: 3px;
+    color: #ffffff;
+
 }
 body {
 background: url("http://www.welovesolo.com/wp-content/uploads/2014/12/p16of4lqkpovl1o2l1ecbbh814s9-details1.jpg");
-color: #ffffff;
+
     word-wrap: break-word;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
 
 }
 .tagForo{
@@ -91,59 +104,43 @@ color: #ffffff;
 .bs-callout-default {
     border-left-color: #F5F5F5;
     background-color: rgba(255, 255, 255, 0.48);
+
+
 }
 .bs-callout-default h4 {
     color: #EA8201;
+    font-weight: 700;
+
 }
 .bs-callout-default h3 {
     color: #cecece;
+    font-weight: 700;
 }
 .bs-callout-default h2 {
     color: #ffffff;
+    font-weight: 700;
+
 }
 .bs-callout-default h5 {
     color: #cecece;
+    font-weight: 700;
 }
 
-.bs-callout-primary {
-    border-left-color: #428bca;
-}
-.bs-callout-primary h4 {
-    color: #428bca;
-}
-.bs-callout-success {
-    border-left-color: #5cb85c;
-}
-.bs-callout-success h4 {
-    color: #5cb85c;
-}
-.bs-callout-danger {
-    border-left-color: #d9534f;
-}
-.bs-callout-danger h4 {
-    color: #d9534f;
-}
-.bs-callout-warning {
-    border-left-color: #f0ad4e;
-}
-.bs-callout-warning h4 {
-    color: #f0ad4e;
-}
-.bs-callout-info {
-    border-left-color: #5bc0de;
-}
-.bs-callout-info h4 {
-    color: #5bc0de;
-}
+
 .btn-success {
     background-color: #EA8201;
     border-color: #EA8201;
+    margin-top: 8px;
+
+
+
 
 }
 .btn-success.active,.btn-success.focus,.btn-success:active,.btn-success:focus,.btn-success:hover,.open>.dropdown-toggle.btn-success{
     color:#fff;
     background-color:#EC832F;
-    border-color:#EC832F
+    border-color:#EC832F;
+
 }
 
 
