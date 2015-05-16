@@ -5,58 +5,6 @@
  * @package PARALLAX LOGIN.
  */
 
-.bs-callout h4 {
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-.bs-callout p:last-child {
-    margin-bottom: 0;
-}
-.bs-callout code {
-    border-radius: 3px;
-}
-.bs-callout+.bs-callout {
-    margin-top: -5px;
-}
-.bs-callout-default {
-    border-left-color: #777;
-}
-.bs-callout-default h4 {
-    color: #777;
-}
-.bs-callout-primary {
-    border-left-color: #428bca;
-}
-.bs-callout-primary h4 {
-    color: #428bca;
-}
-.bs-callout-success {
-    border-left-color: #5cb85c;
-}
-.bs-callout-success h4 {
-    color: #5cb85c;
-}
-.bs-callout-danger {
-    border-left-color: #d9534f;
-}
-.bs-callout-danger h4 {
-    color: #d9534f;
-}
-.bs-callout-warning {
-    border-left-color: #f0ad4e;
-}
-.bs-callout-warning h4 {
-    color: #f0ad4e;
-}
-.bs-callout-info {
-    border-left-color: #5bc0de;
-}
-.bs-callout-info h4 {
-    color: #5bc0de;
-}
-
-
-    
     body {
         background-color: #444;
         background: url(http://watermarked.cutcaster.com/cutcaster-photo-100804893-Gravel-seamless-background.jpg);
@@ -108,13 +56,12 @@
 
 }
 .btn-success {
-    background-color: #F7A14B;
-    border-color: #F7A14B;
+    background-color: #EA8201;
+    border-color: #EA8201;
 
 }
 .btn-success.active,.btn-success.focus,.btn-success:active,.btn-success:focus,.btn-success:hover,.open>.dropdown-toggle.btn-success{
 	color:#fff;
-	background-color:#EC832F;
-	border-color:#EC832F
+	background-color:#F7A14B;
+	border-color:#F7A14B;
 }
-
