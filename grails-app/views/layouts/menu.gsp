@@ -72,6 +72,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="${createLink(controller: 'chat', action: 'goToChatRoom')}">
+                        <i class="fa fa-weixin">Chat</i>
+                    </a>
+                </li>
+                <li>
                     <a href="#">
 
                         <i class="fa fa-bell"> Notificaciones</i>
