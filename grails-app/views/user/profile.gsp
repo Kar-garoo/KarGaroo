@@ -1,9 +1,11 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
+    <title>Perfil ${user.userName}</title>
     <!--Esta linea permite agregar el layout MENU -->
     <meta name="layout" content="menu"/>
+
+
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
@@ -22,7 +24,7 @@
                             <div class="row">
                                 <figure>
                                     <g:if test="${user.avatar}">
-                                        <img class="img-rounded img-responsive img-centered center-block" src="${createLink(controller:'user', action:'avatar_image', id:user.ident())}" />
+                                        <img class="img-rounded img-responsive img-centered center-block" src="${createLink(controller:'user', action:'avatar_image', params: [user:user.userName])}" />
                                     </g:if>
                                     <g:else>
                                         <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">

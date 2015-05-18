@@ -24,6 +24,7 @@ class ForumController {
     def thread(long threadId) {
         DiscussionThread thread = DiscussionThread.get(threadId)
 
+
         params.max = 10
         params.sort = 'createDate'
         params.order = 'asc'
@@ -61,9 +62,9 @@ class ForumController {
         redirect(action:'topic', params:[topicId:topicId, offset:offset])
     }
 
-    def avatar_image(user) {
-        print(user)
-        def avatarUser = User.findByUserName(user)
+    def avatar_image() {
+        print(user.avatar)
+        def avatarUser = User.findByUserName(params.user)
         if (!avatarUser || !avatarUser.avatar || !avatarUser.avatarType) {
             response.sendError(404)
             return
@@ -73,5 +74,6 @@ class ForumController {
         OutputStream out = response.outputStream
         out.write(avatarUser.avatar)
         out.close()
+
     }
 }

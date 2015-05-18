@@ -19,6 +19,7 @@ class UserController {
 
     private static final okcontents = ['image/png', 'image/jpeg', 'image/gif']
     def register(){
+
         user = User.findByMail(params.mail)
         user1 = User.findByUserName(params.userName)
 
@@ -36,8 +37,8 @@ class UserController {
             //Nuevo Usario*/
             def avatarFile = request.getFile('avatar')
             if (!okcontents.contains(avatarFile.getContentType()) && avatarFile.bytes != []) {
-                flash.message = "Avatar must be one of: ${okcontents}"
-                render(view:'logUp', model:[user:user])
+                flash.message = "Avatar"
+                render(view:'logUp', model:[user:user,formats:okcontents])
                 return
             }
             def parameters = [userName     : params.userName
@@ -56,13 +57,20 @@ class UserController {
 
 
             def newUser = new User(parameters)
+            if(parameters.password != parameters.confirm){
+                flash.message = "Password"
+                render(view:'logUp', model:[user:user])
+                return
+            }
             if(!newUser.save(flush: true)){
                 render(view: 'logUp',model: [newUser:newUser])
                 return
             }
+
             user = User.findByMail(params.mail)
             session["userSession"]=user.userName
             redirect(controller: 'user', action: 'profile')
+            return
         }
     }
 
@@ -71,8 +79,20 @@ class UserController {
 
     def logInLogic(){
         user = User.findByUserName(params.userName)
-        session["userSession"] = user.userName
-        redirect(controller: 'user', action: 'profile')
+        if(!user){
+            flash.message = "No existe user"
+            redirect(controller: 'user', action: 'logIn')
+        }else{
+            if(User.findByPassword(params.password)){
+                session["userSession"] = user.userName
+                redirect(controller: 'user', action: 'profile')
+            }else{
+                flash.message = "Password incorrecto"
+                redirect(controller: 'user', action: 'logIn')
+            }
+
+        }
+
     }
 
     def logUp(){
@@ -102,9 +122,15 @@ class UserController {
         }
 
         def userUpdate = User.findByUserName(session.userSession)
-        userUpdate.DNI = Integer.parseInt(params.DNI)
-        userUpdate.phone = Integer.parseInt(params.phone)
-        userUpdate.description = params.description
+        if(params.DNI){
+            userUpdate.DNI = Integer.parseInt(params.DNI)
+        }
+        if(params.phone){
+            userUpdate.phone = Integer.parseInt(params.phone)
+        }
+        if(params.description){
+            userUpdate.description = params.description
+        }
         if(avatarFile.bytes){
             userUpdate.avatar = avatarFile.bytes
             userUpdate.avatarType = avatarFile.contentType
@@ -120,7 +146,7 @@ class UserController {
     }
 
     def avatar_image() {
-        def avatarUser = User.findByUserName(session.userSession)
+        def avatarUser = User.findByUserName(params.user)
         if (!avatarUser || !avatarUser.avatar || !avatarUser.avatarType) {
             response.sendError(404)
             return

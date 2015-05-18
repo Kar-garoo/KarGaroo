@@ -30,18 +30,16 @@
 </head>
 
 <body>
+
 <div class="container">
 
 
     <div id="wrapper">
-
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-
                 <li class="sidebar-brand">
-
-                    <a class="navbar-brand"  href="#">
+                    <a class="navbar-brand">
                         <object>
                             <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" class ="img-responsive svg">
                             </embed>
@@ -100,13 +98,37 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <div class="row">
+
+                <div class="row" id="full">
                     <div class="col-lg-12" >
                         <a class= "btn btn-lg btn-outline" href="#menu-toggle"  id="menu-toggle" >
                             <i class="fa fa-bars"> MENU</i>
                         </a>
                     </div>
                 </div>
+
+                <div class="row" id="mini">
+                    <div class="col-lg-12" >
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="${createLink(controller: 'user', action: 'logIn')}">
+                                        <i class="fa fa-user"></i>
+                                        Ingresa
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="${createLink(controller: 'user', action: 'logUp')}">
+                                        <i class="fa fa-user-plus"></i>
+                                        Registrate
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+
                 <div class="row">
 
                     <g:layoutBody/>

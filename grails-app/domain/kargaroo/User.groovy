@@ -16,6 +16,8 @@ class User {
     byte [] avatar
     String avatarType
 
+    //static hasOne = [car:Car]
+
     //static  hasOne = [addres : Address]
 
 

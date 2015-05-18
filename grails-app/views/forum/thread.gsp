@@ -28,14 +28,19 @@
     <g:each in="${comments}" var="comment">
 
         <div class="list-group-item">
-            <div class="item-title">
-                <h4>${comment.commentBy.userName}</h4>
-                <h5><g:formatDate date="${comment.createDate}" format="dd MMM yyyy hh:mma"/></h5>
+            <div class="item-title row">
+                <div class="col-md-2">
+                    <img src="${createLink(controller:'user', action:'avatar_image', params:[user:comment.commentBy.userName])}">
+                </div>
+                <div class="col-md-4">
+                    <h4>${comment.commentBy.userName}</h4>
+                    <h5><g:formatDate date="${comment.createDate}" format="dd MMM yyyy hh:mma"/></h5>
+                </div>
 
-        </div>
+            </div>
             <div class="item-body">
                 ${comment.body}
-                </div>
+            </div>
         </div>
 
     </g:each>

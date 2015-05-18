@@ -6,7 +6,13 @@
 
 /* Toggle Styles */
 
+#full{
+    display:inherit;
+}
 
+#mini{
+    display:none;
+}
 
 #wrapper {
     padding-left: 0;
@@ -124,4 +130,22 @@
         position: relative;
         margin-right: 0;
     }
+}
+
+@media only screen and (max-width: 180px){
+    #mini{
+        display:block;
+    }
+    #full{
+        display: none;
+    }
+}
+@media only screen and (max-width: 120px){
+    #full{
+        display:none;
+    }
+    #mini{
+        display:block;
+    }
+
 }
