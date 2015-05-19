@@ -1,9 +1,11 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
+    <title>Perfil ${user.userName}</title>
     <!--Esta linea permite agregar el layout MENU -->
     <meta name="layout" content="menu"/>
+
+
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
@@ -22,7 +24,7 @@
                             <div class="row">
                                 <figure>
                                     <g:if test="${user.avatar}">
-                                        <img class="img-rounded img-responsive img-centered center-block" src="${createLink(controller:'user', action:'avatar_image', id:user.ident())}" />
+                                        <img class="img-rounded img-responsive img-centered center-block" src="${createLink(controller:'user', action:'avatar_image', params: [user:user.userName])}" />
                                     </g:if>
                                     <g:else>
                                         <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
@@ -51,23 +53,41 @@
                                     </div>
 
                                 </div>
+
+                            </div>
+
+                            <div>
+                                <hr>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4 btn-block">
+                                    <a href="${createLink(controller: 'user', action: 'update')}" class="btn btn-block btn-default">
+                                        <i class="fa fa-cog"> EDITAR </i>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div>
+                                <hr>
                             </div>
 
                         </div>
+
 
                         <div class="col-xs-12 col-sm-8">
                             <ul class="list-group">
                                 <li class="list-group-item">${user.userName}</li>
                                 <li class="list-group-item">${user.firstName} ${user.lastName}</li>
                                 <!-- Condicion si el DNI es null muestra no Disponible-->
-                                <g:if test="${user.DNI} == null">
+                                <g:if test="${user.DNI == null}">
                                     <li class="list-group-item">D.I: No Disponible</li>
                                 </g:if>
                                 <g:else>
                                     <li class="list-group-item">D.I: ${user.DNI}</li>
                                 </g:else>
                                 <!-- Condicion si el telefono es nll lo de ja en 000000 -->
-                                <g:if test="${user.phone} == null">
+                                <g:if test="${user.phone == null}">
                                     <li class="list-group-item"><i class="fa fa-phone"></i>  No Disponible</li>
                                 </g:if>
                                 <g:else>
@@ -81,14 +101,24 @@
                 </div>
             </div>
             <div class="bs-callout bs-callout-danger">
-                <h4>Sobre mi</h4>
+                <div class="row">
+                    <div class="col-lg-11 col-xs-10">
+                        <h4>Sobre mi</h4>
+                    </div>
+                </div>
                 <p>
                     ${user.description}
                 </p>
-
             </div>
             <div class="bs-callout bs-callout-danger">
-                <h4>Auto</h4>
+                <div class="row">
+                    <div class="col-lg-11 col-xs-10"><h4>Auto</h4></div>
+                    <div class="col-lg-1 col-xs-2">
+                        <a href="profile.gsp">
+                            <i class="fa fa-cog"></i>
+                        </a>
+                    </div>
+                </div>
                 <p>
                     <!-- Ejemplo de prueba -->
                     Software Engineering, Machine Learning, Image Processing,
@@ -113,12 +143,11 @@
                 <ul class="list-group">
                     <a class="list-group-item inactive-link" href="#">
 
-
                         <div class="progress">
-                            <div data-placement="top" style="width: 100%;"
+                            <div data-placement="top" style="width: 20%;"
                                  aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
                                 <span class="sr-only">100%</span>
-                                <span class="progress-type">Java/ JavaEE/ Spring Framework </span>
+                                <span class="progress-type">Reputacion</span>
                             </div>
                         </div>
 

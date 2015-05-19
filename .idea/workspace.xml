@@ -2,516 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b388e4-b083-4c15-8cba-bf4f384caf78" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BootStrap$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BootStrap$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BootStrap.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BuildConfig$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BuildConfig$_run_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BuildConfig$_run_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BuildConfig$_run_closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BuildConfig$_run_closure1_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config$_run_closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config$_run_closure1_closure4_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config$_run_closure1_closure4_closure5_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config$_run_closure2_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config$_run_closure2_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\Config.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure3_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure3_closure4_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure3_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure3_closure5_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure3_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure3_closure6_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource$_run_closure3_closure6_closure9_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\DataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\UrlMappings$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\UrlMappings$__clinit__closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\UrlMappings$__clinit__closure1_closure2_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\UrlMappings.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\kargaroo\Address$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\kargaroo\Address.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\kargaroo\LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\kargaroo\LogupController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\kargaroo\ProfileController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\resources$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\classes\resources.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineBootStrap$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineBootStrap.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin$_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin$_closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin$_closure2_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin$_closure2_closure5_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin$_closure2_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin$_closure2_closure6_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetPipelineGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetUrlMappings$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\AssetUrlMappings.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure6_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure6_closure8_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure7_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure2_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\CacheGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DatabaseMigrationGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DatabaseMigrationGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DatabaseMigrationGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DbdocUrlMappings$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DbdocUrlMappings.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DefaultCacheConfig$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DefaultCacheConfig$_run_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DefaultCacheConfig$_run_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DefaultCacheConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DefaultWebXmlConfig$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\DefaultWebXmlConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\Hibernate4GrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryConfig$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryPluginResources$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryPluginResources$_run_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryPluginResources$_run_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryPluginResources.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryResourceTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryResourceTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryResourceTagLib$_closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryResourceTagLib$_closure2_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryResourceTagLib$_closure2_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryResourceTagLib$_closure2_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryResourceTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryResourceTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryService$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryService$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryService$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryService$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryTagLib$_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryTagLib$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryTagLib$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JQueryTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JqueryGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JqueryGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JqueryGrailsPlugin$_closure2_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JqueryGrailsPlugin$_closure2_closure3_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\JqueryGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure1_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure1_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_configureScaffoldingController_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_getScaffoldedActions_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_getScaffoldedActions_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin$_getScaffoldedActions_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\ScaffoldingGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure2_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure2_closure8_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure3_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure4_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure5_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure5_closure12_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure6_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\WebxmlGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AbstractAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AbstractProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetCompiler$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetCompiler$_compile_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetCompiler$_getAllAssets_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetCompiler$_removeDeletedFiles_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetCompiler$_removeDeletedFiles_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetCompiler$_removeDeletedFiles_closure5_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetCompiler$_removeDeletedFiles_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetCompiler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetHelper$_assetForFileName_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetHelper$_assetForFileName_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetHelper$_concat_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetHelper$_concat_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetHelper$_fileNameWithoutExtensionFromArtefact_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetHelper$_getPossibleFileSpecs_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetMethodTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetMethodTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetPipelineFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetProcessorService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure1_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure2_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure6_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib$_paramsToHtmlAttr_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\AssetsTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\CacheManager$_findCache_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\CacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\CssAssetFile$_directiveForLine_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\CssAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor$_findDirectives_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor$_isFileInTree_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor$_recursiveTreeAppend_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor$_relativePath_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor$_relativePath_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor$_requireFileDirective_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor$_requireFullTreeDirective_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor$_requireTreeDirective_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\DirectiveProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\HtmlAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\JsAssetFile$_directiveForLine_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\JsAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\ManifestAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\Processor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\grails\AssetResourceLocator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\grails\CachingLinkGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\grails\LinkGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\CssMinifyPostProcessor$_process_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\CssMinifyPostProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\CssProcessor$_process_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\CssProcessor$_relativePathToBaseFile_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\CssProcessor$_relativePathToBaseFile_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\CssProcessor$_relativePath_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\CssProcessor$_relativePath_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\CssProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\UglifyJsProcessor$_parseOptions_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\UglifyJsProcessor$_parseOptions_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\asset\pipeline\processors\UglifyJsProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\BlockingCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheBeanPostProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheConfigArtefactHandler$CacheConfigGrailsClass.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheConfigArtefactHandler$DefaultCacheConfigGrailsClass.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheConfigArtefactHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheEvict.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CachePut.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CacheTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\Cacheable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\ConfigBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\ConfigLoader$_sortConfigs_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\ConfigLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CustomCacheKeyGenerator$CacheKey.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\CustomCacheKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsAnnotationCacheOperationSource$DefaultCacheKey.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsAnnotationCacheOperationSource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsCacheAdminService$_clearAllCaches_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsCacheAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsCacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsConcurrentMapCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsConcurrentMapCacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\GrailsValueWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\SerializableByteArrayOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\SerializableOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\SimpleKeyGenerator$SimpleKey.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\SimpleKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\Timer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\compiler\CacheTransformation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\util\ClassUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\AlreadyGzippedException.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\ContentCacheParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\GenericResponseWrapper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\GenericResponseWrapper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\GenericResponseWrapper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\GenericResponseWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\Header$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\Header.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\HttpDateFormatter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\PageInfo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\PageInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\SerializableCookie.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\AbstractFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\CacheExpressionRootObject.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\CacheOperationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\DefaultWebKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\ExpressionEvaluator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\LazyParamAwareEvaluationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\NoOpFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\PageFragmentCachingFilter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\PageFragmentCachingFilter$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\PageFragmentCachingFilter$CacheStatus.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\PageFragmentCachingFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\WebKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\simple\MemoryBlockingCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\simple\MemoryCacheConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\cache\web\filter\simple\MemoryPageFragmentCachingFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ChangelogXml2Groovy$_appendAttrs_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ChangelogXml2Groovy$_appendWithIndent_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ChangelogXml2Groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DbdocController$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DbdocController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_expandExpressions_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_extractZipFile_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_handleIncludedChangeLog_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_processIncludeAll_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_processProperty_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_processRollback_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_setPropertiesFromAttributes_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormColumn$_isIdentityColumn_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormColumn.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_createIdentifierGenerator_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_createSnapshot_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_createSnapshot_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure3_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseTypeConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GormDiff.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GrailsChange$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GrailsChange.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GrailsChangeLogParser$_setChangelogProperties_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GrailsChangeLogParser.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GrailsClassLoaderResourceAccessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GrailsDiffStatusListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GrailsPrecondition$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GrailsPrecondition.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\GroovyAwareStringChangeLogSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\HibernateAwareTypeConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationRunner$_autoRun_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationRunner$_autoRun_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationRunner$_runMigrations_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_getDataSourceConfigs_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_getDatabase_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_getDatabases_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure18_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MySQLCompatibleChangeLogSerializer$_hasForeignKeyConstraintChange_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MySQLCompatibleChangeLogSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\MysqlAwareCreateTableGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\NoopVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_appendToChangelog_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_appendToChangelog_closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_appendToChangelog_closure2_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_executeAndWrite_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_generatePreviousChangesetSql_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\Slf4jLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\AuthorListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\AuthorWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\ChangeLogListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\ChangeLogWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\ColumnWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\HTMLListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\HTMLWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\MemoryDocVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\PendingChangesWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\PendingSQLWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\RecentChangesWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\TableListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\TableWriter$_writeCustomHTML_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\TableWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\grails\plugin\webxml\FilterManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryConfig$_init_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryConfig$_init_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider$_doRemoteFunction_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider$_doRemoteFunction_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider$_doRemoteFunction_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider$_doRemoteFunction_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\AbstractGrailsTemplateGenerator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\AbstractGrailsTemplateGenerator$GrailsControllerType.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\AbstractGrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\DefaultGrailsTemplateGenerator$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\DefaultGrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\DomainClassPropertyComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\GrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\SimpleDomainClassPropertyComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\view\ScaffoldedGroovyPageView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\view\ScaffoldingViewResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_cs_CZ.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_da.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_ja.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_nb.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_pt_BR.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_pt_PT.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_sv.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_th.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\grails-app\i18n\messages_zh_CN.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\README.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\README.org" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\bin\uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\docstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\lib\consolidator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\lib\parse-js.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\lib\process.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\lib\squeeze-more.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\r.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\beautify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\testconsolidator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\testparser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\1e21.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\array1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\array2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\array3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\array4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\assignment.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\concatstring.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\const.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\div-with-regexp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\empty-blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\forstatement.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\if-not.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\if.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\ifreturn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\ifreturn2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\infinite.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue10.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue11.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue13.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue14.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue16.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue17.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue20.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue21.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue25.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue27.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue278.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue28.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue29.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue30.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue34.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue349.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue353.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue372.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue471.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue48.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue50.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue53.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue54.1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue68.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue69.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issue9.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\issues222_324.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\mangle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\null_string.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\strict-equals.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\var.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\expected\with.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\1e21.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\array1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\array2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\array3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\array4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\assignment.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\concatstring.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\const.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\div-with-regexp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\empty-blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\forstatement.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\if-not.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\if.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\ifreturn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\ifreturn2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\infinite.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue10.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue11.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue13.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue14.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue16.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue17.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue20.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue21.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue25.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue27.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue278.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue28.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue29.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue30.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue34.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue349.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue353.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue372.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue471.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue48.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue50.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue53.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue54.1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue68.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue69.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issue9.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\issues222_324.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\mangle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\null_string.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\strict-equals.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\var.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\compress\test\with.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\test\unit\scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\tmp\hoist.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\tmp\instrument.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\tmp\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\uglifyjs\uglify-js.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\KarGaroo\target\work\resources\web.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KarGaroo.iml" afterPath="$PROJECT_DIR$/KarGaroo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/profile.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/profile.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/BlankConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/BlankConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/BuildTestDataGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/BuildTestDataGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/BuildTestDataService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/BuildTestDataService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/mixin/BuildTestDataTestPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/mixin/BuildTestDataTestPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/mixin/BuildTestDataUnitTestMixin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/mixin/BuildTestDataUnitTestMixin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/ConstraintHandlerException.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/ConstraintHandlerException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/CreditCardConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/CreditCardConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/DomainInstanceBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/DomainInstanceBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/DomainUtil.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/DomainUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/EmailConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/EmailConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/mixin/GormProvider.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/mixin/GormProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/InListConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/InListConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MatchesConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MatchesConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MaxConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MaxConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MaxSizeConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MaxSizeConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MinConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MinConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MinSizeConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/MinSizeConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/mixin/MockDomainHelper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/mixin/MockDomainHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/MockErrors.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/MockErrors.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/NullableConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/NullableConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/RangeConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/RangeConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/SizeConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/SizeConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/TestDataConfigTemplate.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/TestDataConfigTemplate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/TestDataConfigurationHolder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/TestDataConfigurationHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/TomcatGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/TomcatGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/UniqueConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/UniqueConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/UrlConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/UrlConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/ValidatorConstraintHandler.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/buildtestdata/handler/ValidatorConstraintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KarGaroo.iws" />
@@ -545,34 +157,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Address.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/Address.groovy">
+      <file leaf-file-name="logUp.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/user/logUp.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6415094" vertical-offset="0" max-vertical-offset="289">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logIn.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/user/logIn.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.0408163" vertical-offset="345" max-vertical-offset="867">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="2533" max-vertical-offset="3366">
+              <caret line="149" column="38" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.gsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forum.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/css/forum.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3281">
+              <caret line="0" column="0" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlMappings.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/UrlMappings.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlMappings.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40583554" vertical-offset="0" max-vertical-offset="377">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/user/profile.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90229887" vertical-offset="1093" max-vertical-offset="2533">
-              <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3009">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="141" />
+              <folding>
+                <marker date="1432001961150" expanded="true" signature="1039:1284" placeholder="..." />
+                <marker date="1432001961150" expanded="true" signature="1329:1517" placeholder="..." />
+                <marker date="1432001961150" expanded="true" signature="3977:4105" placeholder="..." />
+                <marker date="1432001961150" expanded="true" signature="4146:4274" placeholder="..." />
+                <marker date="1432001961150" expanded="true" signature="4434:4586" placeholder="..." />
+                <marker date="1432001961150" expanded="true" signature="4627:4781" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="816">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -607,13 +253,24 @@
         <option value="$PROJECT_DIR$/grails-app/views/logup/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/profile/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/mainPage/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/web-app/css/simple-sidebar.css" />
+        <option value="$PROJECT_DIR$/web-app/css/parallax.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/forum/topic.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/forum/index.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/forum.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/chat/chatRoom.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/kargaroo/Car.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/logIn.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/menu.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/logUp.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/forum/ForumController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/profile.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/logUp.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/forum/thread.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
       </list>
     </option>
   </component>
@@ -651,6 +308,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -680,24 +338,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KarGaroo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KarGaroo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -794,6 +434,28 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -831,6 +493,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kargaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -839,10 +527,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kargaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KarGaroo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -858,6 +589,10 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="LayoutCode.rearrangeEntriesGSP" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -870,11 +605,14 @@
       <recent name="C:\Users\Daniel\IdeaProjects\KarGaroo\web-app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Miguel\IdeaProjects\KarGaroo\web-app\images" />
+      <recent name="C:\Users\Miguel\IdeaProjects\KarGaroo\grails-app\views\chat" />
       <recent name="$PROJECT_DIR$/grails-app/views/user" />
       <recent name="$PROJECT_DIR$/web-app/js" />
       <recent name="$PROJECT_DIR$/web-app/css" />
-      <recent name="$PROJECT_DIR$/web-app" />
-      <recent name="$PROJECT_DIR$/web-app/images/menuPrin" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kargaroo" />
     </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:KarGaroo">
@@ -1237,8 +975,25 @@
       <workItem from="1430524035830" duration="539000" />
       <workItem from="1430704911842" duration="945000" />
       <workItem from="1430839327744" duration="457000" />
-      <workItem from="1430840535262" duration="13000" />
-      <workItem from="1431098192458" duration="884000" />
+      <workItem from="1430840535262" duration="574000" />
+      <workItem from="1430934104255" duration="623000" />
+      <workItem from="1430953433856" duration="1601000" />
+      <workItem from="1430960725278" duration="1483000" />
+      <workItem from="1431025236024" duration="1890000" />
+      <workItem from="1431059868525" duration="1104000" />
+      <workItem from="1431095073472" duration="453000" />
+      <workItem from="1431122518642" duration="3103000" />
+      <workItem from="1431131133463" duration="3312000" />
+      <workItem from="1431229956228" duration="32000" />
+      <workItem from="1431656325461" duration="12231000" />
+      <workItem from="1431704988968" duration="14370000" />
+      <workItem from="1431795431649" duration="6614000" />
+      <workItem from="1431834892516" duration="1819000" />
+      <workItem from="1431882168249" duration="1778000" />
+      <workItem from="1431907739039" duration="2739000" />
+      <workItem from="1431976418774" duration="4028000" />
+      <workItem from="1432000450237" duration="780000" />
+      <workItem from="1432002088400" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="User y UserCar Domain class version comentada relaciones">
       <created>1429199436815</created>
@@ -1300,13 +1055,37 @@
       <option name="project" value="LOCAL" />
       <updated>1430500085685</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge master sergio">
+      <created>1430840592786</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1430840592786</updated>
+    </task>
+    <task id="LOCAL-00012" summary="subiendo el foro al master pues el merge con Julian no funciono">
+      <created>1431657444531</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1431657444531</updated>
+    </task>
+    <task id="LOCAL-00013" summary="mejorados algunos aspectos graficos del foro, botones  foro y perfil funcionales en el menu">
+      <created>1431719313082</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1431719313082</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Foro con imagenes de usuario , Registro terminado, Login terminado">
+      <created>1431980747972</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1431980747972</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48064000" />
+    <option name="totallyTimeSpent" value="107248000" />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -1328,44 +1107,44 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35085228" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3425775" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32452276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32300162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33931485" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878837" sideWeight="0.5011236" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24810892" sideWeight="0.4988764" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20121029" sideWeight="0.4988764" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34361234" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1395,7 +1174,11 @@
     <MESSAGE value="Ordenamiento del codigo y eliminacion de controladores no nesesarios" />
     <MESSAGE value="Registro y login funcionando, toca validar datos en el registro y el login, agregar logOut y areglar algunos errores de la sesion de usuario" />
     <MESSAGE value="completo y funcionando registro ,logIn , logOut y manejo de sesiones de usuario,por ahora con imagenes de maximo 16k para el avatar, falta  validacion de datos y errores" />
-    <option name="LAST_COMMIT_MESSAGE" value="completo y funcionando registro ,logIn , logOut y manejo de sesiones de usuario,por ahora con imagenes de maximo 16k para el avatar, falta  validacion de datos y errores" />
+    <MESSAGE value="Merge master sergio" />
+    <MESSAGE value="subiendo el foro al master pues el merge con Julian no funciono" />
+    <MESSAGE value="mejorados algunos aspectos graficos del foro, botones  foro y perfil funcionales en el menu" />
+    <MESSAGE value="Foro con imagenes de usuario , Registro terminado, Login terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Foro con imagenes de usuario , Registro terminado, Login terminado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1408,10 +1191,102 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/UserCar.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/logUp.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1170">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="8430">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="525">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/UserCar.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="210">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/logUp.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1170">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/profilecss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/profilecss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/profilecss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/profilecss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2445">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/profile.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -1436,6 +1311,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/UserCar.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1275">
@@ -1450,10 +1335,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/kargaroo/UserSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/web-app/css/profilecss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.521739" vertical-offset="0" max-vertical-offset="405">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1687" max-vertical-offset="2400">
+          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="417">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1464,9 +1356,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/Address.groovy">
+    <entry file="file://$PROJECT_DIR$/test/unit/kargaroo/UserSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6415094" vertical-offset="0" max-vertical-offset="289">
+        <state vertical-scroll-proportion="0.21428572" vertical-offset="0" max-vertical-offset="630">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/parallax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="408">
+          <caret line="2" column="95" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/css_own.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/freelancer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6906078" vertical-offset="612" max-vertical-offset="9622">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="6375">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/parallax.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2679558" vertical-offset="862" max-vertical-offset="1224">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/forum/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41717792" vertical-offset="204" max-vertical-offset="1003">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/images/usuarioChat.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/simple-sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1687" max-vertical-offset="2340">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/chat/chatRoom.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="3375">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/DiscussionThread.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.075" vertical-offset="0" max-vertical-offset="600">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/Comment.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.075" vertical-offset="0" max-vertical-offset="600">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/Section.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08152174" vertical-offset="0" max-vertical-offset="368">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
@@ -1475,18 +1458,135 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2304038" vertical-offset="142" max-vertical-offset="705">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/Topic.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3043479" vertical-offset="0" max-vertical-offset="390">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/Car.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.869565" vertical-offset="0" max-vertical-offset="360">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/menu.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11335012" vertical-offset="315" max-vertical-offset="2505">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/logIn.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.0408163" vertical-offset="345" max-vertical-offset="867">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.657754" vertical-offset="249" max-vertical-offset="855">
+          <caret line="33" column="137" selection-start-line="33" selection-start-column="137" selection-end-line="33" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/forum/topic.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8085105" vertical-offset="721" max-vertical-offset="1200">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2460">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/profile.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90229887" vertical-offset="1093" max-vertical-offset="2533">
-          <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3009">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="141" />
+          <folding>
+            <marker date="1432001961150" expanded="true" signature="1039:1284" placeholder="..." />
+            <marker date="1432001961150" expanded="true" signature="1329:1517" placeholder="..." />
+            <marker date="1432001961150" expanded="true" signature="3977:4105" placeholder="..." />
+            <marker date="1432001961150" expanded="true" signature="4146:4274" placeholder="..." />
+            <marker date="1432001961150" expanded="true" signature="4434:4586" placeholder="..." />
+            <marker date="1432001961150" expanded="true" signature="4627:4781" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="816">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/forum/ForumController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="1428">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="75" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/forum/thread.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1309">
+          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/logUp.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="3366">
+          <caret line="149" column="38" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/forum.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3281">
+          <caret line="0" column="0" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40583554" vertical-offset="0" max-vertical-offset="377">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1502,10 +1602,10 @@
               <option name="pluginDependenciesCrc" value="-747976210" />
               <option name="properties">
                 <map>
-                  <entry key="grails.global.plugins.dir" value="C:\Users\Daniel\.grails\2.4.4\global-plugins" />
+                  <entry key="grails.global.plugins.dir" value="C:\Users\JK\.grails\2.4.4\global-plugins" />
                   <entry key="grails.project.plugins.dir" value="target\work\plugins" />
                   <entry key="grails.project.work.dir" value="target\work" />
-                  <entry key="grails.work.dir" value="C:\Users\Daniel\.grails\2.4.4" />
+                  <entry key="grails.work.dir" value="C:\Users\JK\.grails\2.4.4" />
                 </map>
               </option>
             </GrailsSettings>
@@ -1518,5 +1618,83 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>KarGaroo:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.4.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>KarGaroo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

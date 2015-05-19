@@ -4,7 +4,7 @@
  * @Reworked By @kaptenn_com 
  * @package PARALLAX LOGIN.
  */
-    
+
     body {
         background-color: #444;
         background: url(http://watermarked.cutcaster.com/cutcaster-photo-100804893-Gravel-seamless-background.jpg);
@@ -56,12 +56,12 @@
 
 }
 .btn-success {
-    background-color: #F7A14B;
-    border-color: #F7A14B;
+    background-color: #EA8201;
+    border-color: #EA8201;
 
 }
 .btn-success.active,.btn-success.focus,.btn-success:active,.btn-success:focus,.btn-success:hover,.open>.dropdown-toggle.btn-success{
 	color:#fff;
-	background-color:#EC832F;
-	border-color:#EC832F
+	background-color:#F7A14B;
+	border-color:#F7A14B;
 }

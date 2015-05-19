@@ -30,86 +30,113 @@
 </head>
 
 <body>
-<div class="container" id="paddingMenu" >
+
+<div class="container">
 
 
-<div id="wrapper">
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class="navbar-brand">
+                        <object>
+                            <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" class ="img-responsive svg">
+                            </embed>
+                        </object>Menu
+                    </a>
+                </li>
 
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
+                <li>
+                    <a href="${createLink(controller: 'user',action: 'profile')}">
+                        <i class="fa fa-user" > Perfil</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
 
-            <li class="sidebar-brand">
+                        <i class="fa fa-map-marker"> Mis rutas</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
 
-                <a class="navbar-brand"  href="#">
-                    <object>
-                        <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" class ="img-responsive svg">
-                        </embed>
-                    </object>Menu
-                </a>
-            </li>
+                        <i class="fa fa-search"> Buscador</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="${createLink(controller: 'forum')}">
+                        <i class="fa fa-users"> Foro</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="${createLink(controller: 'chat', action: 'goToChatRoom')}">
+                        <i class="fa fa-weixin">Chat</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
 
-            <li>
-                <a href="#">
-                    <i class="fa fa-user" > Perfil</i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-
-                    <i class="fa fa-map-marker"> Mis rutas</i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-
-                    <i class="fa fa-search"> Buscador</i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-
-                    <i class="fa fa-bell"> Notificaciones</i>
-                </a>
-            </li>
+                        <i class="fa fa-bell"> Notificaciones</i>
+                    </a>
+                </li>
                 <li>
                     <a href="${createLink(controller: 'user', action: 'logOut')}">
                         <i class="fa fa-sign-out"> logOut</i>
                     </a>
                 </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-question"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-question"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12" >
-
-                    <a class= "btn btn-lg btn-outline" href="#menu-toggle"  id="menu-toggle" >
-                        <i class="fa fa-bars"> MENU</i>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-question"></i>
                     </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+                <div class="row" id="full">
+                    <div class="col-lg-12" >
+                        <a class= "btn btn-lg btn-outline" href="#menu-toggle"  id="menu-toggle" >
+                            <i class="fa fa-bars"> MENU</i>
+                        </a>
+                    </div>
                 </div>
 
-                <g:layoutBody/>
+                <div class="row" id="mini">
+                    <div class="col-lg-12" >
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="${createLink(controller: 'user', action: 'logIn')}">
+                                        <i class="fa fa-user"></i>
+                                        Ingresa
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="${createLink(controller: 'user', action: 'logUp')}">
+                                        <i class="fa fa-user-plus"></i>
+                                        Registrate
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
 
+                <div class="row">
 
+                    <g:layoutBody/>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- /#page-content-wrapper -->
+    <!-- /#page-content-wrapper -->
 
 </div>
 
