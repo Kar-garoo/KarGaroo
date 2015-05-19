@@ -182,7 +182,7 @@
                 <p class="text-justify">Ofreciendo una mejor oportunidad de transporte con facilidad de acceso. Una aplicación permitirá a las personas compartir información fácilmente y ponerse en contacto sin gastar mucho tiempo.</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="hola.gsp" class="btn btn-lg btn-outline">
+                <a href="${createLink(controller: 'user', action: 'logUp')}" class="btn btn-lg btn-outline">
                     <i class="fa fa-users"> Registrarse</i>
                 </a>
             </div>
@@ -290,7 +290,7 @@
                         <h2>Project Title</h2>
                         <hr class="star-primary">
                         <img src="${request.contextPath}/mainPageTheme/img/portfolio/Taxi.svg" class="img-responsive img-centered" alt="">
-                        <p>Ahorra dinero al compartir taxi con alguien mas <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar Taxi</a>. Comunicate con el y ahorrate el estres del bus tambien!</p>
+                        <p>Ahorra dinero al compartir taxi con alguien más, <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar Taxi</a>. Comunicate con él y ahorrate el estres del bus también!</p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
@@ -313,7 +313,7 @@
                         <h2>Project Title</h2>
                         <hr class="star-primary">
                         <img src="${request.contextPath}/mainPageTheme/img/portfolio/Car.svg" class="img-responsive img-centered" alt="">
-                        <p>Comparte un vehiculo y conoce a alguien nuevo <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar vehiculo</a>. Hay genete que te podria ayudar en un apuro y tu tambien les puedes ayudar.</p>
+                        <p>Comparte un vehículo y conoce a alguien nuevo, <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar vehículo</a>. Hay gente que te podría ayudar en un apuro y tu también les puedes ayudar.</p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
@@ -336,7 +336,7 @@
                         <h2>Project Title</h2>
                         <hr class="star-primary">
                         <img src="${request.contextPath}/mainPageTheme/img/portfolio/moto.svg" class="img-responsive img-centered" alt="">
-                        <p>Para gente mas atrevida, tal vez una moto sea lo mejor <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar Moto</a>.</p>
+                        <p>Para gente más atrevida, tal vez una moto sea lo mejor, <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar Moto</a>.</p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
