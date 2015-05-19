@@ -168,7 +168,7 @@
                         </g:if>
                         <g:else>
                             <div class="row">
-                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-2  list-group-item img-rounded">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-2  list-group-item img-rounded avatar-loader">
                                     <legend>Imagen de usuario</legend>
                                     <label for="avatar">Avatar (3M)</label>
                                     <input type="file" name="avatar" id="avatar" />
