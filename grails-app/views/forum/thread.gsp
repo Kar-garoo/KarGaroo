@@ -30,7 +30,12 @@
         <div class="list-group-item">
             <div class="item-title row">
                 <div class="col-md-2">
-                    <img src="${createLink(controller:'user', action:'avatar_image', params:[user:comment.commentBy.userName])}">
+                    <g:if test="${comment.commentBy.avatar}">
+                        <img class="img-rounded img-responsive img-centered"src="${createLink(controller:'user', action:'avatar_image', params:[user:comment.commentBy.userName])}">
+                    </g:if>
+                    <g:else>
+                        <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
+                    </g:else>
                 </div>
                 <div class="col-md-4">
                     <h4>${comment.commentBy.userName}</h4>

@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b388e4-b083-4c15-8cba-bf4f384caf78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kargaroo/Car$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/kargaroo/Car$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kargaroo/Car.class" afterPath="$PROJECT_DIR$/target/classes/kargaroo/Car.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kargaroo/User$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/kargaroo/User$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kargaroo/User.class" afterPath="$PROJECT_DIR$/target/classes/kargaroo/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kargaroo/UserController.class" afterPath="$PROJECT_DIR$/target/classes/kargaroo/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/kargaroo/Car.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/kargaroo/Car.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/kargaroo/forum/ForumController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/kargaroo/forum/ForumController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KarGaroo.iml" afterPath="$PROJECT_DIR$/KarGaroo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/logIn.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/logIn.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/logUp.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/logUp.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/menu.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/menu.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/profile.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/profile.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/simple-sidebar.css" afterPath="$PROJECT_DIR$/web-app/css/simple-sidebar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kargaroo/forum/ForumController.class" afterPath="$PROJECT_DIR$/target/classes/kargaroo/forum/ForumController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/forum/thread.gsp" afterPath="$PROJECT_DIR$/grails-app/views/forum/thread.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -53,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.298995" vertical-offset="0" max-vertical-offset="2460">
-              <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="270" max-vertical-offset="2460">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,12 +67,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread.gsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thread.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/forum/thread.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.170213" vertical-offset="0" max-vertical-offset="1080">
-              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.61764705" vertical-offset="264" max-vertical-offset="1155">
+              <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/user/profile.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2340426" vertical-offset="330" max-vertical-offset="2655">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="141" />
+              <folding>
+                <marker date="1431979418000" expanded="true" signature="1039:1284" placeholder="..." />
+                <marker date="1431979418000" expanded="true" signature="1329:1517" placeholder="..." />
+                <marker date="1431979418000" expanded="true" signature="3977:4105" placeholder="..." />
+                <marker date="1431979418000" expanded="true" signature="4146:4274" placeholder="..." />
+                <marker date="1431979418000" expanded="true" signature="4434:4586" placeholder="..." />
+                <marker date="1431979418000" expanded="true" signature="4627:4781" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,13 +97,10 @@
       <file leaf-file-name="User.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.28301886" vertical-offset="255" max-vertical-offset="720">
+            <state vertical-scroll-proportion="-0.65217394" vertical-offset="255" max-vertical-offset="720">
               <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -149,9 +147,9 @@
         <option value="$PROJECT_DIR$/grails-app/views/layouts/menu.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/forum/ForumController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/profile.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/forum/thread.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/user/logUp.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/forum/thread.gsp" />
       </list>
     </option>
   </component>
@@ -188,8 +186,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -853,7 +851,8 @@
       <workItem from="1431834892516" duration="1819000" />
       <workItem from="1431882168249" duration="1778000" />
       <workItem from="1431907739039" duration="2739000" />
-      <workItem from="1431976418774" duration="3938000" />
+      <workItem from="1431976418774" duration="4028000" />
+      <workItem from="1432000450237" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="User y UserCar Domain class version comentada relaciones">
       <created>1429199436815</created>
@@ -933,11 +932,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431719313082</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Foro con imagenes de usuario , Registro terminado, Login terminado">
+      <created>1431980747972</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1431980747972</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104831000" />
+    <option name="totallyTimeSpent" value="105701000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -997,8 +1002,8 @@
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1031,7 +1036,8 @@
     <MESSAGE value="Merge master sergio" />
     <MESSAGE value="subiendo el foro al master pues el merge con Julian no funciono" />
     <MESSAGE value="mejorados algunos aspectos graficos del foro, botones  foro y perfil funcionales en el menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="mejorados algunos aspectos graficos del foro, botones  foro y perfil funcionales en el menu" />
+    <MESSAGE value="Foro con imagenes de usuario , Registro terminado, Login terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Foro con imagenes de usuario , Registro terminado, Login terminado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1180,13 +1186,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/UserCar.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
@@ -1303,36 +1309,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/DiscussionThread.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.075" vertical-offset="0" max-vertical-offset="600">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/Comment.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.075" vertical-offset="0" max-vertical-offset="600">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/Section.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/Section.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08152174" vertical-offset="0" max-vertical-offset="368">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
@@ -1344,25 +1350,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/forum/Topic.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3043479" vertical-offset="0" max-vertical-offset="390">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/Car.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/Car.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.869565" vertical-offset="0" max-vertical-offset="360">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/menu.gsp">
@@ -1385,14 +1390,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8085105" vertical-offset="721" max-vertical-offset="1200">
           <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2460">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/profile.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64171124" vertical-offset="240" max-vertical-offset="2655">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state vertical-scroll-proportion="-2.2340426" vertical-offset="330" max-vertical-offset="2655">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="141" />
+          <folding>
+            <marker date="1431979418000" expanded="true" signature="1039:1284" placeholder="..." />
+            <marker date="1431979418000" expanded="true" signature="1329:1517" placeholder="..." />
+            <marker date="1431979418000" expanded="true" signature="3977:4105" placeholder="..." />
+            <marker date="1431979418000" expanded="true" signature="4146:4274" placeholder="..." />
+            <marker date="1431979418000" expanded="true" signature="4434:4586" placeholder="..." />
+            <marker date="1431979418000" expanded="true" signature="4627:4781" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65217394" vertical-offset="255" max-vertical-offset="720">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/logUp.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.446809" vertical-offset="1838" max-vertical-offset="2970">
+          <caret line="149" column="38" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1405,37 +1443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28301886" vertical-offset="255" max-vertical-offset="720">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/logUp.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.446809" vertical-offset="1838" max-vertical-offset="2970">
-          <caret line="149" column="38" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/forum/thread.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.170213" vertical-offset="0" max-vertical-offset="1080">
-          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.298995" vertical-offset="0" max-vertical-offset="2460">
-          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.61764705" vertical-offset="264" max-vertical-offset="1155">
+          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
           <folding />
         </state>
       </provider>
