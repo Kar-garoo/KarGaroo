@@ -31,13 +31,19 @@
                             </label>
 
                             <g:textField id="user-name" class="form-control" name="userName"  placeholder="Usuario"></g:textField>
-                            <g:textField type="password" id="password" class="form-control" name="password"  placeholder="Password"></g:textField>
+                            <g:passwordField type="password" id="password" class="form-control" name="password"  placeholder="Password"></g:passwordField>
 
                             <br>
+                            <div class="col-xs-12 col-sm-12 col-md-12 has-error">
+                                <g:if test="${flash.message == "Password incorrecto" || flash.message == "No existe user"}">
+                                    <label class="control-label list-group-item-danger img-rounded">Error usuario o contraseña</label>
+                                </g:if>
+                            </div>
                             <g:submitButton name="summit" type="submit" value="logIn" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
                         </fieldset>
                     </g:form>
                 </div>
+
             </div>
         </div>
     </div>

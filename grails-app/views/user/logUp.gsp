@@ -129,41 +129,56 @@
                         <div class="row">
                             <g:if test="${!hasErrors(field: 'password','error')}">
                                 <div class="col-xs-12 col-sm-6 col-md-6">
-                                    <g:textField type="password" id="password" class="form-control" name="password"  placeholder="Password"></g:textField>
+                                    <g:passwordField type="password" id="password" class="form-control" name="password"  placeholder="Password"></g:passwordField>
                                 </div>
                             </g:if>
                             <g:else>
                                 <div class="col-xs-12 col-sm-6 col-md-6 has-error">
-                                    <g:textField type="password" id="password" class="form-control" name="password"  placeholder="Password"></g:textField>
+                                    <g:passwordField type="password" id="password" class="form-control" name="password"  placeholder="Password"></g:passwordField>
                                     <label class="control-label list-group-item-danger img-rounded">Password entre 5-15 caracteres</label>
                                 </div>
                             </g:else>
-                            <g:if test="${!hasErrors(field: 'confirm','error')}">
-                                <div class="col-xs-12 col-sm-6 col-md-6">
-                                    <g:passwordField type="password" id="password_confirmation" class="form-control" name="confirm"  placeholder="Confirm Password"></g:passwordField>
-                                </div>
-                            </g:if>
-                            <g:else>
+                            <g:if test="${flash.message == "Password"}">
                                 <div class="col-xs-12 col-sm-6 col-md-6 has-error">
                                     <g:passwordField type="password" id="password_confirmation" class="form-control" name="confirm"  placeholder="Confirm Password"></g:passwordField>
                                     <label class="control-label list-group-item-danger img-rounded">Confirm diferente a password</label>
+                                </div>
+                            </g:if>
+                            <g:else>
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                    <g:passwordField type="password" id="password_confirmation" class="form-control" name="confirm"  placeholder="Confirm Password"></g:passwordField>
                                 </div>
                             </g:else>
 
                         </div>
                         <br>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-2  list-group-item img-rounded">
-                                <legend>Imagen de usuario</legend>
-                                <label for="avatar">Avatar (3M)</label>
-                                <input type="file" name="avatar" id="avatar" />
-                                <div style="font-size:0.8em; margin: 1.0em;">
-                                    <p>Tu imagen de usuario es opcional, pero es bueno que te identifiques de alguna manera.
-                                    Lo mejor seria una foto de tu cara.</p>
+                        <g:if test="${flash.message == "Avatar"}">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-2  list-group-item img-rounded">
+                                    <legend>Imagen de usuario</legend>
+                                    <label for="avatar">Avatar (3M)</label>
+                                    <input type="file" name="avatar"/>
+                                    <div style="font-size:0.8em; margin: 1.0em;">
+                                        <p>Tu imagen de usuario es opcional, pero es bueno que te identifiques de alguna manera.
+                                        Lo mejor seria una foto de tu cara.</p>
+                                    </div>
+                                    <label class="control-label list-group-item-danger img-rounded">Avatar deve ser:${formats}</label>
                                 </div>
                             </div>
-                        </div>
+                        </g:if>
+                        <g:else>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-2  list-group-item img-rounded avatar-loader">
+                                    <legend>Imagen de usuario</legend>
+                                    <label for="avatar">Avatar (3M)</label>
+                                    <input type="file" name="avatar" id="avatar" />
+                                    <div style="font-size:0.8em; margin: 1.0em;">
+                                        <p>Tu imagen de usuario es opcional, pero es bueno que te identifiques de alguna manera.
+                                        Lo mejor seria una foto de tu cara.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </g:else>
                         <br>
                         <g:submitButton name="summit" type="submit" value="Register" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
 
