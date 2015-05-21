@@ -7,8 +7,6 @@ import org.junit.*
 /**
  * See the API for {@link grails.test.mixin.support.GrailsUnitTestMixin} for usage instructions
  */
-@TestFor(UserCar)
-@Build(UserCar)
 class UserCarSpec{
 
     void testInsertCar() {
