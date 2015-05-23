@@ -80,7 +80,7 @@
                 </li>
 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-sign-in"></i>Entra<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li>
                             <a href="${createLink(controller: 'user', action: 'logIn')}">
@@ -289,7 +289,7 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="${request.contextPath}/mainPageTheme/img/portfolio/Taxi.svg" class="img-responsive img-centered" alt="">
+                        <img src="${resource(dir: 'images/menuPrin',file: 'Taxi.svg')}" class="img-responsive img-centered" alt="Taxi">
                         <p>Ahorra dinero al compartir taxi con alguien más, <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar Taxi</a>. Comunicate con él y ahorrate el estres del bus también!</p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
@@ -312,7 +312,7 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="${request.contextPath}/mainPageTheme/img/portfolio/Car.svg" class="img-responsive img-centered" alt="">
+                        <img src="${resource(dir: 'images/menuPrin',file: 'Car.svg')}" class="img-responsive img-centered" alt="Vehiculo">
                         <p>Comparte un vehículo y conoce a alguien nuevo, <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar vehículo</a>. Hay gente que te podría ayudar en un apuro y tu también les puedes ayudar.</p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
@@ -333,9 +333,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Moto</h2>
                         <hr class="star-primary">
-                        <img src="${request.contextPath}/mainPageTheme/img/portfolio/moto.svg" class="img-responsive img-centered" alt="">
+                        <img src="${resource(dir: 'images/menuPrin',file: 'moto.svg')}" class="img-responsive img-centered" alt="Moto">
                         <p>Para gente más atrevida, tal vez una moto sea lo mejor, <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Buscar Moto</a>.</p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
