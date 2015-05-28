@@ -111,30 +111,42 @@ class UserController {
         render(view: 'update',model:[user:User.findByUserName(session.userSession)])
     }
 
-    def updateUser(){
-
+    def updateUser() {
+        def userUpdate = User.findByUserName(session.userSession)
         def avatarFile = request.getFile('avatar')
-
-        if (!okcontents.contains(avatarFile.getContentType()) && avatarFile.bytes != []) {
-            flash.message = "Avatar"
-            render(view:'update', model:[user:User.findByUserName(session.userSession)])
-            return
+        print(avatarFile)
+        if (avatarFile) {
+            if (avatarFile.bytes == []) {
+                userUpdate.avatar = userUpdate.avatar
+                userUpdate.avatarType = userUpdate.avatarType
+            } else {
+                if (!okcontents.contains(avatarFile.getContentType()) && avatarFile.bytes != []) {
+                    flash.message = "Avatar"
+                    render(view: 'update', model: [user: User.findByUserName(session.userSession)])
+                    return
+                }
+            }
         }
 
-        def userUpdate = User.findByUserName(session.userSession)
-        if(params.DNI){
+
+        if (params.DNI) {
             userUpdate.DNI = Integer.parseInt(params.DNI)
         }
-        if(params.phone){
+        if (params.phone) {
             userUpdate.phone = Integer.parseInt(params.phone)
         }
-        if(params.description){
+        if (params.description) {
             userUpdate.description = params.description
         }
-        if(avatarFile.bytes){
-            userUpdate.avatar = avatarFile.bytes
-            userUpdate.avatarType = avatarFile.contentType
+        if (avatarFile) {
+            if (avatarFile.bytes != []) {
+
+                userUpdate.avatar = avatarFile.bytes
+                userUpdate.avatarType = avatarFile.contentType
+            }
         }
+
+
 
 
         if(!userUpdate.save(flush: true)){
