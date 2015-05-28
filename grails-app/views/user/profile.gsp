@@ -120,6 +120,7 @@
                     </div>
                 </div>
                 <p>
+                    <!-- Ejemplo de prueba -->
                     Software Engineering, Machine Learning, Image Processing,
                     Computer Vision, Artificial Neural Networks, Data Science,
                     Evolutionary Algorithms.

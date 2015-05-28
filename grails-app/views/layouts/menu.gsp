@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="${createLink(controller: 'route')}">
 
                         <i class="fa fa-map-marker"> Mis rutas</i>
                     </a>
