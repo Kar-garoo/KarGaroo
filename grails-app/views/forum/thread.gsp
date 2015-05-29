@@ -29,19 +29,18 @@
 
         <div class="list-group-item">
             <div class="item-title row">
-                <div class="col-md-2">
+                <div class="col-xs-6 col-md-2">
                     <g:if test="${comment.commentBy.avatar}">
-                        <img class="img-rounded img-responsive img-centered"src="${createLink(controller:'user', action:'avatar_image', params:[user:comment.commentBy.userName])}">
+                        <img height="100" width="100" class="img-rounded img-responsive img-centered"src="${createLink(controller:'user', action:'avatar_image', params:[user:comment.commentBy.userName])}">
                     </g:if>
                     <g:else>
-                        <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
+                        <img height="100" width="100" class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
                     </g:else>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-6 col-md-4">
                     <h4>${comment.commentBy.userName}</h4>
                     <h5><g:formatDate date="${comment.createDate}" format="dd MMM yyyy hh:mma"/></h5>
                 </div>
-
             </div>
             <div class="item-body">
                 ${comment.body}

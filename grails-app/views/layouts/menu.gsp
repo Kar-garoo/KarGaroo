@@ -33,18 +33,17 @@
 
 <div class="container">
 
-
-    <div id="wrapper">
+    <div id="wrapper" class="row">
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a class="navbar-brand">
-                        <object>
-                            <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" class ="img-responsive svg">
-                            </embed>
-                        </object>Menu
-                    </a>
+                <li>
+                    <div>
+                        <img src="${resource(dir: 'images',file: 'Kargaroo.svg')}" class ="img-responsive">
+                    </div>
+                    <div>
+                        <h3 class="text-center" style="color: #ffffff">Menu</h3>
+                    </div>
                 </li>
 
                 <li>
@@ -98,46 +97,96 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-
                 <div class="row" id="full">
                     <div class="col-lg-12" >
-                        <a class= "btn btn-lg btn-outline" href="#menu-toggle"  id="menu-toggle" >
-                            <i class="fa fa-bars"> MENU</i>
+                        <a class= "btn btn-lg btn-outline" href="#menu-toggle" id="menu-toggle" >
+                            <i class="fa fa-bars">Menu</i>
                         </a>
                     </div>
                 </div>
-
-                <div class="row" id="mini">
-                    <div class="col-lg-12" >
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="${createLink(controller: 'user', action: 'logIn')}">
-                                        <i class="fa fa-user"></i>
-                                        Ingresa
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="${createLink(controller: 'user', action: 'logUp')}">
-                                        <i class="fa fa-user-plus"></i>
-                                        Registrate
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </div>
-                </div>
-
-                <div class="row">
-
                     <g:layoutBody/>
-                </div>
             </div>
         </div>
     </div>
     <!-- /#page-content-wrapper -->
 
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation" id="miniMenu">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" style="padding-right: 5px;">
+                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="row">
+                    <a class="navbar-brand" href="#">
+                        <div>
+                            <img src="${resource(dir: 'images',file: 'Kargaroo.svg')}"  alt="KAR-GAROO">
+                        </div>
+                        <div class="col-lg-8">
+                            KARGAROO
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right text-center">
+                    <li>
+                        <a href="${createLink(controller: 'user',action: 'profile')}">
+                            <i class="fa fa-user" > Perfil</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="${createLink(controller: 'route')}">
+
+                            <i class="fa fa-map-marker"> Mis rutas</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+
+                            <i class="fa fa-search"> Buscador</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="${createLink(controller: 'forum')}">
+                            <i class="fa fa-users"> Foro</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="${createLink(controller: 'chat', action: 'goToChatRoom')}">
+                            <i class="fa fa-weixin">Chat</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+
+                            <i class="fa fa-bell"> Notificaciones</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="${createLink(controller: 'user', action: 'logOut')}">
+                            <i class="fa fa-sign-out"> logOut</i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-question"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 </div>
 
 <!-- /#wrapper -->

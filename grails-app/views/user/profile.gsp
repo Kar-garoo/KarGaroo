@@ -15,7 +15,7 @@
 <body  style = "background-color: #BDBDBD">
 
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
         <div class="panel panel-default">
             <div class="panel-heading resume-heading">
                 <div class="row">
@@ -95,6 +95,34 @@
                                 </g:else>
 
                                 <li class="list-group-item"><i class="fa fa-envelope"></i> ${user.mail}</li>
+
+                                <div class="bs-callout bs-callout-danger">
+                                        <h4>Reputacion</h4>
+                                        <ul class="list-group">
+                                            <a class="list-group-item inactive-link" href="#">
+
+                                                <div class="progress">
+                                                    <div data-placement="top" style="width: 20%;"
+                                                         aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
+                                                        <span class="sr-only">100%</span>
+                                                        <span class="progress-type">Rep</span>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="progress-meter">
+                                                    <div style="width: 25%;" class="meter meter-left"><span class="meter-text">Malo</span></div>
+                                                    <div style="width: 25%;" class="meter meter-left"><span class="meter-text">Medio</span></div>
+                                                    <div style="width: 20%;" class="meter meter-right"><span class="meter-text">Exelente</span></div>
+                                                    <div style="width: 30%;" class="meter meter-right"><span class="meter-text">Bueno</span></div>
+
+                                                </div>
+
+                                            </a>
+
+                                        </ul>
+                                    </div>
+
                             </ul>
                         </div>
                     </div>
@@ -138,31 +166,7 @@
                     <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
                 </ul>
             </div>
-            <div class="bs-callout bs-callout-danger">
-                <h4>Reputacion</h4>
-                <ul class="list-group">
-                    <a class="list-group-item inactive-link" href="#">
 
-                        <div class="progress">
-                            <div data-placement="top" style="width: 20%;"
-                                 aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
-                                <span class="sr-only">100%</span>
-                                <span class="progress-type">Reputacion</span>
-                            </div>
-                        </div>
-
-
-                        <div class="progress-meter">
-                            <div style="width: 25%;" class="meter meter-left"><span class="meter-text">Malo</span></div>
-                            <div style="width: 25%;" class="meter meter-left"><span class="meter-text">Puedo mejorar</span></div>
-                            <div style="width: 30%;" class="meter meter-right"><span class="meter-text">Bueno</span></div>
-                            <div style="width: 20%;" class="meter meter-right"><span class="meter-text">Exelente</span></div>
-                        </div>
-
-                    </a>
-
-                </ul>
-            </div>
         </div>
 
     </div>
