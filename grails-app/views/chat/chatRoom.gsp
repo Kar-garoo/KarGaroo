@@ -25,17 +25,19 @@
         <div class="col-md-8">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                    My historia con ${session?.receiver}
+                    <g:if test="${session.Receiver}">
+                        My historia con: ${session?.Receiver}
+                    </g:if>
+                    <g:else>
+                        Selecciona un acompañante
+                    </g:else>
                 </div>
                 <div class="panel-body">
                     <ul class="media-list">
                         <g:each in="${listMessages}" var="i">
                             <li class="media">
-
                                 <div class="media-body">
-
                                     <div class="media">
-                                        <div class=""></div>
                                         <g:if test="${kargaroo.User.findByUserName(i.transmitter).avatar}">
                                             <img class="media-object img-circle "  style="max-height:40px;" src="${createLink(controller:'user', action:'avatar_image', params:[user:i.transmitter])}">
                                         </g:if>
@@ -52,7 +54,6 @@
                                             <hr />
                                         </div>
                                     </div>
-
                                 </div>
                             </li>
                         </g:each>
@@ -75,12 +76,12 @@
         <div class="col-md-4">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    Usuarios Kargaroo
+                    Acompañantes Kargaroo
                 </div>
                 <div class="panel-body">
                     <ul class="media-list">
                         <g:each in="${listFriends}" var = "i">
-                                <div>
+                            <g:if test="${i.userName != session.Transmitter}">
                                     <li class="media">
                                         <div class="media-body">
                                             <div class="media">
@@ -98,8 +99,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                </div>
-
+                            </g:if>
                         </g:each>
                     </ul>
                 </div>
