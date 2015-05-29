@@ -5,9 +5,9 @@ class Car {
     String plate
     String model
     Integer capacity
-    //User owner
+    User owner
 
-    //static belongsTo = [user:User]
+    static belongsTo = [user:User]
 
     static constraints = {
         plate(maxSize:6, minSize: 6, nullable: true)

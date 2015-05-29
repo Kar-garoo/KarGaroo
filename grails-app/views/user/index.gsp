@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
 
     <title>Kar-garoo</title>
 
@@ -34,27 +35,33 @@
 <body id="page-top" class="index">
 
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" id="navbarOrange">
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <div class="navbar-header" style="padding-right: 5px;">
+            <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">
-                <object>
-                    <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" id="svgIcon">
-                </object>
-                KAR-GAROO
+        <div class="row">
+            <a class="navbar-brand" href="#">
+                    <div>
+                        <img src="${resource(dir: 'images',file: 'Kargaroo.svg')}"  alt="KAR-GAROO">
+                    </div>
+                    <div class="col-lg-8">
+                        KARGAROO
+                    </div>
             </a>
         </div>
 
+        </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right text-center">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
@@ -79,23 +86,19 @@
                     </a>
                 </li>
 
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-sign-in"></i>Entra<span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li>
-                            <a href="${createLink(controller: 'user', action: 'logIn')}">
-                                <i class="fa fa-user"></i>
-                                Ingresa
-                            </a>
-                        </li>
-                        <li>
-                            <a href="${createLink(controller: 'user', action: 'logUp')}">
-                                <i class="fa fa-user-plus"></i>
-                                Registrate
-                            </a>
-                        </li>
-                    </ul>
+                <li>
+                    <a href="${createLink(controller: 'user', action: 'logIn')}">
+                        <i class="fa fa-user"></i>
+                        Ingresa
+                    </a>
                 </li>
+                <li>
+                    <a href="${createLink(controller: 'user', action: 'logUp')}">
+                        <i class="fa fa-user-plus"></i>
+                        Registrate
+                    </a>
+                </li>
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -104,135 +107,146 @@
 </nav>
 
 <!-- Header -->
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <object>
-                    <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" id="svg">
-                </object>
-                <div class="intro-text">
-                    <span class="name">Comparte tu transporte</span>
-                    <hr class="star-light">
-                    <span class="skills">Taxi - Auto</span>
+<div class="row">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
+                    <object>
+                        <embed src="${resource(dir: 'images',file: 'Kargaroo.svg')}" id="svg">
+                    </object>
+                    <div class="intro-text">
+                        <span class="name">Comparte tu transporte</span>
+                        <hr class="star-light">
+                        <span class="skills">Taxi - Auto</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
+</div>
 
 <!-- Portfolio Grid Section -->
-<section id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Servicios</h2>
-                <hr class="star-primary">
+<div class="row">
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2>Servicios</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x">Taxi</i>
+                            </div>
+                        </div>
+                        <img src="${resource(dir: 'images/menuPrin',file: 'Taxi.svg')}" class="img-responsive" alt="Taxi">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x">Auto</i>
+                            </div>
+                        </div>
+                        <img src="${resource(dir: 'images/menuPrin',file: 'Car.svg')}" class="img-responsive" alt="Car">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x">Moto</i>
+                            </div>
+                        </div>
+                        <img src="${resource(dir: 'images/menuPrin',file: 'moto.svg')}" class="img-responsive" alt="moto">
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x">Taxi</i>
-                        </div>
-                    </div>
-                    <img src="${resource(dir: 'images/menuPrin',file: 'Taxi.svg')}" class="img-responsive" alt="Taxi">
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x">Auto</i>
-                        </div>
-                    </div>
-                    <img src="${resource(dir: 'images/menuPrin',file: 'Car.svg')}" class="img-responsive" alt="Car">
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x">Moto</i>
-                        </div>
-                    </div>
-                    <img src="${resource(dir: 'images/menuPrin',file: 'moto.svg')}" class="img-responsive" alt="moto">
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 
 <!-- About Section -->
-<section class="success" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Que es</h2>
-                <hr class="star-light">
+<div class="row">
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2>Que es</h2>
+                    <hr class="star-light">
+                </div>
             </div>
+            <div class="row">
+                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-1 col-md-offset-2 col-lg-offset-2 ">
+                    <p class="text-justify">Un sistema que permite compartir medios de transporte. En donde se opte por mejorar la movilidad en la ciudad de Bogotá, con posible crecimiento de la cobertura, ahorro de tiempo en cuanto al desplazamiento de un lugar a otro y que a la vez sea amigable con el medio ambiente. </p>
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0 ">
+                    <p class="text-justify">Ofreciendo una mejor oportunidad de transporte con facilidad de acceso. Una aplicación permitirá a las personas compartir información fácilmente y ponerse en contacto sin gastar mucho tiempo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-xs-offset-1 col-sm-offset-1 col-md-offset-2 col-lg-offset-2 text-center">
+                    <a href="${createLink(controller: 'user', action: 'logUp')}" class="btn btn-lg btn-outline">
+                        <i class="fa fa-users"> Registrarse</i>
+                    </a>
+                </div>
+            </div>
+
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-2">
-                <p class="text-justify">Un sistema que permite compartir medios de transporte. En donde se opte por mejorar la movilidad en la ciudad de Bogotá, con posible crecimiento de la cobertura, ahorro de tiempo en cuanto al desplazamiento de un lugar a otro y que a la vez sea amigable con el medio ambiente. </p>
-            </div>
-            <div class="col-lg-4">
-                <p class="text-justify">Ofreciendo una mejor oportunidad de transporte con facilidad de acceso. Una aplicación permitirá a las personas compartir información fácilmente y ponerse en contacto sin gastar mucho tiempo.</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="${createLink(controller: 'user', action: 'logUp')}" class="btn btn-lg btn-outline">
-                    <i class="fa fa-users"> Registrarse</i>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 
 <!-- How work  Section -->
-<section id="howWork">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Como funciona</h2>
-                <hr class="star-primary">
+<div class="row">
+    <section id="howWork">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2>Como funciona</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0 ">
+                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4">
+                    <h3 class="text-center">Registra</h3>
+                    <p class="text-justify">Unete a nuestra comunidad y empieza a utilizar otra alternativa de transporte.</p>
+                    <img src="${resource(dir: 'images/menuPrin',file: 'registration.svg')}" class="img-responsive img-centered" style="padding-top: 10%" alt="Registrarce">
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4">
+                    <h3 class="text-center">Busca</h3>
+                    <p class="text-justify">Busca una ruta que te sirva y contacta a el usuario que la ofrece.</p>
+                    <img src="${resource(dir: 'images/menuPrin',file: 'mapa.svg')}" class="img-responsive img-centered"  alt="Mapa">
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4">
+                    <h3 class="text-center">Comparte</h3>
+                    <p class="text-justify">Comparte el auto con alguien mas, ahorras y no te estresas.</p>
+                    <img src="${resource(dir: 'images/menuPrin',file: 'share.svg')}" class="img-responsive img-centered" style="padding-top: 10%"  alt="Comparte">
+
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <h3 class="text-center">Registra</h3>
-                <p class="text-justify">Unete a nuestra comunidad y empieza a utilizar otra alternativa de transporte.</p>
-                <img src="${resource(dir: 'images/menuPrin',file: 'registration.svg')}" class="img-responsive img-centered" style="padding-top: 10%" alt="Registrarce">
-            </div>
-            <div class="col-sm-4">
-                <h3 class="text-center">Busca</h3>
-                <p class="text-justify">Busca una ruta que te sirva y contacta a el usuario que la ofrece.</p>
-                <img src="${resource(dir: 'images/menuPrin',file: 'mapa.svg')}" class="img-responsive img-centered"  alt="Mapa">
-            </div>
-            <div class="col-sm-4">
-                <h3 class="text-center">Comparte</h3>
-                <p class="text-justify">Comparte el auto con alguien mas, ahorras y no te estresas.</p>
-                <img src="${resource(dir: 'images/menuPrin',file: 'share.svg')}" class="img-responsive img-centered" style="padding-top: 10%"  alt="Comparte">
-
-            </div>
-        </div>
-    </div>
-</section>
-
+    </section>
+</div>
 
 <!-- Footer -->
-<footer class="text-center">
+<div class="row">
+    <footer class="text-center">
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4">
+                <div class="footer-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <!--
                         <h3>Location</h3>
                         <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
                         -->
                 </div>
-                <div class="footer-col col-md-4">
+                <div class="footer-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <h3>Redes Sociales</h3>
                     <ul class="list-inline">
                         <li>
@@ -246,7 +260,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-col col-md-4">
+                <div class="footer-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <h3>Creado con Freelance</h3>
                     <p>
                         Freelance es un tema gratuito libre crado con Bootstrap por <a href="http://startbootstrap.com">Start Bootstrap</a>.
@@ -259,13 +273,16 @@
     <div class="footer-below">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     Copyright &copy; Kargaroo 2015
                 </div>
             </div>
         </div>
     </div>
 </footer>
+</div>
+
+
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top page-scroll visible-xs visble-sm">

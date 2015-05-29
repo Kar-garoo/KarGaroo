@@ -38,11 +38,11 @@
                                         </div>
                                     </g:if>
                                     <g:else>
-                                        <div class="fileinput fileinput-new" data-provides="fileinput">
-                                            <div class="fileinput-new thumbnail" style="width: 300px; height: 300px;">
+                                        <div class="fileinput fileinput-new"  data-provides="fileinput" style="width: 100%; height: auto;">
+                                            <div class="fileinput-new thumbnail" style="width: 100%; height: auto;" >
                                                 <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
                                             </div>
-                                            <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+                                            <div class="fileinput-preview fileinput-exists thumbnail img-rounded img-responsive img-centered" style="width: 100%; height: auto;"></div>
                                             <div>
                                                 <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="avatar"></span>
                                                 <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>

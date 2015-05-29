@@ -16,7 +16,9 @@ class User {
     byte [] avatar
     String avatarType
 
-    //static hasOne = [car:Car]
+    Car car;
+
+    static hasOne = [car:Car]
 
     //static  hasOne = [addres : Address]
 
@@ -34,6 +36,7 @@ class User {
         description(nullable: true)
         avatar(nullable:true, maxSize: 3145728 /* 16K */)
         avatarType(nullable:true)
+        car(nullable: true)
     }
 
     String toString(){
