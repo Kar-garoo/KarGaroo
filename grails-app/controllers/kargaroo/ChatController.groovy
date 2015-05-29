@@ -1,7 +1,8 @@
 package kargaroo
 
 class ChatController {
-    static count = 0
+    int myNumMessages = 0
+    static int count = 0
     def index() {
         redirect(controller: 'chat', action: 'addReceiver')
     }
@@ -11,11 +12,11 @@ class ChatController {
 
             def newMessage = new Message()
             newMessage.transmitter = session.Transmitter
-            print newMessage.transmitter
+            //print newMessage.transmitter
             newMessage.receiver = session.Receiver
-            print newMessage.receiver
+            //print newMessage.receiver
             newMessage.content = params.Message
-            print newMessage.content
+            //print newMessage.content
             newMessage.date = new Date()
             newMessage.save()
             goToChatRoom()
@@ -23,20 +24,22 @@ class ChatController {
     }
 
     /* agrega el emisor y el receptor de la conversacion actual */
-    def addReceiver(){
-        // Estos usuarios son a manera de ejemplo, para hacer las pruebas pertinentes del chat
-        if(count == 0){
-            session["Transmitter"] = "migue"
-            session["Receiver"] = "marce"
-            count = count + 1
+    def addReceiver( ){
+        /*
+        if (count == 0){
+            session["Transmitter"] ='Marce'
+            session["Receiver"] = 'Miguel'
+            count = count +1
         }else{
-            session["Transmitter"] = "marce"
-            session["Receiver"] = "migue"
+            session["Transmitter"] ='Miguel'
+            session["Receiver"] = 'Marce'
         }
+        */
+        session["Transmitter"] = session.userSession
+        session["Receiver"] = params.receiver
 
         goToChatRoom()
-        //session["Transmitter"] = session.userName
-        //session["Receiver"] = params.receiver
+
     }
     /*muestra la vista del chat con el historial de conversacion actual*/
     def goToChatRoom(){
@@ -46,7 +49,7 @@ class ChatController {
 
         Message.count()
         listMessages.sort{it.date}
-        render(view: 'chatRoom', model:[listMessages : listMessages])
+        render(view: 'chatRoom', model:[listMessages : listMessages, listFriends : User.list()])
     }
 
 }

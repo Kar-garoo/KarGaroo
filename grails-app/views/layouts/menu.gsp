@@ -70,7 +70,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="${createLink(controller: 'chat', action: 'goToChatRoom')}">
+                    <a href="${createLink(controller: 'chat', action: 'addReceiver')}">
                         <i class="fa fa-weixin">Chat</i>
                     </a>
                 </li>
