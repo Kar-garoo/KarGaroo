@@ -19,20 +19,22 @@ class ChatController {
             newMessage.date = new Date()
             newMessage.save()
             goToChatRoom()
-
     }
 
     /* agrega el emisor y el receptor de la conversacion actual */
     def addReceiver(){
         // Estos usuarios son a manera de ejemplo, para hacer las pruebas pertinentes del chat
         if(count == 0){
-            session["Transmitter"] = "migue"
-            session["Receiver"] = "marce"
+            session["Transmitter"] = session.userSession
+            session["Receiver"] = "sergiochevere"
             count = count + 1
         }else{
-            session["Transmitter"] = "marce"
-            session["Receiver"] = "migue"
+            session["Transmitter"] = "sergiochevere"
+            session["Receiver"] = session.userSession
         }
+
+        print(session.Transmitter)
+        print(session.Receiver)
 
         goToChatRoom()
         //session["Transmitter"] = session.userName

@@ -52,16 +52,16 @@
                     </ul>
                 </div>
 
-                <g:form controller="chat" action="addMessage" accept-charset="UTF-8" role="form" class="form-signin">
+                <g:uploadForm controller="chat" action="addMessage" accept-charset="UTF-8" role="form" class="form-signin">
                     <div class="panel-footer">
                         <div class="input-group">
-                            <input type="text" class="form-control" name="Message" placeholder="Enter Message" />
+                            <g:textField class="form-control" name="Message" placeholder="Enter Message"></g:textField>
                             <span class="input-group-btn">
-                                <button class="btn btn-info" type="button">SEND</button>
+                                <g:submitButton name="send" class="btn btn-info" type="button">SEND </g:submitButton>
                             </span>
                         </div>
                     </div>
-                </g:form>
+                </g:uploadForm>
             </div>
         </div>
         <div class="col-md-4">
@@ -192,16 +192,13 @@
                             </div>
                         </li>
                         <li class="media">
-
                             <div class="media-body">
-
                                 <div class="media">
                                     <a class="pull-left" href="#">
                                         <img class="media-object img-circle" style="max-height:40px;" src="assets/img/user.gif" />
                                     </a>
                                     <div class="media-body" >
-                                        <h5>Jhon Rexa | User </h5>
-
+                                        <h5>sergiochevere| User </h5>
                                         <small class="text-muted">Active From 3 hours</small>
                                     </div>
                                 </div>
