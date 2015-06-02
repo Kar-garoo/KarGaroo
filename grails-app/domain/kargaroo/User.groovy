@@ -16,9 +16,12 @@ class User {
     byte [] avatar
     String avatarType
 
-    Car car;
+    Car car
+
+    Group adminOf
 
     static hasOne = [car:Car]
+    static hasMany = [myGroups:Group]
 
     //static  hasOne = [addres : Address]
 
@@ -37,6 +40,8 @@ class User {
         avatar(nullable:true, maxSize: 3145728 /* 16K */)
         avatarType(nullable:true)
         car(nullable: true)
+        adminOf(nullable: true)
+        myGroups(nullable: true)
     }
 
     String toString(){

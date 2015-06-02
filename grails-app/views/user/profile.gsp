@@ -61,7 +61,7 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-xs-12 col-md-4 btn-block">
+                                <div class="col-xs-12 col-md-12">
                                     <a href="${createLink(controller: 'user', action: 'update')}" class="btn btn-block btn-default">
                                         <i class="fa fa-cog"> EDITAR </i>
                                     </a>
@@ -138,6 +138,8 @@
                     ${user.description}
                 </p>
             </div>
+            <div id="#thisdiv">
+            <g:if test="${user.getCar()}">
             <div class="bs-callout bs-callout-danger">
                 <div class="row">
                     <div class="col-lg-11 col-xs-10"><h4>Auto</h4></div>
@@ -147,12 +149,41 @@
                         </a>
                     </div>
                 </div>
-                <p>
-                    <!-- Ejemplo de prueba -->
-                    Software Engineering, Machine Learning, Image Processing,
-                    Computer Vision, Artificial Neural Networks, Data Science,
-                    Evolutionary Algorithms.
-                </p>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <p class="plate text-center">
+                                ${user?.getCar()?.plate}
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>MODELO</h4>
+                            <p>
+                                ${user?.getCar()?.model}
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <h4>CAPACIDAD</h4>
+                            <p>
+                                ${user?.getCar()?.capacity}
+                            </p>
+                        </div>
+                    </div>
+                </g:if>
+                <g:else>
+                    <div class="bs-callout bs-callout-danger">
+                <div class="row">
+                    <div class="col-lg-11 col-xs-10"><h4>Auto</h4></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-4 col-md-4">
+                        <a href="#" class="btn btn-block btn-default">
+                    <i class="fa fa-cog">Agrega tu vehiculo</i>
+                    </a>
+                </div>
+                </div>
+                    </div>
+                </g:else>
             </div>
 
             <div class="bs-callout bs-callout-danger">

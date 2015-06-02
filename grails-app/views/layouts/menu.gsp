@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title><g:layoutTitle default="Kargaroo"/></title>
 
 
     <!-- Bootstrap Core CSS -->
@@ -74,8 +74,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-
+                    <a href="${createLink(controller: 'user',action: 'notifications')}">
                         <i class="fa fa-bell"> Notificaciones</i>
                     </a>
                 </li>
@@ -165,7 +164,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="${createLink(controller: 'user',action: 'notifications')}">
 
                             <i class="fa fa-bell"> Notificaciones</i>
                         </a>

@@ -170,4 +170,8 @@ class UserController {
         out.close()
     }
 
+    def notifications(){
+        render(view: 'notifications',model:[user:User.findByUserName(session.userSession)])
+    }
+
 }
