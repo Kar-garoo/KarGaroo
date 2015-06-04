@@ -35,9 +35,12 @@
             <g:link controller="forum" action="thread" params="[threadId:thread.id]" >
                 <div class="list-group-item">
                     <div class="item-title">
+
                 <h4>${thread.subject}</h4>
+
                 </div>
                     <div class="item-body">
+
                     <div>
                         Creado por: ${thread.opener.userName}
                         el: <g:formatDate date="${thread.createDate}" format="dd MMM yyyy"/>
@@ -46,7 +49,17 @@
                         <span class="tagForo"><b>Comentarios</b>: ${thread.numberOfReplies} </span>
                     </div>
                         </div>
+
                 </div>
+                <g:if test="${thread.opener.userName == session.userSession}">
+                    <div class="deleteIco"  align="right" style="margin-top: -20px; margin-right: 5px;" >
+
+                        <g:link  controller="forum" action="deleteThread" params="${[threadId:thread.id]}">
+                            <i class="fa fa-trash"></i>
+                        </g:link>
+
+                    </div>
+                </g:if>
             </g:link>
 
     </g:each>

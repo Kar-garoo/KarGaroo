@@ -17,7 +17,7 @@
     background-color: rgba(86, 86, 86, 0);
     margin-left: -15px;
     padding-left: 15px;
-    margin-right: -15px;
+    margin-right: -10px;
     padding-right: 15px;
     margin-bottom: -10px;
     padding-top: 8px;
@@ -30,14 +30,19 @@
 
 
 
-A:hover , A:focus {color: #ffa2a0;
+A:hover , A:focus {color: #f6f6f6;
 text-decoration: none;
 }
-A {color: #EA8201;}
+A {color: #ffffff;}
+a:hover
+.deleteIco A:hover , .deleteIco A:focus {color: #ffffff;
+    text-decoration: none;
+}
+.deleteIco A {color: #000000;}
 a:hover
 
 .btn.focus, .btn:focus, .btn:hover {
-    color: #ffffff;
+    color: #8c8c8c;
 }
 
 .header {
