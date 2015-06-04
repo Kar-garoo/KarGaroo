@@ -8,6 +8,12 @@
     <meta name="author" content="" />
     <!-- agrega el Template MENU a la vista chatRoom -->
     <meta name="layout" content="menu"/>
+    <!-- archivos necesarios para recargar el historial -->
+    <script src="${resource(dir: 'js',file: 'jquery-1.10.2.min.js')}"></script>
+    <!-- archivos necesarios para el efecto del fondo -->
+    <script src="${resource(dir: 'js',file: 'parallax.js')}"></script>
+
+
 
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
