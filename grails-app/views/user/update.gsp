@@ -7,6 +7,9 @@
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
+    <script src="${resource(dir: 'js',file: 'jquery-1.10.2.min.js')}"></script>
+    <link href="${resource(dir: 'css', file: 'jasny-bootstrap.min.css')}" rel="stylesheet">
+    <g:javascript src="jasny-bootstrap.min.js"></g:javascript>
     <link href="${resource(dir: 'css',file: 'profilecss.css')}" rel="stylesheet">
 </head>
 
@@ -20,22 +23,33 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="col-xs-12 col-sm-4">
-                            <div class="row">
+                            <div class="row" >
                                 <figure>
                                     <g:if test="${user.avatar}">
-                                        <img class="img-rounded img-responsive img-centered center-block" src="${createLink(controller:'user', action:'avatar_image', id:user.ident())}" />
+                                        <div class="fileinput fileinput-new"  data-provides="fileinput" style="width: 100%; height: auto;">
+                                            <div class="fileinput-new thumbnail" style="width: 100%; height: auto;" >
+                                                <img class="img-rounded img-responsive img-centered" src="${createLink(controller:'user', action:'avatar_image', params: [user:user.userName])}" />
+                                            </div>
+                                            <div class="fileinput-preview fileinput-exists thumbnail img-rounded img-responsive img-centered" style="width: 100%; height: auto;"></div>
+                                            <div>
+                                                <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="avatar"></span>
+                                                <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                            </div>
+                                        </div>
                                     </g:if>
                                     <g:else>
-                                        <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
+                                        <div class="fileinput fileinput-new"  data-provides="fileinput" style="width: 100%; height: auto;">
+                                            <div class="fileinput-new thumbnail" style="width: 100%; height: auto;" >
+                                                <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
+                                            </div>
+                                            <div class="fileinput-preview fileinput-exists thumbnail img-rounded img-responsive img-centered" style="width: 100%; height: auto;"></div>
+                                            <div>
+                                                <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="avatar"></span>
+                                                <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                            </div>
+                                        </div>
                                     </g:else>
                                 </figure>
-                                <div class="row text-center">
-                                    <div class="fileUpload btn btn-primary">
-                                        <span>Upload 3M</span>
-                                        <input type="file" name="avatar" id="avatar" class="upload" id="avatar" />
-                                    </div>
-                                    <input id="uploadFile" placeholder="Selecciona imagen" disabled="disabled" />
-                                </div>
                                 <!--
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-2  list-group-item img-rounded">

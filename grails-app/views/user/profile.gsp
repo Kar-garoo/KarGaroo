@@ -15,7 +15,7 @@
 <body  style = "background-color: #BDBDBD">
 
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
         <div class="panel panel-default">
             <div class="panel-heading resume-heading">
                 <div class="row">
@@ -61,7 +61,7 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-xs-12 col-md-4 btn-block">
+                                <div class="col-xs-12 col-md-12">
                                     <a href="${createLink(controller: 'user', action: 'update')}" class="btn btn-block btn-default">
                                         <i class="fa fa-cog"> EDITAR </i>
                                     </a>
@@ -95,6 +95,34 @@
                                 </g:else>
 
                                 <li class="list-group-item"><i class="fa fa-envelope"></i> ${user.mail}</li>
+
+                                <div class="bs-callout bs-callout-danger">
+                                        <h4>Reputacion</h4>
+                                        <ul class="list-group">
+                                            <a class="list-group-item inactive-link" href="#">
+
+                                                <div class="progress">
+                                                    <div data-placement="top" style="width: 20%;"
+                                                         aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
+                                                        <span class="sr-only">100%</span>
+                                                        <span class="progress-type">Rep</span>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="progress-meter">
+                                                    <div style="width: 25%;" class="meter meter-left"><span class="meter-text">Malo</span></div>
+                                                    <div style="width: 25%;" class="meter meter-left"><span class="meter-text">Medio</span></div>
+                                                    <div style="width: 20%;" class="meter meter-right"><span class="meter-text">Exelente</span></div>
+                                                    <div style="width: 30%;" class="meter meter-right"><span class="meter-text">Bueno</span></div>
+
+                                                </div>
+
+                                            </a>
+
+                                        </ul>
+                                    </div>
+
                             </ul>
                         </div>
                     </div>
@@ -110,6 +138,8 @@
                     ${user.description}
                 </p>
             </div>
+            <div id="#thisdiv">
+            <g:if test="${user.getCar()}">
             <div class="bs-callout bs-callout-danger">
                 <div class="row">
                     <div class="col-lg-11 col-xs-10"><h4>Auto</h4></div>
@@ -119,12 +149,41 @@
                         </a>
                     </div>
                 </div>
-                <p>
-                    <!-- Ejemplo de prueba -->
-                    Software Engineering, Machine Learning, Image Processing,
-                    Computer Vision, Artificial Neural Networks, Data Science,
-                    Evolutionary Algorithms.
-                </p>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <p class="plate text-center">
+                                ${user?.getCar()?.plate}
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>MODELO</h4>
+                            <p>
+                                ${user?.getCar()?.model}
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <h4>CAPACIDAD</h4>
+                            <p>
+                                ${user?.getCar()?.capacity}
+                            </p>
+                        </div>
+                    </div>
+                </g:if>
+                <g:else>
+                    <div class="bs-callout bs-callout-danger">
+                <div class="row">
+                    <div class="col-lg-11 col-xs-10"><h4>Auto</h4></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-4 col-md-4">
+                        <a href="#" class="btn btn-block btn-default">
+                    <i class="fa fa-cog">Agrega tu vehiculo</i>
+                    </a>
+                </div>
+                </div>
+                    </div>
+                </g:else>
             </div>
 
             <div class="bs-callout bs-callout-danger">
@@ -138,31 +197,7 @@
                     <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
                 </ul>
             </div>
-            <div class="bs-callout bs-callout-danger">
-                <h4>Reputacion</h4>
-                <ul class="list-group">
-                    <a class="list-group-item inactive-link" href="#">
 
-                        <div class="progress">
-                            <div data-placement="top" style="width: 20%;"
-                                 aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
-                                <span class="sr-only">100%</span>
-                                <span class="progress-type">Reputacion</span>
-                            </div>
-                        </div>
-
-
-                        <div class="progress-meter">
-                            <div style="width: 25%;" class="meter meter-left"><span class="meter-text">Malo</span></div>
-                            <div style="width: 25%;" class="meter meter-left"><span class="meter-text">Puedo mejorar</span></div>
-                            <div style="width: 30%;" class="meter meter-right"><span class="meter-text">Bueno</span></div>
-                            <div style="width: 20%;" class="meter meter-right"><span class="meter-text">Exelente</span></div>
-                        </div>
-
-                    </a>
-
-                </ul>
-            </div>
         </div>
 
     </div>

@@ -47,10 +47,10 @@ legend{
         padding-top: 8%;
     }
     .img-responsive {
-    display: block;
-    max-width: 50%;
-    height: auto;
-    margin: auto;
+        display: block;
+        max-width: 50%;
+        height: auto;
+        margin: auto;
     }
     .panel {
     margin-bottom: 20px;
