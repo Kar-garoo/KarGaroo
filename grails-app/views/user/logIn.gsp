@@ -16,10 +16,10 @@
 <body>
 <div class="container">
     <div class="row vertical-offset-100">
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-1 col-md-offset-4 col-lg-offset-4">
             <div class="panel panel-default">
                 <div class="heading">
-                    <div class="row-fluid user-row">
+                    <div class="row">
                         <img src="${resource(dir: 'images', file: 'Kargaroo.svg')}" class="img-responsive" alt="Conxole Admin"/>
                     </div>
                 </div>

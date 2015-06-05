@@ -1,3 +1,18 @@
+@media only screen and (max-width: 768px) {
+    #miniMenu{
+        display: block;
+    }
+    #sidebar-wrapper{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #miniMenu{
+        display: none;
+    }
+}
+
 #menu_boton{
 	position: fixed;
 	background-color: #f2dfc4;
