@@ -38,7 +38,10 @@
                         Selecciona un acompañante
                     </g:else>
                 </div>
-                <div class="panel-body">
+
+
+                <div class="panel-body" id="historial">
+                    <div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
                     <ul class="media-list">
                         <g:each in="${listMessages}" var="i">
                             <li class="media">
@@ -64,18 +67,26 @@
                             </li>
                         </g:each>
                     </ul>
+                    </div>
                 </div>
-
                 <g:form controller="chat" action="addMessage" accept-charset="UTF-8" role="form" class="form-signin">
+                   <fileset>
                     <div class="panel-footer">
                         <div class="input-group">
+
                             <input type="text" class="form-control" name="Message" placeholder="Enter Message" />
                             <span class="input-group-btn">
-                                <button class="btn btn-info" type="button">SEND</button>
-                            </span>
+
+                                <g:submitButton name="summit" type="submit" value="ENVIAR" class="btn btn-info" tabindex="7"></g:submitButton>
+
+                                </span>
+
                         </div>
                     </div>
-                </g:form>
+                   </fileset>
+                            </g:form>
+
+
             </div>
         </div>
 
@@ -114,5 +125,15 @@
         </div>
     </div>
 </div>
+
+    <script>
+        $(document).ready(function(){
+            $("boton").click(function(){
+                $("historial").reload(true)
+            });
+
+        });
+    </script>
+
 </body>
 </html>

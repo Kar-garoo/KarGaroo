@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b388e4-b083-4c15-8cba-bf4f384caf78" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/kargaroo/ChatController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/kargaroo/ChatController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/chat/chatRoom.gsp" afterPath="$PROJECT_DIR$/grails-app/views/chat/chatRoom.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/logIn.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/logIn.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KarGaroo.iws" />
@@ -39,7 +43,7 @@
       <file leaf-file-name="UserController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2392" max-vertical-offset="2788">
+            <state vertical-scroll-proportion="-10.565217" vertical-offset="2392" max-vertical-offset="2788">
               <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
               <folding />
             </state>
@@ -49,8 +53,8 @@
       <file leaf-file-name="ChatController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/ChatController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="748">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.391304" vertical-offset="72" max-vertical-offset="918">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -59,8 +63,18 @@
       <file leaf-file-name="chatRoom.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/chat/chatRoom.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5536398" vertical-offset="0" max-vertical-offset="2108">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.53424656" vertical-offset="536" max-vertical-offset="2465">
+              <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logIn.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/user/logIn.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.857143" vertical-offset="395" max-vertical-offset="986">
+              <caret line="43" column="29" selection-start-line="26" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -82,12 +96,12 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="3026">
               <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
               <folding>
-                <marker date="1433460003861" expanded="true" signature="1039:1284" placeholder="..." />
-                <marker date="1433460003861" expanded="true" signature="1329:1517" placeholder="..." />
-                <marker date="1433460003861" expanded="true" signature="3977:4105" placeholder="..." />
-                <marker date="1433460003861" expanded="true" signature="4146:4274" placeholder="..." />
-                <marker date="1433460003861" expanded="true" signature="4434:4586" placeholder="..." />
-                <marker date="1433460003861" expanded="true" signature="4627:4781" placeholder="..." />
+                <marker date="1433460895644" expanded="true" signature="1039:1284" placeholder="..." />
+                <marker date="1433460895644" expanded="true" signature="1329:1517" placeholder="..." />
+                <marker date="1433460895644" expanded="true" signature="3977:4105" placeholder="..." />
+                <marker date="1433460895644" expanded="true" signature="4146:4274" placeholder="..." />
+                <marker date="1433460895644" expanded="true" signature="4434:4586" placeholder="..." />
+                <marker date="1433460895644" expanded="true" signature="4627:4781" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -95,6 +109,9 @@
       </file>
       <file leaf-file-name="User.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="816">
               <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
@@ -136,7 +153,6 @@
         <option value="$PROJECT_DIR$/grails-app/views/forum/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/kargaroo/Car.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/logIn.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/forum/ForumController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/profile.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy" />
@@ -149,6 +165,7 @@
         <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/menu.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/logIn.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/kargaroo/ChatController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/chat/chatRoom.gsp" />
       </list>
@@ -162,6 +179,25 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CheckTagEmptyBody</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -618,6 +654,7 @@
       <workItem from="1432913712930" duration="700000" />
       <workItem from="1432915089567" duration="6284000" />
       <workItem from="1433460010023" duration="282000" />
+      <workItem from="1433460901780" duration="6877000" />
     </task>
     <task id="LOCAL-00001" summary="User y UserCar Domain class version comentada relaciones">
       <created>1429199436815</created>
@@ -719,7 +756,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125837000" />
+    <option name="totallyTimeSpent" value="132714000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -759,13 +796,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16187595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25653595" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878837" sideWeight="0.5011236" order="3" side_tool="true" content_ui="tabs" />
@@ -778,9 +816,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32300162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3872549" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -869,17 +906,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/User.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="720">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/kargaroo/UserCar.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
@@ -1107,13 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/logIn.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.657754" vertical-offset="249" max-vertical-offset="855">
-          <caret line="33" column="137" selection-start-line="33" selection-start-column="137" selection-end-line="33" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/forum/topic.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8085105" vertical-offset="721" max-vertical-offset="1200">
@@ -1207,12 +1226,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="3026">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding>
-            <marker date="1433460003861" expanded="true" signature="1039:1284" placeholder="..." />
-            <marker date="1433460003861" expanded="true" signature="1329:1517" placeholder="..." />
-            <marker date="1433460003861" expanded="true" signature="3977:4105" placeholder="..." />
-            <marker date="1433460003861" expanded="true" signature="4146:4274" placeholder="..." />
-            <marker date="1433460003861" expanded="true" signature="4434:4586" placeholder="..." />
-            <marker date="1433460003861" expanded="true" signature="4627:4781" placeholder="..." />
+            <marker date="1433460895644" expanded="true" signature="1039:1284" placeholder="..." />
+            <marker date="1433460895644" expanded="true" signature="1329:1517" placeholder="..." />
+            <marker date="1433460895644" expanded="true" signature="3977:4105" placeholder="..." />
+            <marker date="1433460895644" expanded="true" signature="4146:4274" placeholder="..." />
+            <marker date="1433460895644" expanded="true" signature="4434:4586" placeholder="..." />
+            <marker date="1433460895644" expanded="true" signature="4627:4781" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1235,24 +1254,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/UserController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2392" max-vertical-offset="2788">
+        <state vertical-scroll-proportion="-10.565217" vertical-offset="2392" max-vertical-offset="2788">
           <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33261803" vertical-offset="3466" max-vertical-offset="81617">
+          <caret line="213" column="19" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/logIn.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.857143" vertical-offset="395" max-vertical-offset="986">
+          <caret line="43" column="29" selection-start-line="26" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/grails-2.4.4/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.3.7.jar!/org/codehaus/groovy/tools/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="27967" max-vertical-offset="39559">
+          <caret line="1654" column="0" selection-start-line="1654" selection-start-column="0" selection-end-line="1654" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/kargaroo/ChatController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="748">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.391304" vertical-offset="72" max-vertical-offset="918">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/chat/chatRoom.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5536398" vertical-offset="0" max-vertical-offset="2108">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.53424656" vertical-offset="536" max-vertical-offset="2465">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
           <folding />
         </state>
       </provider>
