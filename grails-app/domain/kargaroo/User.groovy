@@ -18,10 +18,9 @@ class User {
 
     Car car
 
-    Group adminOf
-
     static hasOne = [car:Car]
-    static hasMany = [myGroups:Group]
+    static hasMany = [groups:Group]
+    static mappedBy = [groups: "members"]
 
     //static  hasOne = [addres : Address]
 
@@ -40,9 +39,9 @@ class User {
         avatar(nullable:true, maxSize: 3145728 /* 16K */)
         avatarType(nullable:true)
         car(nullable: true)
-        adminOf(nullable: true)
-        myGroups(nullable: true)
     }
+
+
 
     String toString(){
         "${userName}, ${mail}, ${firstName}"

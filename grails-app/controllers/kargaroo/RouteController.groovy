@@ -2,6 +2,10 @@ package kargaroo
 
 class RouteController {
 
+
     def index() {
-    render (view: 'maps')}
+        print(Route.list())
+        render (view: 'maps',model: [mapVar:Route.list()[0]])
+    }
+
 }

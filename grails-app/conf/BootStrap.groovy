@@ -19,10 +19,13 @@ class BootStrap {
                           , avatar : null
                           , avatarType : null]
 
-        def user = new User(parameters).save(flush: true)
+        def user = new User(parameters).save()
+
+
 
 
         if ( Section.count() == 0 ) { // create data if no forum data found
+            new kargaroo.Group(name: "UNAL",description: 'Grupo de la unal').save().addToMembers(user)
 
             def section = new Section(title: "Seccion Principal").save()
 

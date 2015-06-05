@@ -11,6 +11,16 @@
 </head>
 
 <body  style = "background-color: #BDBDBD">
-    <li>${user}</li>
+    <g:each in="${groups}" var="group">
+        <g:each in="${group.members}" var="user">
+            <li>${user}</li>
+        </g:each>
+    </g:each>
+
+    <g:each in="${kargaroo.User.list().groups}" var="myGroups">
+        <g:each in="${myGroups}">
+            <li>${it.name}</li>
+        </g:each>
+    </g:each>
 </body>
 </html>

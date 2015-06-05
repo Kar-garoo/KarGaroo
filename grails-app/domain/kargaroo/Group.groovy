@@ -6,12 +6,13 @@ class Group {
     String description
 
 
-    static hasOne = [admin: User]
+    static hasMany = [members : User]
     static belongsTo = User
-    static hasMany = [usuarios:User]
 
     static constraints = {
-        name(unique: true)
-        usuarios(nullable: true)
+    }
+
+    static mapping = {
+        table "group_"
     }
 }

@@ -2,8 +2,8 @@ package kargaroo
 
 class Route {
 
-    Address inicio
-    Address fin
+    String beginning
+    String end
     Double meanTime
 
     //static belongsTo = [user: User]

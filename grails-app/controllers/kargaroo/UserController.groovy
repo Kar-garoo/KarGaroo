@@ -171,7 +171,7 @@ class UserController {
     }
 
     def notifications(){
-        render(view: 'notifications',model:[user:User.findByUserName(session.userSession)])
+        render(view: 'notifications',model:[groups:Group.list()])
     }
 
 }
