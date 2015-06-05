@@ -25,7 +25,7 @@ class BootStrap {
 
 
         if ( Section.count() == 0 ) { // create data if no forum data found
-            new kargaroo.Group(name: "UNAL",description: 'Grupo de la unal').save().addToMembers(user)
+            new kargaroo.Group(name: "UNAL",description: 'Grupo de la unal',opener:user).save().addToMembers(user)
 
             def section = new Section(title: "Seccion Principal").save()
 

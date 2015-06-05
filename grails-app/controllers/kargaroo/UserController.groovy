@@ -1,11 +1,5 @@
 package kargaroo
 
-import org.springframework.transaction.annotation.Transactional
-import org.springframework.web.multipart.commons.CommonsMultipartFile
-
-import javax.servlet.http.HttpServletRequest
-
-
 class UserController {
 
     def user
@@ -174,4 +168,27 @@ class UserController {
         render(view: 'notifications',model:[groups:Group.list()])
     }
 
+    def groups(){
+        [groups:Group.list()]
+    }
+    def members(){
+        [groupId:params.groupId]
+    }
+    def newGroup(String name, String description) {
+        if (name != null && name.trim().length() > 0) {
+            def opener = User.findByUserName(session["userSession"])
+
+            def newGroup=new Group(name: name, description: description, opener:opener).save().addToMembers(opener).save()
+
+
+
+
+
+
+
+            // go to  page so user can view his Thread
+
+        }
+        redirect(action:'groups')
+    }
 }
