@@ -41,7 +41,7 @@
 
 
                 <div class="panel-body" id="historial">
-                    <div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
+                    <div style="width:700px;height:500px;overflow:auto;">
                     <ul class="media-list">
                         <g:each in="${listMessages}" var="i">
                             <li class="media">
