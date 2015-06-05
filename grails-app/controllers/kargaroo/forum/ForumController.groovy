@@ -61,6 +61,16 @@ class ForumController {
         }
         redirect(action:'topic', params:[topicId:topicId, offset:offset])
     }
+    def deleteComment(long commentId){
+        def deleteComment = Comment.findById(commentId)
+        deleteComment.delete(flush: true)
+        redirect(action:'thread', params:[threadId:deleteComment.thread.id])
+    }
+    def deleteThread(long threadId){
+        def deleteThread = DiscussionThread.findById(threadId)
+        deleteThread.delete(flush: true)
+        redirect(action:'topic', params:[topicId:deleteThread.topic.id])
+    }
 
     def avatar_image() {
         print(user.avatar)

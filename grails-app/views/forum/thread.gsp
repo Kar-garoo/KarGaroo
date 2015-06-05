@@ -27,25 +27,41 @@
     </div>
     <g:each in="${comments}" var="comment">
 
-        <div class="list-group-item">
+
+        <div class="list-group-item" >
             <div class="item-title row">
-                <div class="col-xs-6 col-md-2">
+
+                <div class="col-xs-6 col-md-2" style="display: inline-block" >
                     <g:if test="${comment.commentBy.avatar}">
-                        <img height="100" width="100" class="img-rounded img-responsive img-centered"src="${createLink(controller:'user', action:'avatar_image', params:[user:comment.commentBy.userName])}">
+                        <img class="img-rounded img-responsive img-centered" style="height: 80px; max-width: 90px;" src="${createLink(controller:'user', action:'avatar_image', params:[user:comment.commentBy.userName])}">
                     </g:if>
                     <g:else>
-                        <img height="100" width="100" class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
+                        <img class="img-rounded img-responsive img-centered" style="height: 80px; max-width: 90px;" alt="Profile" src="http://placehold.it/300x300">
                     </g:else>
                 </div>
-                <div class="col-xs-6 col-md-4">
+                <div class="col-xs-6 col-md-4" style="display: inline-block; vertical-align: top">
+
                     <h4>${comment.commentBy.userName}</h4>
                     <h5><g:formatDate date="${comment.createDate}" format="dd MMM yyyy hh:mma"/></h5>
+
                 </div>
             </div>
             <div class="item-body">
                 ${comment.body}
+
             </div>
+
         </div>
+        <g:if test="${comment.commentBy.userName == session.userSession}">
+            <div class="deleteIco"  align="right" style="margin-top: -20px; margin-right: 5px;" >
+
+                <g:link  controller="forum" action="deleteComment" params="${[commentId:comment.id]}">
+                    <i class="fa fa-trash"></i>
+                </g:link>
+
+            </div>
+        </g:if>
+
 
     </g:each>
 
