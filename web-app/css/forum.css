@@ -33,13 +33,18 @@
 A:hover , A:focus {color: #f6f6f6;
 text-decoration: none;
 }
-A {color: #ffffff;}
-a:hover
-.deleteIco A:hover , .deleteIco A:focus {color: #ffffff;
+A {
+    color: #ffffff;
+}
+
+.deleteIco A:hover , .deleteIco A:focus {
+    color: #ffffff;
     text-decoration: none;
 }
-.deleteIco A {color: #000000;}
-a:hover
+.deleteIco A {
+    color: #000000;
+}
+
 
 .btn.focus, .btn:focus, .btn:hover {
     color: #8c8c8c;
