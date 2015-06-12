@@ -1,4 +1,4 @@
-<%@ page import="kargaroo.Group" %>
+<%@ page import="kargaroo.request.GroupRequest; kargaroo.User; kargaroo.Group" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
@@ -17,27 +17,61 @@
     <div class="header">
 
         <div>
-            <h2>${Group.findById(groupId).name}</h2>
-            <h2>${Group.findById(groupId).opener.userName}</h2>
+            <h2>Grupo: ${Group.findById(groupId).name}</h2>
+            <h2>Creado por: ${Group.findById(groupId).opener.userName}</h2>
         </div>
 
+        <g:if test="${Group.findById(groupId).members.userName.contains(session["userSession"])}">
+            <g:if test="${Group.findById(groupId).opener.userName==(session["userSession"])}">
+                <g:link  action="deleteGroup" params="${[groupId:groupId]}" >
+                    Borrar grupo
+                </g:link>
+            </g:if>
+            <g:else>
+                <g:link  action="leaveGroup" params="${[userName:session["userSession"],groupId:groupId]}" >
+                    Salir del grupo
+                </g:link>
+            </g:else>
+
+        </g:if>
+        <g:else>
+            <g:if test="${kargaroo.request.GroupRequest.findBySenderAndReceiverAndRequestedGroup(User.findByUserName(session["userSession"]), Group.findById(groupId).opener, Group.findById(groupId))!= null}">
+Solicitud enviada
+            </g:if>
+            <g:else>
+                <g:link  controller="Request" action="requestGroup" params="${[groupId: groupId]}" >
+                    Solicitar Entrar
+                </g:link>
+            </g:else>
+
+        </g:else>
+
     </div>
-    ${Group.findById(groupId).members.size()}
+
     <g:each in="${Group.findById(groupId).members}" var="member">
 
 
             <div class="list-group-item">
-                <div class="item-title">
-                    <h4>${member.userName}</h4>
+                <div class="item-title row">
 
+                    <div class="col-xs-6 col-md-2" style="display: inline-block" >
+                        <g:if test="${member.avatar}">
+                            <img class="img-rounded img-responsive img-centered" style="height: 80px; max-width: 90px;" src="${createLink(controller:'user', action:'avatar_image', params:[user:member.userName])}">
+                        </g:if>
+                        <g:else>
+                            <img class="img-rounded img-responsive img-centered" style="height: 80px; max-width: 90px;" alt="Profile" src="http://placehold.it/300x300">
+                        </g:else>
+                    </div>
+                    <div class="col-xs-6 col-md-4" style="display: inline-block; vertical-align: top">
 
+                        <h4>${member.userName}</h4>
+                        Nombre: ${member.firstName} ${member.lastName}
+                        <br>
+                        ${member.age} años
 
-
+                    </div>
                 </div>
-                <div class="item-body">
 
-                    ${member.firstName}
-                </div>
             </div>
 
 

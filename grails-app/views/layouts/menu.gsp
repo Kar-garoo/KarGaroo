@@ -71,7 +71,12 @@
                 </li>
                 <li>
                     <a href="${createLink(controller: 'chat', action: 'goToChatRoom')}">
-                        <i class="fa fa-weixin">Chat</i>
+                        <i class="fa fa-weixin"> Chat</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="${createLink(controller: 'user', action: 'groups')}">
+                        <i class="fa fa-question"> Grupos</i>
                     </a>
                 </li>
                 <li>
@@ -85,11 +90,7 @@
                     </a>
                 </li>
 
-                <li>
-                    <a href="#">
-                        <i class="fa fa-question"></i>
-                    </a>
-                </li>
+
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
