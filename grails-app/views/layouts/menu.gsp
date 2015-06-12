@@ -166,6 +166,11 @@
                         </a>
                     </li>
                     <li>
+                        <a href="${createLink(controller: 'user', action: 'groups')}">
+                            <i class="fa fa-question"> Grupos</i>
+                        </a>
+                    </li>
+                    <li>
                         <a href="${createLink(controller: 'user',action: 'notifications')}">
 
                             <i class="fa fa-bell"> Notificaciones</i>
@@ -177,11 +182,7 @@
                         </a>
                     </li>
 
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-question"></i>
-                        </a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

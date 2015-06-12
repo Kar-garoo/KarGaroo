@@ -19,7 +19,7 @@ class User {
     Car car
 
     static hasOne = [car:Car]
-    static hasMany = [groups:Group, requests: Request, friends:User]
+    static hasMany = [groups:Group, requests: Request]
     static mappedBy = [groups: "members",requests: "receiver"]
 
 
