@@ -4,12 +4,12 @@ class ChatController {
     int myNumMessages = 0
     static int count = 0
     def index() {
-        redirect(controller: 'chat', action: 'addReceiver')
+        redirect(controller: 'chat', action: 'goToChatRoom')
     }
 
     /*guarda el nuevo mensaje en la conversacion actual*/
     def addMessage(){
-        //if(params?.content) {
+        if(params.Message) {
             def newMessage = new Message()
             newMessage.transmitter = session.Transmitter
             print newMessage.transmitter
@@ -19,9 +19,15 @@ class ChatController {
             newMessage.content = params.Message
             print newMessage.content
             newMessage.save()
-        //}
+            goToChatRoom()
+        }
+        def listMessagesT =  Message.findAllByTransmitterAndReceiver(session.Transmitter, session.Receiver)
+        def listMessagesR =  Message.findAllByTransmitterAndReceiver(session.Receiver, session.Transmitter )
+        def listMessages = listMessagesT + listMessagesR
+        listMessages.sort{it.date}
+        render(view: 'chatRoom',model:[listMessages : listMessages, listFriends : User.list()])
 
-        goToChatRoom()
+
     }
 
     /* agrega el emisor y el receptor de la conversacion actual */
