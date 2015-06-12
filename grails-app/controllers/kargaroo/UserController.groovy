@@ -1,5 +1,7 @@
 package kargaroo
 
+import kargaroo.request.GroupRequest
+
 class UserController {
 
     def user
@@ -165,7 +167,7 @@ class UserController {
     }
 
     def notifications(){
-        render(view: 'notifications',model:[groups:Group.list()])
+        render(view: 'notifications')
     }
 
     def groups(){
@@ -176,19 +178,41 @@ class UserController {
     }
     def newGroup(String name, String description) {
         if (name != null && name.trim().length() > 0) {
-            def opener = User.findByUserName(session["userSession"])
+            User opener = User.findByUserName(session["userSession"])
 
-            def newGroup=new Group(name: name, description: description, opener:opener).save().addToMembers(opener).save()
-
-
-
-
-
-
-
-            // go to  page so user can view his Thread
-
+            new Group(name: name, description: description, opener:opener).addToMembers(opener).save(flush:true)
         }
         redirect(action:'groups')
     }
+    def leaveGroup(String userName,long groupId){
+        Group updatedGroup=Group.findById(groupId)
+        def deleteUser = User.findByUserName(userName).groups.remove(updatedGroup)
+        updatedGroup.members.remove(deleteUser)
+        updatedGroup.save(flush: true)
+
+        redirect(action:'members', params:[groupId: groupId])
+    }
+    def deleteGroup(long groupId){
+        def deleteGroup=Group.findById(groupId)
+        deleteGroup.delete()
+
+        redirect(action:'groups')
+    }
+    def addToGroup(long groupId,String senderName){
+        def sender=User.findByUserName(senderName)
+        def updatedGroup=Group.findById(groupId)
+        updatedGroup.addToMembers(sender)
+        updatedGroup.save(flush: true)
+        def receiver=  User.findByUserName(session["userSession"])
+        GroupRequest.findBySenderAndReceiverAndRequestedGroup(sender, receiver, updatedGroup).delete(flush: true)
+        redirect(action:'notifications')
+    }
+    def declineToGroup(long groupId,String senderName){
+        def sender = User.findByUserName(senderName)
+        def group =Group.findById(groupId)
+        def receiver=  User.findByUserName(session["userSession"])
+        GroupRequest.findBySenderAndReceiverAndRequestedGroup(sender, receiver, group).delete(flush: true)
+        redirect(action:'notifications')
+    }
+
 }

@@ -10,6 +10,7 @@ class Group {
     static belongsTo = User
 
     static constraints = {
+        description(nullable: true)
     }
 
     static mapping = {

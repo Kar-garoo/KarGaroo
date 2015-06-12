@@ -1,6 +1,6 @@
 package kargaroo
 
-import sun.security.util.Password
+import kargaroo.request.Request
 
 class User {
     String userName
@@ -19,8 +19,10 @@ class User {
     Car car
 
     static hasOne = [car:Car]
-    static hasMany = [groups:Group]
-    static mappedBy = [groups: "members"]
+    static hasMany = [groups:Group, requests: Request]
+    static mappedBy = [groups: "members",requests: "receiver"]
+
+
 
     //static  hasOne = [addres : Address]
 
