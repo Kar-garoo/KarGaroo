@@ -3,6 +3,7 @@ package kargaroo.forum
 import kargaroo.Group
 import kargaroo.User
 import kargaroo.request.GroupRequest
+import kargaroo.request.RouteRequest
 
 class RequestController {
 
@@ -13,5 +14,13 @@ class RequestController {
         def receiver = group.opener
         new GroupRequest(sender: sender, receiver: receiver, requestedGroup: group, content: "ingreso al grupo").save(flush: true)
         redirect(controller: 'user', action:'members', params:[groupId: groupId])
+    }
+
+    def requestRoute(long routeId){
+        def route = Route.findById(routeId)
+        def sender = User.findByUserName(session["userSession"])
+        def receiver = User.findByUserName(params.userRequest)
+        new RouteRequest(sender: sender, receiver: receiver, requestedroute: route, content: "ingreso al ruta").save(flush: true)
+        redirect(controller: 'route', action: 'maps')
     }
 }

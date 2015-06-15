@@ -2,12 +2,24 @@ package kargaroo
 
 class Route {
 
-    String beginning
+    String origin
     String end
-    Double meanTime
+    String description
+    Integer sits
+    int meanTime
+    Date endDate
+    Car car
 
-    //static belongsTo = [user: User]
+    static belongsTo = Car
+    static hasMany = [users:User]
 
     static constraints = {
+        origin(nullable: false)
+        end(nullable: false)
+        description(nullable: true)
+        sits(nullable: false)
+        endDate(nullable: false)
+        meanTime(nullable: false)
     }
 }
+

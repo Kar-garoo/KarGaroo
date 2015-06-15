@@ -9,7 +9,7 @@ class UserController {
 
     def index(){
         if(session.userSession){
-            redirect(controller: 'user',action: 'profile')
+            redirect(controller: 'user',action: 'profile' , params: [userName: "${session.userSession}"])
         }
     }
 
@@ -53,6 +53,7 @@ class UserController {
 
 
             def newUser = new User(parameters)
+
             if(parameters.password != parameters.confirm){
                 flash.message = "Password"
                 render(view:'logUp', model:[user:user])
@@ -65,7 +66,7 @@ class UserController {
 
             user = User.findByMail(params.mail)
             session["userSession"]=user.userName
-            redirect(controller: 'user', action: 'profile')
+            redirect(controller: 'user', action: 'profile',params: [userName:"${user.userName}"])
             return
         }
     }
@@ -81,7 +82,7 @@ class UserController {
         }else{
             if(User.findByPassword(params.password)){
                 session["userSession"] = user.userName
-                redirect(controller: 'user', action: 'profile')
+                redirect(controller: 'user', action: 'profile', params: [userName:user.userName])
             }else{
                 flash.message = "Password incorrecto"
                 redirect(controller: 'user', action: 'logIn')
@@ -100,8 +101,16 @@ class UserController {
     }
 
     def profile(){
-        render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
+
+        def userName = params.userName
+        if(session.userSession == userName){
+            render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
+        }else{
+            render(view: 'profile',model:[user:User.findByUserName(userName)])
+        }
+
     }
+
 
     def update(){
         render(view: 'update',model:[user:User.findByUserName(session.userSession)])
@@ -110,7 +119,6 @@ class UserController {
     def updateUser() {
         def userUpdate = User.findByUserName(session.userSession)
         def avatarFile = request.getFile('avatar')
-        print(avatarFile)
         if (avatarFile) {
             if (avatarFile.bytes == []) {
                 userUpdate.avatar = userUpdate.avatar
@@ -149,7 +157,7 @@ class UserController {
             render(view: 'update',model: [newUser:userUpdate])
             return
         }
-        redirect(controller: 'user', action: 'profile')
+        render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
 
     }
 
@@ -164,6 +172,22 @@ class UserController {
         OutputStream out = response.outputStream
         out.write(avatarUser.avatar)
         out.close()
+    }
+
+    def addCar(){
+        def userC = User.findByUserName(session.userSession)
+        def parameters = [plate: params.plate,
+                          model: params.model,
+                          capacity: params.capacity,
+                          owner: userC]
+
+        def newCar = new Car(parameters)
+        if(!newCar.save(flush: true)){
+            print("ERROR CAR")
+            render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
+            return
+        }
+        render(view: 'profile',model:[user:User.findByUserName(session.userSession)])
     }
 
     def notifications(){
