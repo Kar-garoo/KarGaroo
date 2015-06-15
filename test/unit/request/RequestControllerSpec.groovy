@@ -1,6 +1,7 @@
 package request
 
 import grails.test.mixin.TestFor
+import kargaroo.forum.RequestController
 import spock.lang.Specification
 
 /**

@@ -1,4 +1,4 @@
-package request
+package kargaroo.forum
 
 import kargaroo.Group
 import kargaroo.User
