@@ -40,7 +40,7 @@
                                     <g:else>
                                         <div class="fileinput fileinput-new"  data-provides="fileinput" style="width: 100%; height: auto;">
                                             <div class="fileinput-new thumbnail" style="width: 100%; height: auto;" >
-                                                <img class="img-rounded img-responsive img-centered" alt="Profile" src="http://placehold.it/300x300">
+                                                <img class="img-rounded img-responsive img-centered" alt="Profile" src="${resource(dir: 'images',file: 'noPhoto.png')}">
                                             </div>
                                             <div class="fileinput-preview fileinput-exists thumbnail img-rounded img-responsive img-centered" style="width: 100%; height: auto;"></div>
                                             <div>

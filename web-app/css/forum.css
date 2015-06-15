@@ -76,8 +76,7 @@ A {
 
 }
 body {
-background: url("http://www.welovesolo.com/wp-content/uploads/2014/12/p16of4lqkpovl1o2l1ecbbh814s9-details1.jpg");
-
+    background:url(../images/backgroundForum.jpg);
     word-wrap: break-word;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;

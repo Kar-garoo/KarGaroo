@@ -36,7 +36,7 @@
                         <img class="img-rounded img-responsive img-centered" style="height: 80px; max-width: 90px;" src="${createLink(controller:'user', action:'avatar_image', params:[user:comment.commentBy.userName])}">
                     </g:if>
                     <g:else>
-                        <img class="img-rounded img-responsive img-centered" style="height: 80px; max-width: 90px;" alt="Profile" src="http://placehold.it/300x300">
+                        <img class="img-rounded img-responsive img-centered" style="height: 80px; max-width: 90px;" alt="Profile" src="${resource(dir: 'images',file: 'noPhoto.png')}">
                     </g:else>
                 </div>
                 <div class="col-xs-6 col-md-4" style="display: inline-block; vertical-align: top">
