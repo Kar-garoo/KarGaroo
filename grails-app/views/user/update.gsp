@@ -128,7 +128,7 @@
                 <g:submitButton name="summit" type="submit" value="Guardar" class="btn btn-lg btn-success btn-block" ></g:submitButton>
             </div>
             <div class="col-xs-12 col-md-5 btn-block">
-                <a href="${createLink(controller: 'user', action: 'profile')}" class="btn btn-block btn-danger">
+                <a href="${createLink(controller: 'user',action: 'profile',params: [userName:session.userSession])}" class="btn btn-block btn-danger">
                     Salir
                 </a>
             </div>

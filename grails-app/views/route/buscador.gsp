@@ -31,7 +31,7 @@
 
         <div class="row ">
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 btn-block">
-                <g:submitButton name="Ok" type="submit" value="Guardar" class="btn btn-lg btn-success btn-block" ></g:submitButton>
+                <g:submitButton name="Ok" type="submit" value="Buscar" class="btn btn-lg btn-success btn-block" ></g:submitButton>
             </div>
         </div>
         </div>

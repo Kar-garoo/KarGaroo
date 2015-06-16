@@ -10,7 +10,7 @@ class User {
     String lastName
     Integer age
     Integer DNI
-    Integer phone
+    BigInteger phone
     String mail
     String description
     byte [] avatar

@@ -137,7 +137,7 @@ class UserController {
             userUpdate.DNI = Integer.parseInt(params.DNI)
         }
         if (params.phone) {
-            userUpdate.phone = Integer.parseInt(params.phone)
+            userUpdate.phone = new BigInteger(params.phone)
         }
         if (params.description) {
             userUpdate.description = params.description

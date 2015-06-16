@@ -144,11 +144,6 @@
             <div class="bs-callout bs-callout-danger">
                 <div class="row">
                     <div class="col-lg-11 col-xs-10"><h4>Auto</h4></div>
-                    <div class="col-lg-1 col-xs-2">
-                        <a href="profile.gsp">
-                            <i class="fa fa-cog"></i>
-                        </a>
-                    </div>
                 </div>
                     <div class="row">
                         <div class="col-lg-3">
@@ -221,14 +216,7 @@
                 </g:elseif>
                 <g:else>
                     <div class="bs-callout bs-callout-danger">
-                <div class="row">
-                    <div class="col-lg-11 col-xs-10"><h4>Auto</h4></div>
-                    <div class="col-lg-1 col-xs-2">
-                        <a href="profile.gsp">
-                            <i class="fa fa-cog"></i>
-                        </a>
-                    </div>
-                </div>
+
                     <div class="row">
                         <div class="col-lg-3">
                             <p class="plate text-center">
@@ -259,12 +247,7 @@
                     </g:each>
                 </ul>
                 <ul class="list-group">
-                    <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc </li>
-                    <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
-                    <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
-                    <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
-                    <li class="list-group-item">Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
-                    <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
+                    <li class="list-group-item">L</li>
                 </ul>
             </div>
 
