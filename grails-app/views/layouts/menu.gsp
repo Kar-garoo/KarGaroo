@@ -44,9 +44,12 @@
                     </div>
                     <div style="padding-left: 75px">
                         <h3 class="text" style="color: #ffffff">Menu</h3>
+
                     </div>
                 </li>
-
+                <li>
+                    <h4 style="color:#ffffff;">${session.userSession}</h4>
+                </li>
                 <li>
                     <a href="${createLink(controller: 'user',action: 'profile', params: [userName: "${session.userSession}"])}">
                         <i class="fa fa-user" > Perfil</i>
@@ -59,7 +62,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="${createLink(controller: 'route',action: 'buscador')}">
 
                         <i class="fa fa-search"> Buscador</i>
                     </a>
@@ -150,7 +153,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="${createLink(controller: 'route',action: 'buscador')}">
 
                             <i class="fa fa-search"> Buscador</i>
                         </a>

@@ -21,8 +21,8 @@ class BootStrap {
                           , avatarType : null]
 
         def parameters2 = [userName     : 'Sergiochevere'
-                          ,password     : 'pecas123'
-                          , confirm    : 'pecas123'
+                          ,password     : 'secret'
+                          , confirm    : 'secret'
                           , firstName  : 'Sergio'
                           , lastName   : 'Diaz Pinilla'
                           , age        : 21

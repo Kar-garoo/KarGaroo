@@ -254,6 +254,11 @@
             <div class="bs-callout bs-callout-danger">
                 <h4>Historial de viajes</h4>
                 <ul class="list-group">
+                    <g:each in="${kargaroo.Route.list()?.users?.contains(user)}">
+                        <li class="list-group-item"> ${it}</li>
+                    </g:each>
+                </ul>
+                <ul class="list-group">
                     <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc </li>
                     <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>
                     <li class="list-group-item"> Lorem ipsum dolor sit amet, ea vel prima adhuc</li>

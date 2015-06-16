@@ -80,4 +80,25 @@ class RouteController {
         redirect(controller: 'user', action:'notifications',params:[routeId:routeId])
     }
 
+    def buscador(){
+        render(view: 'buscador',model:[rutas:[]] )
+    }
+
+    def findRoute(){
+        def routes = []
+        if(Route.findByOrigin(params.origin)){
+            routes.add(Route.findByOrigin(params.origin))
+        }
+        if(Route.findByOrigin(params.end)){
+            routes.add(Route.findByOrigin(params.end))
+        }
+        if(Route.findByEnd(params.origin)){
+            routes.add(Route.findByEnd(params.origin))
+        }
+        if(Route.findByEnd(params.end)){
+            routes.add(Route.findByEnd(params.end))
+        }
+        render(view: 'buscador',model: [rutas:routes])
+    }
+
 }
