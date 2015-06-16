@@ -42,6 +42,7 @@
                             <g:submitButton name="summit" type="submit" value="logIn" class="btn btn-lg btn-success btn-block" tabindex="7"></g:submitButton>
                         </fieldset>
                     </g:form>
+
                 </div>
 
             </div>
