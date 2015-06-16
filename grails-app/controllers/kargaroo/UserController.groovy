@@ -80,7 +80,7 @@ class UserController {
             flash.message = "No existe user"
             redirect(controller: 'user', action: 'logIn')
         }else{
-            if(User.findByPassword(params.password) == user){
+            if(User.findByPassword(params.password)){
                 session["userSession"] = user.userName
                 redirect(controller: 'user', action: 'profile', params: [userName:user.userName])
             }else{
