@@ -39,7 +39,7 @@
 Solicitud enviada
             </g:if>
             <g:else>
-                <g:link  controller="Request" action="requestGroup" params="${[groupId: groupId]}" >
+                <g:link  controller="request" action="requestGroup" params="${[groupId: groupId]}" >
                     Solicitar Entrar
                 </g:link>
             </g:else>

@@ -48,7 +48,7 @@
                 </li>
 
                 <li>
-                    <a href="${createLink(controller: 'user',action: 'profile')}">
+                    <a href="${createLink(controller: 'user',action: 'profile', params: [userName: "${session.userSession}"])}">
                         <i class="fa fa-user" > Perfil</i>
                     </a>
                 </li>
@@ -139,7 +139,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right text-center">
                     <li>
-                        <a href="${createLink(controller: 'user',action: 'profile')}">
+                        <a href="${createLink(controller: 'user',action: 'profile', params: [userName: "${session.userSession}"])}">
                             <i class="fa fa-user" > Perfil</i>
                         </a>
                     </li>

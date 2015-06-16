@@ -6,6 +6,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
+
         def parameters = [userName     : 'MasChevere'
                           ,password     : 'secret'
                           , confirm    : 'secret'
@@ -19,7 +20,21 @@ class BootStrap {
                           , avatar : null
                           , avatarType : null]
 
+        def parameters2 = [userName     : 'Sergiochevere'
+                          ,password     : 'pecas123'
+                          , confirm    : 'pecas123'
+                          , firstName  : 'Sergio'
+                          , lastName   : 'Diaz Pinilla'
+                          , age        : 21
+                          , DNI        : 1032458183
+                          , phone      : 4287103
+                          , mail       : 'sergiochevere@hotmail.com'
+                          , description: "Sergio chevere"
+                          , avatar : null
+                          , avatarType : null]
+
         def user = new User(parameters).save()
+        def user2 = new User(parameters2).save()
 
 
 

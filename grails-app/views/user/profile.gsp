@@ -207,7 +207,7 @@
                                     <g:submitButton name="Ok" type="submit" value="Guardar" class="btn btn-lg btn-success btn-block" ></g:submitButton>
                                 </div>
                                 <div class="col-xs-12 col-md-5 btn-block">
-                                    <a class="btn btn-block btn-danger" onclick="$('#butonCar').show( 'slow' );$('#formCar').hide('slow');">
+                                    <a class="btn btn-block btn-default" onclick="$('#butonCar').show( 'slow' );$('#formCar').hide('slow');">
                                         Salir
                                     </a>
                                 </div>
