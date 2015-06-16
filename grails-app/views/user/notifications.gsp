@@ -1,4 +1,4 @@
-<%@ page import="kargaroo.request.GroupRequest; kargaroo.request.Request; kargaroo.User" %>
+<%@ page import="kargaroo.request.GroupRequest; kargaroo.request.Request; kargaroo.User; kargaroo.request.RouteRequest; kargaroo.Route" %>
 
 <html>
 <head>
@@ -55,6 +55,25 @@ Request todos los usuarios
 
 </g:each>
 
+<p>Mis notificaciones Rutas</p>
+
+<g:each in="${kargaroo.request.Request.findAllByReceiver(User.findByUserName(session["userSession"]))}" var="request">
+    <g:if test="${request.getClass().name.contains("RouteRequest")}">
+        <li>Solicitud de ${request.content} ${(request as kargaroo.request.RouteRequest).requestedRoute.origin.toUpperCase()} a ${(request as kargaroo.request.RouteRequest).requestedRoute.end.toUpperCase()}  de ${request.sender.userName.toUpperCase()}
+        <g:link controller="route" action="addToRoute" params="${[routeId:(request as kargaroo.request.RouteRequest).requestedRoute.id,senderName:request.sender.userName]}" >
+            aceptar
+        </g:link>
+        <g:link   controller="route" action="declineToRoute" params="${[routeId:(request as kargaroo.request.RouteRequest).requestedRoute.id,senderName:request.sender.userName]}" >
+            rechazar
+        </g:link>
+        </li>
+    </g:if>
+    <g:else>
+        <li>Solicitud de ${request.content} de ${request.sender.userName.toUpperCase()}
+        </li>
+    </g:else>
+
+</g:each>
 
 </body>
 </html>

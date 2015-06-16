@@ -1,3 +1,4 @@
+<%@ page import="kargaroo.request.RouteRequest; kargaroo.User; kargaroo.Route" %>
 <html ng-app="Test">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -20,13 +21,27 @@
 </head>
 
 <g:if test="${userCar}">
-    <g:render template="RouteForm"></g:render>
+    <div id="Route" class="row">
+        <a id="butonCar" class="btn btn-block btn-default" onclick="$('#formRoute').show('slow'); $('#butonRoute').hide( 'slow' );">
+            <i class="fa fa-car">Agregar Ruta</i>
+        </a>
+    </div>
+    <div id="formRoute" style="display: none;">
+        <g:render template="RouteForm"></g:render>
+        <a class="btn btn-block btn-default" onclick="$('#butonRoute').show( 'slow' );$('#formRoute').hide('slow');">
+            Salir
+        </a>
+    </div>
 </g:if>
 <g:else>
-    <a href="${createLink(controller: 'user',action: 'profile',params: [userName:session.userSession])}">Agrega tu vehiculo</a>
+    <div class="col-lg-12">
+        <a class="btn btn-block btn-default" href="${createLink(controller: 'user',action: 'profile',params: [userName:session.userSession])}">Agrega tu vehiculo</a>
+    </div>
 </g:else>
 
 </br>
+
+
 
 <g:renderErrors bean="${newRoute}" as="list"></g:renderErrors>
 
@@ -50,16 +65,36 @@
                                 </g:else>
                                 <h5>Origen:${rou.origin}</h5>
                                 <h5>Destino:${rou.end}</h5>
-                                <i class="fa fa-search-plus">Mapa</i>
                             </div>
                             <div class="col-lg-5">
-                                <g:submitButton name="Ok" type="submit" value="Preguntar" class="btn btn-lg btn-success btn-block" ></g:submitButton>
+                                <g:if test="${Route.findById(rou.id).car.owner.userName.contains(session["userSession"]) || kargaroo.Route.findById(rou.id).getUsers().contains(User.findByUserName(session["userSession"]))}">
+                                    <g:if test="${Route.findById(rou.id).car.owner.userName == (session["userSession"])}">
+                                        <g:link controller="route" action="deleteRoute" params="${[routeId:rou.id]}" >
+                                            Borrar Ruta
+                                        </g:link>
+                                    </g:if>
+                                    <g:else>
+                                        <g:link controller="route"  action="leaveRoute" params="${[userName:session["userSession"],routeId:rou.id]}" >
+                                            Dejar Ruta
+                                        </g:link>
+                                    </g:else>
+
+                                </g:if>
+                                <g:else>
+                                    <g:if test="${kargaroo.request.RouteRequest.findBySenderAndReceiverAndRequestedRoute(User.findByUserName(session.userSession), Route.findById(rou.id).car.owner,Route.findById(rou.id))!= null}">
+                                        Solicitud enviada
+                                    </g:if>
+                                    <g:else>
+                                        <g:link  controller="request" action="requestRoute" params="${[routeId: rou.id, userRequest:rou.car.owner.userName]}" >
+                                            Solicitar Entrar
+                                        </g:link>
+                                    </g:else>
+                                </g:else>
                                 <div>
-                                    <g:each in="${1..rou.car.capacity}">
-                                        <i class="fa fa-user-plus">Cupo 1</i><i>${it}</i>
+                                    <g:each in="${rou.users}" var="userSit">
+                                        <i class="fa fa-user-plus">${userSit.userName}</i>
 
                                     </g:each>
-
                                 </div>
 
                             </div>
@@ -70,11 +105,21 @@
                 </div>
             </a>
         </div>
+        <a id="butonmap${rou.id}" class="btn btn-block btn-default" onclick="$('#${rou.id}map').show('slow'); $('#butonMap${rou.id}').hide( 'slow' );">
+
+            <i class="fa fa-search-plus">Mapa</i>
+        </a>
     </div>
 
-    <g:render template="mapCanvas" model="[begin: rou?.origin, end:rou?.end,div:{rou.id}]"></g:render>
+    <g:render template="mapCanvas" model="[begin: rou?.origin, end:rou?.end,div:rou.id]" ></g:render>
+
+    <div class="pagination">
+        <g:paginate total="${kargaroo.Route.list().size()}" params="${[routeId:{rou.id}]}"/>
+    </div>
 
 </g:each>
+
+
 
 
 

@@ -11,7 +11,7 @@
             zoom: 7,
             center: colombiaBogota
         };
-        map = new google.maps.Map(document.getElementById("${div}"), mapOptions);
+        map = new google.maps.Map(document.getElementById("${div}map"), mapOptions);
         directionsDisplay.setMap(map);
         directionsDisplay.setPanel(document.getElementById('directionsPanel'));
         google.maps.event.addListener(directionsDisplay, 'directions_chan' +
@@ -47,5 +47,5 @@
 </script>
 
 <div class="col-lg-12">
-    <div id="${div}" style="width:100%; height:500px"></div>
+    <div id="${div}map" style="width:100%; height:500px;"></div>
 </div>

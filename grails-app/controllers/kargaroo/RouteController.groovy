@@ -1,5 +1,7 @@
 package kargaroo
 
+import kargaroo.request.RouteRequest
+
 class RouteController {
     def user
 
@@ -45,6 +47,37 @@ class RouteController {
             }
             redirect(action: 'maps')
         }
+    }
+
+    def leaveRoute(String userName,long routeId){
+        def updatedRoute = Route.findById(routeId)
+        updatedRoute.users.remove(User.findByUserName(userName))
+        updatedRoute.save(flush: true)
+        redirect(controller: 'route',action:'maps', params:[routeId: routeId])
+    }
+    def deleteRoute(long routeId){
+        def deleteRoute = Route.findById(routeId)
+        deleteRoute.delete(flush: true)
+        redirect(controller: 'route',action:'maps', params:[routeId: routeId])
+    }
+
+    def addToRoute(long routeId,String senderName){
+        def sender = User.findByUserName(senderName)
+        def updatedRoute = Route.findById(routeId)
+        updatedRoute.addToUsers(sender)
+        updatedRoute.sits = updatedRoute.sits - 1
+        updatedRoute.save(flush: true)
+        def receiver=  User.findByUserName(session["userSession"])
+        RouteRequest.findBySenderAndReceiverAndRequestedRoute(sender, receiver, updatedRoute).delete(flush: true)
+        redirect(controller: 'user', action:'notifications',params:[routeId:routeId])
+    }
+
+    def declineToRoute(long routeId,String senderName){
+        def sender = User.findByUserName(senderName)
+        def route = Route.findById(routeId)
+        def receiver=  User.findByUserName(session["userSession"])
+        RouteRequest.findBySenderAndReceiverAndRequestedGroup(sender, receiver, route).delete(flush: true)
+        redirect(controller: 'user', action:'notifications',params:[routeId:routeId])
     }
 
 }
