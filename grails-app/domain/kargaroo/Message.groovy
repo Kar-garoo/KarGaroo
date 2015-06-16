@@ -10,4 +10,5 @@ class Message {
     static constraints = {
 
     }
+
 }

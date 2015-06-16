@@ -9,32 +9,32 @@
     <!-- archivos necesarios para el efecto del fondo -->
     <script src="${resource(dir: 'js',file: 'parallax.js')}"></script>
 
-
-
+    <link href="${resource(dir: 'css',file: 'chat.css')}" rel="stylesheet">
 
     <title>KARGAROO CHAT</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="${resource(dir: 'css',file: 'bootstrap.min.css')}" rel="stylesheet">
 
 </head>
-<body style="font-family:Verdana">
+<body>
+<!--<body style="font-family:Verdana">-->
 
     <div class="row " >
-        <h3 class="text-center" >KARGAROO CHAT</h3>
+        <h3 class="text-center" style= "color:orange" >KARGAROO CHAT</h3>
         <br /><br />
         <div class="col-md-8">
             <div class="panel panel-info">
-                <div class="panel-heading">
+                <div class="panel-heading" style="background-color: #000000">
                     <g:if test="${session.Receiver}">
-                        My historia con: ${session?.Receiver}
+                        <h4 style= "color:orange">My historia con: ${session?.Receiver}</h4>
                     </g:if>
                     <g:else>
-                        Selecciona un acompañante
+                        <h3 style= "color:orange">Selecciona un acompañante</h3>
                     </g:else>
                 </div>
 
                 <div class="panel-body" id="historial" onchange="${remoteFunction(action: 'goToChatRoom')}">
-                        <div style="width:700px;height:500px;overflow:auto;">
+
                             <ul class="media-list">
                                 <g:each in="${listMessages}" var="i">
                                     <li class="media">
@@ -60,7 +60,7 @@
                                     </li>
                                 </g:each>
                             </ul>
-                        </div>
+
                     </div>
 
 
@@ -72,7 +72,7 @@
                             <input type="text" class="form-control" name="Message" placeholder="Enter Message" />
                             <span class="input-group-btn">
 
-                                <g:submitButton name="summit" type="submit" value="ENVIAR" class="btn btn-info" tabindex="7"></g:submitButton>
+                                <g:submitButton  style= "background-color:orange" name="summit" type="submit" value="ENVIAR" class="btn btn-info" tabindex="7"></g:submitButton>
 
                                 </span>
 
@@ -87,8 +87,8 @@
 
         <div class="col-md-4">
             <div class="panel panel-primary">
-                <div class="panel-heading">
-                    Acompañantes Kargaroo
+                <div class="panel-heading" style="background-color: #000000">
+                    <h4 style= "color:orange">Acompañantes Kargaroo</h4>
                 </div>
                 <div class="panel-body">
                     <ul class="media-list">
@@ -103,9 +103,7 @@
                                                 <a href="${createLink(controller: 'chat', action: 'addReceiver', params: [receiver: i.userName])}">
 
                                                     <div class="media-body" >
-                                                    <h5> ${i.userName} | Amigo </h5>
-
-                                                    <small class="text-muted">Active From 3 hours</small>
+                                                    <h5> ${i.userName}</h5>
                                                 </div>
                                                 </a>
                                             </div>

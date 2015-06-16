@@ -19,7 +19,7 @@ class ChatController {
             newMessage.content = params.Message
             print newMessage.content
             newMessage.save()
-            goToChatRoom()
+            //goToChatRoom()
         }
         def listMessagesT =  Message.findAllByTransmitterAndReceiver(session.Transmitter, session.Receiver)
         def listMessagesR =  Message.findAllByTransmitterAndReceiver(session.Receiver, session.Transmitter )
