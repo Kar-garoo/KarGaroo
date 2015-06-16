@@ -14,7 +14,7 @@ class RequestController {
         def group = Group.findById(groupId)
         def sender = User.findByUserName(session["userSession"])
         def receiver = group.opener
-        new GroupRequest(sender: sender, receiver: receiver, requestedGroup: group, content: "ingreso al ruta").save(flush: true)
+        new GroupRequest(sender: sender, receiver: receiver, requestedGroup: group, content: "ingreso al grupo").save(flush: true)
         redirect(controller: 'user', action:'members', params:[groupId: groupId])
     }
 
@@ -22,7 +22,7 @@ class RequestController {
         def route = Route.findById(routeId)
         def sender = User.findByUserName(session["userSession"])
         def receiver = User.findByUserName(params.userRequest)
-        new RouteRequest(sender: sender, receiver: receiver, requestedRoute: route, content: "ingreso al ruta").save(flush: true)
+        new RouteRequest(sender: sender, receiver: receiver, requestedRoute: route, content: "ingreso a la ruta").save(flush: true)
         print(RouteRequest.list().size())
         redirect(controller: 'user', action: 'notifications',params:[routeId:routeId])
     }
