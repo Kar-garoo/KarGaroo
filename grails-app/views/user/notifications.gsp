@@ -16,6 +16,45 @@
     <div class="panel panel-default">
 ${session["userSession"]}
         <div class="bs-callout bs-callout-danger">
+            <h4>Mis notificaciones</h4>
+
+            <g:each in="${kargaroo.request.Request.findAllByReceiver(User.findByUserName(session["userSession"]))}" var="request">
+                <g:if test="${request.getClass().name.contains("GroupRequest")}">
+                    <li class="list-group-item">Solicitud de ${request.content} ${(request as kargaroo.request.GroupRequest).requestedGroup.name.toUpperCase()} de ${request.sender.userName.toUpperCase()}
+                        <g:link  action="addToGroup" params="${[groupId:(request as kargaroo.request.GroupRequest).requestedGroup.id,senderName:request.sender.userName]}" >
+                            <i class="fa fa-thumbs-o-up"></i>
+                        </g:link>
+                        <g:link  action="declineToGroup" params="${[groupId:(request as kargaroo.request.GroupRequest).requestedGroup.id,senderName:request.sender.userName]}" >
+                            <i class="fa fa-thumbs-o-down"></i>
+
+                        </g:link>
+                    </li>
+                </g:if>
+                <g:elseif test="${request.getClass().name.contains("RouteRequest")}">
+                    <li class="list-group-item" >Solicitud de ${request.content} ${(request as kargaroo.request.RouteRequest).requestedRoute.origin.toUpperCase()} a ${(request as kargaroo.request.RouteRequest).requestedRoute.end.toUpperCase()}  de ${request.sender.userName.toUpperCase()}
+                        <g:link controller="route" action="addToRoute" params="${[routeId:(request as kargaroo.request.RouteRequest).requestedRoute.id,senderName:request.sender.userName]}" >
+                            <i class="fa fa-thumbs-o-up"></i>
+                        </g:link>
+                        <g:link   controller="route" action="declineToRoute" params="${[routeId:(request as kargaroo.request.RouteRequest).requestedRoute.id,senderName:request.sender.userName]}" >
+                            <i class="fa fa-thumbs-o-down"></i>
+
+                        </g:link>
+                    </li>
+                </g:elseif>
+                <g:else>
+                    <li class="list-group-item">Solicitud de ${request.content} de ${request.sender.userName.toUpperCase()}
+                    </li>
+                </g:else>
+
+
+
+
+            </g:each>
+        </div>
+
+
+    </div>
+        <div class="bs-callout bs-callout-danger">
 <h4>Mis grupos</h4>
     <g:each in="${kargaroo.User.findByUserName(session["userSession"]).groups}" var="group">
 
@@ -29,55 +68,7 @@ ${session["userSession"]}
 
     </g:each>
 </div>
-        <div class="bs-callout bs-callout-danger">
-            <h4>Mis notificaciones</h4>
 
-            <g:each in="${kargaroo.request.Request.findAllByReceiver(User.findByUserName(session["userSession"]))}" var="request">
-                <g:if test="${request.getClass().name.contains("GroupRequest")}">
-                    <li class="list-group-item">Solicitud de ${request.content} ${(request as kargaroo.request.GroupRequest).requestedGroup.name.toUpperCase()} de ${request.sender.userName.toUpperCase()}
-                    <g:link  action="addToGroup" params="${[groupId:(request as kargaroo.request.GroupRequest).requestedGroup.id,senderName:request.sender.userName]}" >
-                        <i class="fa fa-thumbs-o-up"></i>
-                    </g:link>
-                    <g:link  action="declineToGroup" params="${[groupId:(request as kargaroo.request.GroupRequest).requestedGroup.id,senderName:request.sender.userName]}" >
-                        <i class="fa fa-thumbs-o-down"></i>
-
-                    </g:link>
-                    </li>
-                </g:if>
-                <g:else>
-                    <li class="list-group-item">Solicitud de ${request.content} de ${request.sender.userName.toUpperCase()}
-                    </li>
-                </g:else>
-
-
-
-
-            </g:each>
-        </div>
-
-        <div class="bs-callout bs-callout-danger">
-<h4>Mis notificaciones Rutas</h4>
-
-<g:each in="${kargaroo.request.Request.findAllByReceiver(User.findByUserName(session["userSession"]))}" var="request">
-    <g:if test="${request.getClass().name.contains("RouteRequest")}">
-        <li class="list-group-item" >Solicitud de ${request.content} ${(request as kargaroo.request.RouteRequest).requestedRoute.origin.toUpperCase()} a ${(request as kargaroo.request.RouteRequest).requestedRoute.end.toUpperCase()}  de ${request.sender.userName.toUpperCase()}
-        <g:link controller="route" action="addToRoute" params="${[routeId:(request as kargaroo.request.RouteRequest).requestedRoute.id,senderName:request.sender.userName]}" >
-            <i class="fa fa-thumbs-o-up"></i>
-        </g:link>
-        <g:link   controller="route" action="declineToRoute" params="${[routeId:(request as kargaroo.request.RouteRequest).requestedRoute.id,senderName:request.sender.userName]}" >
-            <i class="fa fa-thumbs-o-down"></i>
-
-        </g:link>
-        </li>
-    </g:if>
-    <g:else>
-        <li class="list-group-item">Solicitud de ${request.content} de ${request.sender.userName.toUpperCase()}
-        </li>
-    </g:else>
-
-</g:each>
-            </div>
-</div>
     </div>
 </body>
 </html>

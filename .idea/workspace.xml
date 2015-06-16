@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91b388e4-b083-4c15-8cba-bf4f384caf78" name="Default" comment="">
+    <list default="true" id="91b388e4-b083-4c15-8cba-bf4f384caf78" name="Default" comment="arreglo notificaciones">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/notifications.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/notifications.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -89,8 +89,8 @@
       <file leaf-file-name="notifications.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/user/notifications.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3625" vertical-offset="190" max-vertical-offset="1496">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.89375" vertical-offset="649" max-vertical-offset="1343">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -1230,7 +1230,7 @@
       <workItem from="1434388087020" duration="45000" />
       <workItem from="1434395564835" duration="75000" />
       <workItem from="1434396234728" duration="16254000" />
-      <workItem from="1434417460681" duration="1568000" />
+      <workItem from="1434417460681" duration="2135000" />
     </task>
     <task id="LOCAL-00001" summary="User y UserCar Domain class version comentada relaciones">
       <created>1429199436815</created>
@@ -1364,11 +1364,17 @@
       <option name="project" value="LOCAL" />
       <updated>1434417596706</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="arreglo notificaciones">
+      <created>1434419061190</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1434419061190</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185098000" />
+    <option name="totallyTimeSpent" value="185665000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1471,7 +1477,8 @@
     <MESSAGE value="Acceso a otros perfiles sin permitir edicion" />
     <MESSAGE value="Rutas parcialmete merg manual" />
     <MESSAGE value="aspectos graficos menu y grupos" />
-    <option name="LAST_COMMIT_MESSAGE" value="aspectos graficos menu y grupos" />
+    <MESSAGE value="arreglo notificaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglo notificaciones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1896,8 +1903,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/notifications.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3625" vertical-offset="190" max-vertical-offset="1496">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.89375" vertical-offset="649" max-vertical-offset="1343">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
           <folding />
         </state>
       </provider>
