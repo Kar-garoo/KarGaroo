@@ -39,11 +39,11 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li>
-                    <div>
+                    <div style="padding-left: 20px;padding-top: 20px;padding-right: 20px;">
                         <img src="${resource(dir: 'images',file: 'Kargaroo.svg')}" class ="img-responsive">
                     </div>
-                    <div>
-                        <h3 class="text-center" style="color: #ffffff">Menu</h3>
+                    <div style="padding-left: 75px">
+                        <h3 class="text" style="color: #ffffff">Menu</h3>
                     </div>
                 </li>
 
@@ -66,7 +66,7 @@
                 </li>
                 <li>
                     <a href="${createLink(controller: 'forum')}">
-                        <i class="fa fa-users"> Foro</i>
+                        <i class="fa fa-columns"> Foro</i>
                     </a>
                 </li>
                 <li>
@@ -76,7 +76,7 @@
                 </li>
                 <li>
                     <a href="${createLink(controller: 'user', action: 'groups')}">
-                        <i class="fa fa-question"> Grupos</i>
+                        <i class="fa fa-users"> Grupos</i>
                     </a>
                 </li>
                 <li>
@@ -100,12 +100,12 @@
             <div class="container-fluid">
                 <div class="row" id="full">
                     <div class="col-lg-12" >
-                        <a class= "btn btn-lg btn-outline" href="#menu-toggle" id="menu-toggle" >
-                            <i class="fa fa-bars">Menu</i>
+                        <a class= "btn btn-lg btn-outline"  href="#menu-toggle" id="menu-toggle" >
+                            <i  class="fa fa-bars"></i>
                         </a>
                     </div>
                 </div>
-                    <g:layoutBody/>
+                <g:layoutBody/>
             </div>
         </div>
     </div>
@@ -123,15 +123,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="row">
-                    <a class="navbar-brand" href="#">
-                        <div>
-                            <img src="${resource(dir: 'images',file: 'Kargaroo.svg')}"  alt="KAR-GAROO">
-                        </div>
-                        <div class="col-lg-8">
-                            KARGAROO
-                        </div>
-                    </a>
+                <div class="row"  >
+
+                    <div style="display: inline-block;" >
+                        <img style="height: 50px; padding: 2px;margin-left: 30px; " src="${resource(dir: 'images',file: 'Kargaroo.svg')}"  alt="KAR-GAROO">
+                    </div>
+                    <div class="col-lg-8" style="display: inline-block;color:white;font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif, sans-serif;font-size: 20px;vertical-align:middle; ">
+                        KARGAROO
+                    </div>
+
                 </div>
 
             </div>
@@ -157,17 +157,17 @@
                     </li>
                     <li>
                         <a href="${createLink(controller: 'forum')}">
-                            <i class="fa fa-users"> Foro</i>
+                            <i class="fa fa-columns"> Foro</i>
                         </a>
                     </li>
                     <li>
                         <a href="${createLink(controller: 'chat', action: 'goToChatRoom')}">
-                            <i class="fa fa-weixin">Chat</i>
+                            <i class="fa fa-weixin"> Chat</i>
                         </a>
                     </li>
                     <li>
                         <a href="${createLink(controller: 'user', action: 'groups')}">
-                            <i class="fa fa-question"> Grupos</i>
+                            <i class="fa fa-users"> Grupos</i>
                         </a>
                     </li>
                     <li>

@@ -27,7 +27,7 @@
                                         <img class="img-rounded img-responsive img-centered center-block" src="${createLink(controller:'user', action:'avatar_image', params: [user:user.userName])}" />
                                     </g:if>
                                     <g:else>
-                                        <img class="img-rounded img-responsive img-centered" alt="Profile" src="${resource(dir: 'images',file: 'Kargaroo.svg')}">
+                                        <img class="img-rounded img-responsive img-centered center-block" alt="Profile" src="${resource(dir: 'images',file: 'noPhoto.png')}">
                                     </g:else>
                                 </figure>
                             </div>

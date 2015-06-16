@@ -6,7 +6,7 @@
     <title>Kar-garoo Grupos</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
-    <link href="${resource(dir: 'css',file: 'forum.css')}" rel="stylesheet">
+    <link href="${resource(dir: 'css',file: 'group.css')}" rel="stylesheet">
     <script src="${resource(dir: 'js',file: 'jquery-1.10.2.min.js')}"></script>
     <script src="${resource(dir: 'js',file: 'parallax.js')}"></script>
     <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>

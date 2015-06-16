@@ -11,6 +11,7 @@ class Group {
 
     static constraints = {
         description(nullable: true)
+        name(unique: true)
     }
 
     static mapping = {

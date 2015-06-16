@@ -6,7 +6,7 @@
     <title>Kar-garoo ${Group.findById(groupId).name}</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="${resource(dir: 'css', file: 'bootstrap.min.css')}" rel="stylesheet">
-    <link href="${resource(dir: 'css',file: 'forum.css')}" rel="stylesheet">
+    <link href="${resource(dir: 'css',file: 'group.css')}" rel="stylesheet">
     <script src="${resource(dir: 'js',file: 'jquery-1.10.2.min.js')}"></script>
     <script src="${resource(dir: 'js',file: 'parallax.js')}"></script>
     <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
@@ -18,17 +18,17 @@
 
         <div>
             <h2>Grupo: ${Group.findById(groupId).name}</h2>
-            <h2>Creado por: ${Group.findById(groupId).opener.userName}</h2>
+            <h5>Creado por: ${Group.findById(groupId).opener.userName}</h5>
         </div>
 
         <g:if test="${Group.findById(groupId).members.userName.contains(session["userSession"])}">
             <g:if test="${Group.findById(groupId).opener.userName==(session["userSession"])}">
-                <g:link  action="deleteGroup" params="${[groupId:groupId]}" >
+                <g:link  class="btn-success btn" action="deleteGroup" params="${[groupId:groupId]}" >
                     Borrar grupo
                 </g:link>
             </g:if>
             <g:else>
-                <g:link  action="leaveGroup" params="${[userName:session["userSession"],groupId:groupId]}" >
+                <g:link  class="btn-success btn" action="leaveGroup" params="${[userName:session["userSession"],groupId:groupId]}" >
                     Salir del grupo
                 </g:link>
             </g:else>
@@ -39,7 +39,7 @@
 Solicitud enviada
             </g:if>
             <g:else>
-                <g:link  controller="Request" action="requestGroup" params="${[groupId: groupId]}" >
+                <g:link  class="btn-success btn" controller="Request" action="requestGroup" params="${[groupId: groupId]}" >
                     Solicitar Entrar
                 </g:link>
             </g:else>
